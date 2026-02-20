@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "34 Sit-Up",
-      "filename": "34_Sit-Up.webp",
+      "filename": "34_Sit-up.webp",
       "file_type": ".gif",
       "file_size_kb": 272.08,
       "equipment": "Bodyweight",
@@ -67,7 +67,7 @@
     {
       "id": 8,
       "name": "90 To 90 Stretch",
-      "filename": "90_To_90_Stretch.webp",
+      "filename": "90_to_90_Stretch.webp",
       "file_type": ".webp",
       "file_size_kb": 182.96,
       "equipment": "Bodyweight",
@@ -83,7 +83,7 @@
     {
       "id": 10,
       "name": "Ab Mat Sit-Up",
-      "filename": "Ab_Mat_Sit-Up.webp",
+      "filename": "Ab_Mat_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 166.35,
       "equipment": "Bodyweight",
@@ -371,7 +371,7 @@
     {
       "id": 28,
       "name": "Archer Pull-Up",
-      "filename": "Archer_Pull-Up.webp",
+      "filename": "Archer_Pull-up.webp",
       "file_type": ".webp",
       "file_size_kb": 167.34,
       "equipment": "Bodyweight",
@@ -387,7 +387,7 @@
     {
       "id": 29,
       "name": "Archer Push-Up",
-      "filename": "Archer_Push-Up.webp",
+      "filename": "Archer_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 414.48,
       "equipment": "Bodyweight",
@@ -579,7 +579,7 @@
     {
       "id": 41,
       "name": "Assisted Sit-Up",
-      "filename": "Assisted_Sit-Up.webp",
+      "filename": "Assisted_Sit-up.webp",
       "file_type": ".gif",
       "file_size_kb": 189.38,
       "equipment": "Bodyweight",
@@ -627,7 +627,7 @@
     {
       "id": 45,
       "name": "Back Extension On Exercise Ball",
-      "filename": "Back_Extension_On_Exercise_Ball.webp",
+      "filename": "Back_Extension_on_Exercise_Ball.webp",
       "file_type": ".webp",
       "file_size_kb": 132.89,
       "equipment": "Exercise Ball",
@@ -963,7 +963,7 @@
     {
       "id": 66,
       "name": "Band Close Grip Row - Squat On Bosu Ball",
-      "filename": "Band_Close_Grip_Row_-_Squat_On_Bosu_Ball.webp",
+      "filename": "Band_Close_Grip_Row_-_Squat_on_Bosu_Ball.webp",
       "file_type": ".gif",
       "file_size_kb": 229.11,
       "equipment": "Band",
@@ -1827,7 +1827,7 @@
     {
       "id": 121,
       "name": "Barbell Behind The Back Shrug",
-      "filename": "Barbell_Behind_The_Back_Shrug.webp",
+      "filename": "Barbell_Behind_the_Back_Shrug.webp",
       "file_type": ".webp",
       "file_size_kb": 168.1,
       "equipment": "Barbell",
@@ -2003,7 +2003,7 @@
     {
       "id": 132,
       "name": "Barbell Chest Press On Stability Ball",
-      "filename": "Barbell_Chest_Press_On_Stability_Ball.webp",
+      "filename": "Barbell_Chest_Press_on_Stability_Ball.webp",
       "file_type": ".webp",
       "file_size_kb": 196.37,
       "equipment": "Barbell",
@@ -2067,7 +2067,7 @@
     {
       "id": 138,
       "name": "Barbell Clean And Jerk",
-      "filename": "Barbell_Clean_And_Jerk.webp",
+      "filename": "Barbell_Clean_and_Jerk.webp",
       "file_type": ".webp",
       "file_size_kb": 734.52,
       "equipment": "Barbell",
@@ -2083,7 +2083,7 @@
     {
       "id": 139,
       "name": "Barbell Clean And Jerk - Strongman Tire Flip",
-      "filename": "Barbell_Clean_And_Jerk_-_Strongman_Tire_Flip.webp",
+      "filename": "Barbell_Clean_and_Jerk_-_Strongman_Tire_Flip.webp",
       "file_type": ".gif",
       "file_size_kb": 388.64,
       "equipment": "Barbell",
@@ -2099,7 +2099,7 @@
     {
       "id": 140,
       "name": "Barbell Clean And Press",
-      "filename": "Barbell_Clean_And_Press.webp",
+      "filename": "Barbell_Clean_and_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 318.41,
       "equipment": "Barbell",
@@ -2323,7 +2323,7 @@
     {
       "id": 154,
       "name": "Barbell Front Raise And Pullover",
-      "filename": "Barbell_Front_Raise_And_Pullover.webp",
+      "filename": "Barbell_Front_Raise_and_Pullover.webp",
       "file_type": ".webp",
       "file_size_kb": 133.05,
       "equipment": "Barbell",
@@ -2963,7 +2963,7 @@
     {
       "id": 196,
       "name": "Barbell Palms Down Wrist Curl Over A Bench",
-      "filename": "Barbell_Palms_Down_Wrist_Curl_Over_A_Bench.webp",
+      "filename": "Barbell_Palms_Down_Wrist_Curl_Over_a_Bench.webp",
       "file_type": ".gif",
       "file_size_kb": 306.58,
       "equipment": "Barbell",
@@ -3139,7 +3139,7 @@
     {
       "id": 209,
       "name": "Barbell Pullover To Press",
-      "filename": "Barbell_Pullover_To_Press.webp",
+      "filename": "Barbell_Pullover_to_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 339.59,
       "equipment": "Barbell",
@@ -3779,7 +3779,7 @@
     {
       "id": 250,
       "name": "Barbell Squat To Shoulder Press",
-      "filename": "Barbell_Squat_To_Shoulder_Press.webp",
+      "filename": "Barbell_Squat_to_Shoulder_Press.webp",
       "file_type": ".gif",
       "file_size_kb": 261.85,
       "equipment": "Barbell",
@@ -3875,7 +3875,7 @@
     {
       "id": 256,
       "name": "Barbell Standing Wide-Grip Biceps Curl",
-      "filename": "Barbell_Standing_Wide-Grip_Biceps_Curl.webp",
+      "filename": "Barbell_Standing_Wide-grip_Biceps_Curl.webp",
       "file_type": ".gif",
       "file_size_kb": 264.45,
       "equipment": "Barbell",
@@ -4211,7 +4211,7 @@
     {
       "id": 277,
       "name": "Bench Dip On Floor",
-      "filename": "Bench_Dip_On_Floor.webp",
+      "filename": "Bench_Dip_on_Floor.webp",
       "file_type": ".webp",
       "file_size_kb": 213.4,
       "equipment": "Bodyweight",
@@ -4243,7 +4243,7 @@
     {
       "id": 279,
       "name": "Bench Pull-Ups",
-      "filename": "Bench_Pull-Ups.webp",
+      "filename": "Bench_Pull-ups.webp",
       "file_type": ".webp",
       "file_size_kb": 217.17,
       "equipment": "Bodyweight",
@@ -4819,7 +4819,7 @@
     {
       "id": 316,
       "name": "Burpee With Push-Up",
-      "filename": "Burpee_With_Push-Up.webp",
+      "filename": "Burpee_With_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 392.4,
       "equipment": "Bodyweight",
@@ -5299,7 +5299,7 @@
     {
       "id": 346,
       "name": "Cable Incline Fly - Plank Push-Up Row",
-      "filename": "Cable_Incline_Fly_-_Plank_Push-Up_Row.webp",
+      "filename": "Cable_Incline_Fly_-_Plank_Push-up_Row.webp",
       "file_type": ".gif",
       "file_size_kb": 875.09,
       "equipment": "Cable",
@@ -7091,7 +7091,7 @@
     {
       "id": 461,
       "name": "Chest Tap Push-Up",
-      "filename": "Chest_Tap_Push-Up.webp",
+      "filename": "Chest_Tap_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 152.71,
       "equipment": "Bodyweight",
@@ -7107,7 +7107,7 @@
     {
       "id": 462,
       "name": "Chest And Front Of Shoulder Stretch",
-      "filename": "Chest_And_Front_Of_Shoulder_Stretch.webp",
+      "filename": "Chest_and_Front_of_Shoulder_Stretch.webp",
       "file_type": ".webp",
       "file_size_kb": 174.71,
       "equipment": "Bodyweight",
@@ -7171,7 +7171,7 @@
     {
       "id": 466,
       "name": "Chin To Chest Stretch",
-      "filename": "Chin_To_Chest_Stretch.webp",
+      "filename": "Chin_to_Chest_Stretch.webp",
       "file_type": ".webp",
       "file_size_kb": 198.68,
       "equipment": "Bodyweight",
@@ -7251,7 +7251,7 @@
     {
       "id": 471,
       "name": "Close Grip Pull-Up",
-      "filename": "Close_Grip_Pull-Up.webp",
+      "filename": "Close_Grip_Pull-up.webp",
       "file_type": ".webp",
       "file_size_kb": 228.17,
       "equipment": "Bodyweight",
@@ -7699,7 +7699,7 @@
     {
       "id": 499,
       "name": "Curl-Up",
-      "filename": "Curl-Up.webp",
+      "filename": "Curl-up.webp",
       "file_type": ".webp",
       "file_size_kb": 121.09,
       "equipment": "Bodyweight",
@@ -7939,7 +7939,7 @@
     {
       "id": 514,
       "name": "Depth Jump To Broad Jump",
-      "filename": "Depth_Jump_To_Broad_Jump.webp",
+      "filename": "Depth_Jump_to_Broad_Jump.webp",
       "file_type": ".webp",
       "file_size_kb": 482.02,
       "equipment": "Bodyweight",
@@ -7955,7 +7955,7 @@
     {
       "id": 515,
       "name": "Depth Jump To Hurdle Hop",
-      "filename": "Depth_Jump_To_Hurdle_Hop.webp",
+      "filename": "Depth_Jump_to_Hurdle_Hop.webp",
       "file_type": ".webp",
       "file_size_kb": 324.44,
       "equipment": "Bodyweight",
@@ -8611,7 +8611,7 @@
     {
       "id": 558,
       "name": "Dumbbell Clean And Press",
-      "filename": "Dumbbell_Clean_And_Press.webp",
+      "filename": "Dumbbell_Clean_and_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 234.57,
       "equipment": "Dumbbell",
@@ -8707,7 +8707,7 @@
     {
       "id": 564,
       "name": "Dumbbell Curl To Press",
-      "filename": "Dumbbell_Curl_To_Press.webp",
+      "filename": "Dumbbell_Curl_to_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 197.56,
       "equipment": "Dumbbell",
@@ -8931,7 +8931,7 @@
     {
       "id": 578,
       "name": "Dumbbell Fly On Exercise Ball",
-      "filename": "Dumbbell_Fly_On_Exercise_Ball.webp",
+      "filename": "Dumbbell_Fly_on_Exercise_Ball.webp",
       "file_type": ".webp",
       "file_size_kb": 184.29,
       "equipment": "Dumbbell",
@@ -9155,7 +9155,7 @@
     {
       "id": 592,
       "name": "Dumbbell Hang Clean And Jerk",
-      "filename": "Dumbbell_Hang_Clean_And_Jerk.webp",
+      "filename": "Dumbbell_Hang_Clean_and_Jerk.webp",
       "file_type": ".webp",
       "file_size_kb": 339.78,
       "equipment": "Dumbbell",
@@ -9187,7 +9187,7 @@
     {
       "id": 594,
       "name": "Dumbbell Hang Power Clean And Jerk",
-      "filename": "Dumbbell_Hang_Power_Clean_And_Jerk.webp",
+      "filename": "Dumbbell_Hang_Power_Clean_and_Jerk.webp",
       "file_type": ".webp",
       "file_size_kb": 326.32,
       "equipment": "Dumbbell",
@@ -9251,7 +9251,7 @@
     {
       "id": 599,
       "name": "Dumbbell Incline Around The World",
-      "filename": "Dumbbell_Incline_Around_The_World.webp",
+      "filename": "Dumbbell_Incline_Around_the_World.webp",
       "file_type": ".webp",
       "file_size_kb": 285.27,
       "equipment": "Dumbbell",
@@ -9523,7 +9523,7 @@
     {
       "id": 616,
       "name": "Dumbbell Incline T-Raise",
-      "filename": "Dumbbell_Incline_T-Raise.webp",
+      "filename": "Dumbbell_Incline_T-raise.webp",
       "file_type": ".webp",
       "file_size_kb": 202.32,
       "equipment": "Dumbbell",
@@ -9571,7 +9571,7 @@
     {
       "id": 619,
       "name": "Dumbbell Incline Y-Raise",
-      "filename": "Dumbbell_Incline_Y-Raise.webp",
+      "filename": "Dumbbell_Incline_Y-raise.webp",
       "file_type": ".webp",
       "file_size_kb": 196.16,
       "equipment": "Dumbbell",
@@ -9699,7 +9699,7 @@
     {
       "id": 628,
       "name": "Dumbbell Lateral To Front Raise",
-      "filename": "Dumbbell_Lateral_To_Front_Raise.webp",
+      "filename": "Dumbbell_Lateral_to_Front_Raise.webp",
       "file_type": ".webp",
       "file_size_kb": 306.04,
       "equipment": "Dumbbell",
@@ -9923,7 +9923,7 @@
     {
       "id": 642,
       "name": "Dumbbell Lying On Floor Chest Press",
-      "filename": "Dumbbell_Lying_On_Floor_Chest_Press.webp",
+      "filename": "Dumbbell_Lying_on_Floor_Chest_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 230.52,
       "equipment": "Dumbbell",
@@ -10259,7 +10259,7 @@
     {
       "id": 664,
       "name": "Dumbbell Power Clean And Jerk",
-      "filename": "Dumbbell_Power_Clean_And_Jerk.webp",
+      "filename": "Dumbbell_Power_Clean_and_Jerk.webp",
       "file_type": ".webp",
       "file_size_kb": 340.9,
       "equipment": "Dumbbell",
@@ -10307,7 +10307,7 @@
     {
       "id": 667,
       "name": "Dumbbell Press On Exercise Ball",
-      "filename": "Dumbbell_Press_On_Exercise_Ball.webp",
+      "filename": "Dumbbell_Press_on_Exercise_Ball.webp",
       "file_type": ".webp",
       "file_size_kb": 180.77,
       "equipment": "Dumbbell",
@@ -10355,7 +10355,7 @@
     {
       "id": 670,
       "name": "Dumbbell Pullover On Floor",
-      "filename": "Dumbbell_Pullover_On_Floor.webp",
+      "filename": "Dumbbell_Pullover_on_Floor.webp",
       "file_type": ".webp",
       "file_size_kb": 151.1,
       "equipment": "Dumbbell",
@@ -11219,7 +11219,7 @@
     {
       "id": 725,
       "name": "Dumbbell Squat To Overhead Press",
-      "filename": "Dumbbell_Squat_To_Overhead_Press.webp",
+      "filename": "Dumbbell_Squat_to_Overhead_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 256.57,
       "equipment": "Dumbbell",
@@ -11923,7 +11923,7 @@
     {
       "id": 769,
       "name": "Ez Bar Standing French Press",
-      "filename": "Ez_Bar_Standing_French_Press.webp",
+      "filename": "EZ_Bar_Standing_French_Press.webp",
       "file_type": ".gif",
       "file_size_kb": 147.83,
       "equipment": "EZ Bar",
@@ -11939,7 +11939,7 @@
     {
       "id": 770,
       "name": "Ez Barbell Lying Triceps Extension",
-      "filename": "Ez_Barbell_Lying_Triceps_Extension.webp",
+      "filename": "EZ_Barbell_Lying_Triceps_Extension.webp",
       "file_type": ".webp",
       "file_size_kb": 228.05,
       "equipment": "Barbell",
@@ -12035,7 +12035,7 @@
     {
       "id": 776,
       "name": "Elbow To Knee",
-      "filename": "Elbow_To_Knee.webp",
+      "filename": "Elbow_to_Knee.webp",
       "file_type": ".webp",
       "file_size_kb": 171.82,
       "equipment": "Bodyweight",
@@ -12051,7 +12051,7 @@
     {
       "id": 777,
       "name": "Elbow To Knee Sit Up",
-      "filename": "Elbow_To_Knee_Sit_Up.webp",
+      "filename": "Elbow_to_Knee_Sit_Up.webp",
       "file_type": ".webp",
       "file_size_kb": 359.85,
       "equipment": "Bodyweight",
@@ -12291,7 +12291,7 @@
     {
       "id": 793,
       "name": "Ez-Bar Close Grip Bench Press",
-      "filename": "Ez-Bar_Close_Grip_Bench_Press.webp",
+      "filename": "Ez-bar_Close_Grip_Bench_Press.webp",
       "file_type": ".gif",
       "file_size_kb": 288.9,
       "equipment": "EZ Bar",
@@ -12483,7 +12483,7 @@
     {
       "id": 805,
       "name": "Finger Push-Up",
-      "filename": "Finger_Push-Up.webp",
+      "filename": "Finger_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 160.41,
       "equipment": "Bodyweight",
@@ -12563,7 +12563,7 @@
     {
       "id": 810,
       "name": "Floor T-Raise",
-      "filename": "Floor_T-Raise.webp",
+      "filename": "Floor_T-raise.webp",
       "file_type": ".webp",
       "file_size_kb": 146.2,
       "equipment": "Bodyweight",
@@ -12803,7 +12803,7 @@
     {
       "id": 825,
       "name": "Frog Sit-Up",
-      "filename": "Frog_Sit-Up.webp",
+      "filename": "Frog_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 123.08,
       "equipment": "Bodyweight",
@@ -12979,7 +12979,7 @@
     {
       "id": 836,
       "name": "Front To Side Plank",
-      "filename": "Front_To_Side_Plank.webp",
+      "filename": "Front_to_Side_Plank.webp",
       "file_type": ".webp",
       "file_size_kb": 357.26,
       "equipment": "Bodyweight",
@@ -13043,7 +13043,7 @@
     {
       "id": 840,
       "name": "Full Planche Push-Up",
-      "filename": "Full_Planche_Push-Up.webp",
+      "filename": "Full_Planche_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 139.67,
       "equipment": "Bodyweight",
@@ -13267,7 +13267,7 @@
     {
       "id": 854,
       "name": "Half Sit-Up",
-      "filename": "Half_Sit-Up.webp",
+      "filename": "Half_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 133.79,
       "equipment": "Bodyweight",
@@ -13347,7 +13347,7 @@
     {
       "id": 859,
       "name": "Handstand Hold On Wall",
-      "filename": "Handstand_Hold_On_Wall.webp",
+      "filename": "Handstand_Hold_on_Wall.webp",
       "file_type": ".gif",
       "file_size_kb": 168.34,
       "equipment": "Bodyweight",
@@ -13427,7 +13427,7 @@
     {
       "id": 864,
       "name": "Hanging Knees To Elbows",
-      "filename": "Hanging_Knees_To_Elbows.webp",
+      "filename": "Hanging_Knees_to_Elbows.webp",
       "file_type": ".webp",
       "file_size_kb": 299.31,
       "equipment": "Bodyweight",
@@ -13539,7 +13539,7 @@
     {
       "id": 871,
       "name": "Hanging Toes To Bar",
-      "filename": "Hanging_Toes_To_Bar.webp",
+      "filename": "Hanging_Toes_to_Bar.webp",
       "file_type": ".webp",
       "file_size_kb": 305.95,
       "equipment": "Bodyweight",
@@ -13619,7 +13619,7 @@
     {
       "id": 876,
       "name": "Heel To Toe Walk",
-      "filename": "Heel_To_Toe_Walk.webp",
+      "filename": "Heel_to_Toe_Walk.webp",
       "file_type": ".webp",
       "file_size_kb": 330.46,
       "equipment": "Bodyweight",
@@ -14211,7 +14211,7 @@
     {
       "id": 913,
       "name": "Intermediate Hip Flexor And Quad Stretch",
-      "filename": "Intermediate_Hip_Flexor_And_Quad_Stretch.webp",
+      "filename": "Intermediate_Hip_Flexor_and_Quad_Stretch.webp",
       "file_type": ".webp",
       "file_size_kb": 127.9,
       "equipment": "Bodyweight",
@@ -14307,7 +14307,7 @@
     {
       "id": 919,
       "name": "Inverted Row On Bench",
-      "filename": "Inverted_Row_On_Bench.webp",
+      "filename": "Inverted_Row_on_Bench.webp",
       "file_type": ".gif",
       "file_size_kb": 215.42,
       "equipment": "Bodyweight",
@@ -14435,7 +14435,7 @@
     {
       "id": 927,
       "name": "Jack Knife Sit-Up",
-      "filename": "Jack_Knife_Sit-Up.webp",
+      "filename": "Jack_Knife_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 152.16,
       "equipment": "Bodyweight",
@@ -14515,7 +14515,7 @@
     {
       "id": 932,
       "name": "Jackknife Sit Up",
-      "filename": "Jackknife_Sit_Up.webp",
+      "filename": "Jack_Knife_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 161.08,
       "equipment": "Bodyweight",
@@ -14563,7 +14563,7 @@
     {
       "id": 935,
       "name": "Jump Lunge To Feet Jack",
-      "filename": "Jump_Lunge_To_Feet_Jack.webp",
+      "filename": "Jump_Lunge_to_Feet_Jack.webp",
       "file_type": ".webp",
       "file_size_kb": 215.38,
       "equipment": "Bodyweight",
@@ -14883,7 +14883,7 @@
     {
       "id": 955,
       "name": "Kettlebell Bottoms Up Clean From The Hang Position",
-      "filename": "Kettlebell_Bottoms_Up_Clean_From_The_Hang_Position.webp",
+      "filename": "Kettlebell_Bottoms_Up_Clean_From_the_Hang_Position.webp",
       "file_type": ".webp",
       "file_size_kb": 134.92,
       "equipment": "Kettlebell",
@@ -14931,7 +14931,7 @@
     {
       "id": 958,
       "name": "Kettlebell Clean And Jerk",
-      "filename": "Kettlebell_Clean_And_Jerk.webp",
+      "filename": "Kettlebell_Clean_and_Jerk.webp",
       "file_type": ".webp",
       "file_size_kb": 373.83,
       "equipment": "Kettlebell",
@@ -14947,7 +14947,7 @@
     {
       "id": 959,
       "name": "Kettlebell Clean And Press",
-      "filename": "Kettlebell_Clean_And_Press.webp",
+      "filename": "Kettlebell_Clean_and_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 221.31,
       "equipment": "Kettlebell",
@@ -15267,7 +15267,7 @@
     {
       "id": 980,
       "name": "Kettlebell Half Turkish Get-Up",
-      "filename": "Kettlebell_Half_Turkish_Get-Up.webp",
+      "filename": "Kettlebell_Half_Turkish_Get-up.webp",
       "file_type": ".webp",
       "file_size_kb": 600.97,
       "equipment": "Kettlebell",
@@ -15395,7 +15395,7 @@
     {
       "id": 988,
       "name": "Kettlebell One Arm Clean And Jerk",
-      "filename": "Kettlebell_One_Arm_Clean_And_Jerk.webp",
+      "filename": "Kettlebell_One_Arm_Clean_and_Jerk.webp",
       "file_type": ".webp",
       "file_size_kb": 302.13,
       "equipment": "Kettlebell",
@@ -15763,7 +15763,7 @@
     {
       "id": 1011,
       "name": "Kettlebell Single Arm Clean And Press",
-      "filename": "Kettlebell_Single_Arm_Clean_And_Press.webp",
+      "filename": "Kettlebell_Single_Arm_Clean_and_Press.webp",
       "file_type": ".webp",
       "file_size_kb": 251.51,
       "equipment": "Kettlebell",
@@ -16163,7 +16163,7 @@
     {
       "id": 1036,
       "name": "Kipping Handstand Push-Up",
-      "filename": "Kipping_Handstand_Push-Up.webp",
+      "filename": "Kipping_Handstand_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 157.11,
       "equipment": "Bodyweight",
@@ -16243,7 +16243,7 @@
     {
       "id": 1041,
       "name": "Knee To Chest Stretch",
-      "filename": "Knee_To_Chest_Stretch.webp",
+      "filename": "Knee_to_Chest_Stretch.webp",
       "file_type": ".webp",
       "file_size_kb": 130.89,
       "equipment": "Bodyweight",
@@ -16371,7 +16371,7 @@
     {
       "id": 1049,
       "name": "Kneeling Lat Stretch On Bench",
-      "filename": "Kneeling_Lat_Stretch_On_Bench.webp",
+      "filename": "Kneeling_Lat_Stretch_on_Bench.webp",
       "file_type": ".webp",
       "file_size_kb": 133.6,
       "equipment": "Bodyweight",
@@ -16403,7 +16403,7 @@
     {
       "id": 1051,
       "name": "Kneeling Push-Up",
-      "filename": "Kneeling_Push-Up.webp",
+      "filename": "Kneeling_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 128.37,
       "equipment": "Bodyweight",
@@ -16451,7 +16451,7 @@
     {
       "id": 1054,
       "name": "Knuckle Push-Up",
-      "filename": "Knuckle_Push-Up.webp",
+      "filename": "Knuckle_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 199.74,
       "equipment": "Bodyweight",
@@ -16499,7 +16499,7 @@
     {
       "id": 1057,
       "name": "L-Sit",
-      "filename": "L-Sit.webp",
+      "filename": "L-sit.webp",
       "file_type": ".gif",
       "file_size_kb": 69.23,
       "equipment": "Bodyweight",
@@ -16515,7 +16515,7 @@
     {
       "id": 1058,
       "name": "L-Sit On Floor",
-      "filename": "L-Sit_On_Floor.webp",
+      "filename": "L-sit_on_Floor.webp",
       "file_type": ".webp",
       "file_size_kb": 208.03,
       "equipment": "Bodyweight",
@@ -16723,7 +16723,7 @@
     {
       "id": 1071,
       "name": "Landmine Squat And Press",
-      "filename": "Landmine_Squat_And_Press.webp",
+      "filename": "Landmine_Squat_and_Press.webp",
       "file_type": ".gif",
       "file_size_kb": 270.64,
       "equipment": "Bodyweight",
@@ -17651,7 +17651,7 @@
     {
       "id": 1131,
       "name": "Lying Around The World",
-      "filename": "Lying_Around_The_World.webp",
+      "filename": "Lying_Around_the_World.webp",
       "file_type": ".webp",
       "file_size_kb": 187.54,
       "equipment": "Bodyweight",
@@ -17731,7 +17731,7 @@
     {
       "id": 1136,
       "name": "Lying Elbow To Knee",
-      "filename": "Lying_Elbow_To_Knee.webp",
+      "filename": "Lying_Elbow_to_Knee.webp",
       "file_type": ".gif",
       "file_size_kb": 261.22,
       "equipment": "Bodyweight",
@@ -17843,7 +17843,7 @@
     {
       "id": 1143,
       "name": "Lying Knee To Chest Stretch",
-      "filename": "Lying_Knee_To_Chest_Stretch.webp",
+      "filename": "Lying_Knee_to_Chest_Stretch.webp",
       "file_type": ".gif",
       "file_size_kb": 199.8,
       "equipment": "Bodyweight",
@@ -18067,7 +18067,7 @@
     {
       "id": 1157,
       "name": "Medicine Ball Catch And Overhead Throw",
-      "filename": "Medicine_Ball_Catch_And_Overhead_Throw.webp",
+      "filename": "Medicine_Ball_Catch_and_Overhead_Throw.webp",
       "file_type": ".webp",
       "file_size_kb": 242.87,
       "equipment": "Medicine Ball",
@@ -18291,7 +18291,7 @@
     {
       "id": 1171,
       "name": "Modified Push Up To Forearms",
-      "filename": "Modified_Push_Up_To_Forearms.webp",
+      "filename": "Modified_Push_Up_to_Forearms.webp",
       "file_type": ".gif",
       "file_size_kb": 181.94,
       "equipment": "Bodyweight",
@@ -18531,7 +18531,7 @@
     {
       "id": 1186,
       "name": "Negative Push-Up",
-      "filename": "Negative_Push-Up.webp",
+      "filename": "Negative_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 401.21,
       "equipment": "Bodyweight",
@@ -18867,7 +18867,7 @@
     {
       "id": 1207,
       "name": "Pike To Cobra",
-      "filename": "Pike_To_Cobra.webp",
+      "filename": "Pike_to_Cobra.webp",
       "file_type": ".gif",
       "file_size_kb": 657.21,
       "equipment": "Bodyweight",
@@ -18883,7 +18883,7 @@
     {
       "id": 1208,
       "name": "Pike To Cobra Push-Up",
-      "filename": "Pike_To_Cobra_Push-Up.webp",
+      "filename": "Pike_to_Cobra_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 312.46,
       "equipment": "Bodyweight",
@@ -18899,7 +18899,7 @@
     {
       "id": 1209,
       "name": "Pistol Squat To Box",
-      "filename": "Pistol_Squat_To_Box.webp",
+      "filename": "Pistol_Squat_to_Box.webp",
       "file_type": ".gif",
       "file_size_kb": 271.56,
       "equipment": "Bodyweight",
@@ -18979,7 +18979,7 @@
     {
       "id": 1215,
       "name": "Plank Push-Up Row",
-      "filename": "Plank_Push-Up_Row.webp",
+      "filename": "Plank_Push-up_Row.webp",
       "file_type": ".gif",
       "file_size_kb": 875.09,
       "equipment": "Bodyweight",
@@ -18995,7 +18995,7 @@
     {
       "id": 1216,
       "name": "Plank Walk-Up",
-      "filename": "Plank_Walk-Up.webp",
+      "filename": "Plank_Walk-up.webp",
       "file_type": ".gif",
       "file_size_kb": 244.56,
       "equipment": "Bodyweight",
@@ -19011,7 +19011,7 @@
     {
       "id": 1217,
       "name": "Plank On Hands",
-      "filename": "Plank_On_Hands.webp",
+      "filename": "Plank_on_Hands.webp",
       "file_type": ".webp",
       "file_size_kb": 10.28,
       "equipment": "Bodyweight",
@@ -19283,7 +19283,7 @@
     {
       "id": 1234,
       "name": "Prisoner Get-Up",
-      "filename": "Prisoner_Get-Up.webp",
+      "filename": "Prisoner_Get-up.webp",
       "file_type": ".webp",
       "file_size_kb": 261.97,
       "equipment": "Bodyweight",
@@ -19379,7 +19379,7 @@
     {
       "id": 1242,
       "name": "Pseudo Planche Push-Up",
-      "filename": "Pseudo_Planche_Push-Up.webp",
+      "filename": "Pseudo_Planche_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 151.31,
       "equipment": "Bodyweight",
@@ -19459,7 +19459,7 @@
     {
       "id": 1247,
       "name": "Push-Up Plus",
-      "filename": "Push-Up_Plus.webp",
+      "filename": "Push-up_Plus.webp",
       "file_type": ".webp",
       "file_size_kb": 243.94,
       "equipment": "Bodyweight",
@@ -19507,7 +19507,7 @@
     {
       "id": 1250,
       "name": "Push Up On Bosu Ball",
-      "filename": "Push_Up_On_Bosu_Ball.webp",
+      "filename": "Push_Up_on_Bosu_Ball.webp",
       "file_type": ".webp",
       "file_size_kb": 229.78,
       "equipment": "Bodyweight",
@@ -19523,7 +19523,7 @@
     {
       "id": 1251,
       "name": "Push Up To Side Plank",
-      "filename": "Push_Up_To_Side_Plank.webp",
+      "filename": "Push_Up_to_Side_Plank.webp",
       "file_type": ".webp",
       "file_size_kb": 514.06,
       "equipment": "Bodyweight",
@@ -19571,7 +19571,7 @@
     {
       "id": 1254,
       "name": "Push To Run",
-      "filename": "Push_To_Run.webp",
+      "filename": "Push_to_Run.webp",
       "file_type": ".webp",
       "file_size_kb": 556.36,
       "equipment": "Bodyweight",
@@ -19827,7 +19827,7 @@
     {
       "id": 1270,
       "name": "Recumbent Hip External Rotator And Hip Extensor Stretch",
-      "filename": "Recumbent_Hip_External_Rotator_And_Hip_Extensor_Stretch.webp",
+      "filename": "Recumbent_Hip_External_Rotator_and_Hip_Extensor_Stretch.webp",
       "file_type": ".gif",
       "file_size_kb": 55.22,
       "equipment": "Bodyweight",
@@ -20179,7 +20179,7 @@
     {
       "id": 1292,
       "name": "Resistance Band Push-Up",
-      "filename": "Resistance_Band_Push-Up.webp",
+      "filename": "Resistance_Band_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 207.09,
       "equipment": "Band",
@@ -20499,7 +20499,7 @@
     {
       "id": 1312,
       "name": "Reverse Crunch To Dead Bug",
-      "filename": "Reverse_Crunch_To_Dead_Bug.webp",
+      "filename": "Reverse_Crunch_to_Dead_Bug.webp",
       "file_type": ".webp",
       "file_size_kb": 136.05,
       "equipment": "Bodyweight",
@@ -20563,7 +20563,7 @@
     {
       "id": 1316,
       "name": "Reverse Hyper On Flat Bench",
-      "filename": "Reverse_Hyper_On_Flat_Bench.webp",
+      "filename": "Reverse_Hyper_on_Flat_Bench.webp",
       "file_type": ".gif",
       "file_size_kb": 202.29,
       "equipment": "Bodyweight",
@@ -20627,7 +20627,7 @@
     {
       "id": 1320,
       "name": "Reverse Plank On Elbows",
-      "filename": "Reverse_Plank_On_Elbows.webp",
+      "filename": "Reverse_Plank_on_Elbows.webp",
       "file_type": ".webp",
       "file_size_kb": 8.29,
       "equipment": "Bodyweight",
@@ -20643,7 +20643,7 @@
     {
       "id": 1321,
       "name": "Reverse Push-Up",
-      "filename": "Reverse_Push-Up.webp",
+      "filename": "Reverse_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 161.04,
       "equipment": "Bodyweight",
@@ -20707,7 +20707,7 @@
     {
       "id": 1325,
       "name": "Revolved Head To Knee Pose",
-      "filename": "Revolved_Head_To_Knee_Pose.webp",
+      "filename": "Revolved_Head_to_Knee_Pose.webp",
       "file_type": ".webp",
       "file_size_kb": 214.22,
       "equipment": "Bodyweight",
@@ -21155,7 +21155,7 @@
     {
       "id": 1354,
       "name": "Run And Hop",
-      "filename": "Run_And_Hop.webp",
+      "filename": "Run_and_Hop.webp",
       "file_type": ".webp",
       "file_size_kb": 226.22,
       "equipment": "Bodyweight",
@@ -21171,7 +21171,7 @@
     {
       "id": 1355,
       "name": "Run On Treadmill",
-      "filename": "Run_On_Treadmill.webp",
+      "filename": "Run_on_Treadmill.webp",
       "file_type": ".gif",
       "file_size_kb": 238.54,
       "equipment": "Bodyweight",
@@ -21283,7 +21283,7 @@
     {
       "id": 1362,
       "name": "Scapula Push-Up",
-      "filename": "Scapula_Push-Up.webp",
+      "filename": "Scapula_Push-up.webp",
       "file_type": ".webp",
       "file_size_kb": 152.51,
       "equipment": "Bodyweight",
@@ -21843,7 +21843,7 @@
     {
       "id": 1397,
       "name": "Side-To-Side Leg Swings",
-      "filename": "Side-To-Side_Leg_Swings.webp",
+      "filename": "Side_to_Side_Leg_Swings.webp",
       "file_type": ".webp",
       "file_size_kb": 216.06,
       "equipment": "Bodyweight",
@@ -21859,7 +21859,7 @@
     {
       "id": 1398,
       "name": "Side-To-Side Toe Touch",
-      "filename": "Side-To-Side_Toe_Touch.webp",
+      "filename": "Side-to-side_Toe_Touch.webp",
       "file_type": ".webp",
       "file_size_kb": 308.9,
       "equipment": "Bodyweight",
@@ -22387,7 +22387,7 @@
     {
       "id": 1432,
       "name": "Side To Side Box Shuffle",
-      "filename": "Side_To_Side_Box_Shuffle.webp",
+      "filename": "Side_to_Side_Box_Shuffle.webp",
       "file_type": ".gif",
       "file_size_kb": 417.83,
       "equipment": "Bodyweight",
@@ -22403,7 +22403,7 @@
     {
       "id": 1433,
       "name": "Side To Side Jump Rope",
-      "filename": "Side_To_Side_Jump_Rope.webp",
+      "filename": "Side_to_Side_Jump_Rope.webp",
       "file_type": ".webp",
       "file_size_kb": 375.75,
       "equipment": "Bodyweight",
@@ -22835,7 +22835,7 @@
     {
       "id": 1462,
       "name": "Skin The Cat",
-      "filename": "Skin_The_Cat.webp",
+      "filename": "Skin_the_Cat.webp",
       "file_type": ".webp",
       "file_size_kb": 16.25,
       "equipment": "Bodyweight",
@@ -23763,7 +23763,7 @@
     {
       "id": 1524,
       "name": "Squat On Bosu Ball",
-      "filename": "Squat_On_Bosu_Ball.webp",
+      "filename": "Squat_on_Bosu_Ball.webp",
       "file_type": ".gif",
       "file_size_kb": 229.11,
       "equipment": "Bodyweight",
@@ -23779,7 +23779,7 @@
     {
       "id": 1525,
       "name": "Squat To Overhead Reach",
-      "filename": "Squat_To_Overhead_Reach.webp",
+      "filename": "Squat_to_Overhead_Reach.webp",
       "file_type": ".gif",
       "file_size_kb": 153.42,
       "equipment": "Bodyweight",
@@ -23795,7 +23795,7 @@
     {
       "id": 1526,
       "name": "Squat To Overhead Reach With Twist",
-      "filename": "Squat_To_Overhead_Reach_With_Twist.webp",
+      "filename": "Squat_to_Overhead_Reach_With_Twist.webp",
       "file_type": ".gif",
       "file_size_kb": 150.23,
       "equipment": "Bodyweight",
@@ -24179,7 +24179,7 @@
     {
       "id": 1551,
       "name": "Standing Knee To Chest Stretch",
-      "filename": "Standing_Knee_To_Chest_Stretch.webp",
+      "filename": "Standing_Knee_to_Chest_Stretch.webp",
       "file_type": ".gif",
       "file_size_kb": 55.25,
       "equipment": "Bodyweight",
@@ -24627,7 +24627,7 @@
     {
       "id": 1579,
       "name": "Step Up On Chair",
-      "filename": "Step_Up_On_Chair.webp",
+      "filename": "Step_Up_on_Chair.webp",
       "file_type": ".webp",
       "file_size_kb": 161.73,
       "equipment": "Bodyweight",
@@ -24723,7 +24723,7 @@
     {
       "id": 1585,
       "name": "Straight Leg Sit-Up",
-      "filename": "Straight_Leg_Sit-Up.webp",
+      "filename": "Straight_Leg_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 105.11,
       "equipment": "Bodyweight",
@@ -26531,7 +26531,7 @@
     {
       "id": 1701,
       "name": "Tuck-Up",
-      "filename": "Tuck-Up.webp",
+      "filename": "Tuck-up.webp",
       "file_type": ".webp",
       "file_size_kb": 132.73,
       "equipment": "Bodyweight",
@@ -26659,7 +26659,7 @@
     {
       "id": 1710,
       "name": "V-Sit On Floor",
-      "filename": "V-Sit_On_Floor.webp",
+      "filename": "V-sit_on_Floor.webp",
       "file_type": ".webp",
       "file_size_kb": 191.78,
       "equipment": "Bodyweight",
@@ -26707,7 +26707,7 @@
     {
       "id": 1713,
       "name": "Vertical Sit-Up",
-      "filename": "Vertical_Sit-Up.webp",
+      "filename": "Vertical_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 180.17,
       "equipment": "Bodyweight",
@@ -26771,7 +26771,7 @@
     {
       "id": 1717,
       "name": "Walking On Incline Treadmill",
-      "filename": "Walking_On_Incline_Treadmill.webp",
+      "filename": "Walking_on_Incline_Treadmill.webp",
       "file_type": ".webp",
       "file_size_kb": 535.88,
       "equipment": "Bodyweight",
@@ -26787,7 +26787,7 @@
     {
       "id": 1718,
       "name": "Walking On Treadmill",
-      "filename": "Walking_On_Treadmill.webp",
+      "filename": "Walking_on_Treadmill.webp",
       "file_type": ".gif",
       "file_size_kb": 451.53,
       "equipment": "Bodyweight",
@@ -26899,7 +26899,7 @@
     {
       "id": 1725,
       "name": "Weighted Chin-Up",
-      "filename": "Weighted_Chin-Up.webp",
+      "filename": "Weighted_Chin-up.webp",
       "file_type": ".webp",
       "file_size_kb": 136.12,
       "equipment": "Bodyweight",
@@ -26963,7 +26963,7 @@
     {
       "id": 1729,
       "name": "Weighted Decline Sit-Up",
-      "filename": "Weighted_Decline_Sit-Up.webp",
+      "filename": "Weighted_Decline_Sit-up.webp",
       "file_type": ".webp",
       "file_size_kb": 189.42,
       "equipment": "Bodyweight",
@@ -27155,7 +27155,7 @@
     {
       "id": 1741,
       "name": "Weighted Muscle-Up",
-      "filename": "Weighted_Muscle-Up.webp",
+      "filename": "Weighted_Muscle-up.webp",
       "file_type": ".webp",
       "file_size_kb": 128.11,
       "equipment": "Bodyweight",
@@ -27443,7 +27443,7 @@
     {
       "id": 1759,
       "name": "Wide To Narrow Push Up",
-      "filename": "Wide_To_Narrow_Push_Up.webp",
+      "filename": "Wide_to_Narrow_Push_Up.webp",
       "file_type": ".webp",
       "file_size_kb": 476.39,
       "equipment": "Bodyweight",
