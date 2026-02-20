@@ -5,342 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise Library</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #fafafa;
-            color: #1a1a1a;
-            line-height: 1.6;
-        }
-
-        .header {
-            background: white;
-            border-bottom: 1px solid #e0e0e0;
-            padding: 1.5rem 2rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
-
-        .header-content {
-            max-width: 1400px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1rem;
-        }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #000;
-        }
-
-        .header-actions {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .btn {
-            padding: 0.75rem 1.5rem;
-            border-radius: 8px;
-            border: none;
-            cursor: pointer;
-            font-size: 0.95rem;
-            font-weight: 500;
-            transition: all 0.2s;
-        }
-
-        .btn-primary {
-            background: #000;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #333;
-            transform: translateY(-1px);
-        }
-
-        .controls {
-            max-width: 1400px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-
-        /* Tabs */
-        .tabs {
-            display: flex;
-            gap: 0.5rem;
-            margin-bottom: 2rem;
-            border-bottom: 2px solid #e0e0e0;
-            flex-wrap: wrap;
-        }
-
-        .tab {
-            padding: 0.75rem 1.5rem;
-            border: none;
-            background: transparent;
-            color: #666;
-            cursor: pointer;
-            font-size: 0.95rem;
-            font-weight: 500;
-            border-bottom: 2px solid transparent;
-            margin-bottom: -2px;
-            transition: all 0.2s;
-        }
-
-        .tab:hover {
-            color: #000;
-        }
-
-        .tab.active {
-            color: #000;
-            border-bottom-color: #000;
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 1rem;
-            font-size: 1rem;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            background: white;
-            margin-bottom: 1.5rem;
-        }
-
-        .search-box:focus {
-            outline: none;
-            border-color: #000;
-        }
-
-        .filters {
-            display: grid;
-            gap: 1.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .filter-group {
-            display: flex;
-            flex-direction: column;
-            gap: 0.75rem;
-        }
-
-        .filter-group h3 {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            color: #666;
-            font-weight: 600;
-        }
-
-        .filter-buttons {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.5rem;
-        }
-
-        .filter-btn {
-            padding: 0.5rem 1rem;
-            border: 1px solid #e0e0e0;
-            background: white;
-            color: #666;
-            border-radius: 20px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            transition: all 0.2s;
-        }
-
-        .filter-btn:hover {
-            border-color: #000;
-            color: #000;
-        }
-
-        .filter-btn.active {
-            background: #000;
-            border-color: #000;
-            color: white;
-        }
-
-        .stats {
-            display: flex;
-            gap: 2rem;
-            margin-bottom: 1.5rem;
-            font-size: 0.9rem;
-            color: #666;
-        }
-
-        .exercise-grid {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem 4rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .exercise-card {
-            background: white;
-            border-radius: 12px;
-            overflow: hidden;
-            cursor: pointer;
-            transition: all 0.2s;
-            border: 1px solid #e0e0e0;
-        }
-
-        .exercise-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-        }
-
-        .exercise-image {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            background: #ffffff;
-            display: block;
-        }
-
-        .exercise-info {
-            padding: 1rem;
-        }
-
-        .exercise-name {
-            font-size: 0.95rem;
-            font-weight: 600;
-            margin-bottom: 0.5rem;
-            color: #1a1a1a;
-        }
-
-        .exercise-tags {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .tag {
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            border: 1px solid;
-        }
-
-        .tag.muscle {
-            background: #f0f0f0;
-            border-color: #e0e0e0;
-            color: #666;
-        }
-
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.6; }
+        .header { background: white; border-bottom: 1px solid #e0e0e0; padding: 1.5rem 2rem; position: sticky; top: 0; z-index: 100; }
+        .header-content { max-width: 1400px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #000; }
+        .header-actions { display: flex; gap: 0.75rem; }
+        .btn { padding: 0.75rem 1.5rem; border-radius: 8px; border: none; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: all 0.2s; }
+        .btn-primary { background: #000; color: white; }
+        .btn-primary:hover { background: #333; }
+        .btn-secondary { background: white; color: #000; border: 1px solid #e0e0e0; }
+        .btn-secondary:hover { background: #f5f5f5; }
+        .controls { max-width: 1400px; margin: 2rem auto; padding: 0 2rem; }
+        .tabs { display: flex; gap: 0.5rem; margin-bottom: 2rem; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; }
+        .tab { padding: 0.75rem 1.5rem; border: none; background: transparent; color: #666; cursor: pointer; font-size: 0.95rem; font-weight: 500; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
+        .tab:hover { color: #000; }
+        .tab.active { color: #000; border-bottom-color: #000; }
+        .search-box { width: 100%; padding: 1rem; font-size: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; background: white; margin-bottom: 1rem; }
+        .search-box:focus { outline: none; border-color: #000; }
+        .filters-compact { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+        .filter-select { width: 100%; padding: 0.75rem 1rem; font-size: 0.9rem; border: 1px solid #e0e0e0; border-radius: 8px; background: #f8f8f8; color: #666; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.5rem; }
+        .filter-select:hover { border-color: #000; }
+        .filter-select:focus { outline: none; border-color: #000; background: white; }
+        .stats { display: flex; gap: 2rem; margin-bottom: 1.5rem; font-size: 0.9rem; color: #666; }
+        .exercise-grid { max-width: 1400px; margin: 0 auto; padding: 0 2rem 4rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.5rem; }
+        .exercise-card { background: white; border-radius: 12px; overflow: hidden; cursor: pointer; transition: all 0.2s; border: 1px solid #e0e0e0; }
+        .exercise-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px rgba(0,0,0,0.1); }
+        .exercise-image { width: 100%; height: 180px; object-fit: cover; background: #ffffff; display: block; }
+        .exercise-info { padding: 1rem; }
+        .exercise-name { font-size: 0.95rem; font-weight: 600; margin-bottom: 0.5rem; color: #1a1a1a; }
+        .exercise-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .tag { padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 500; border: 1px solid; }
+        .tag.muscle { background: #f0f0f0; border-color: #e0e0e0; color: #666; }
         .tag.difficulty-1 { background: #e8f5e9; border-color: #4caf50; color: #2e7d32; }
         .tag.difficulty-2 { background: #fff3e0; border-color: #ff9800; color: #e65100; }
         .tag.difficulty-3 { background: #fce4ec; border-color: #e91e63; color: #c2185b; }
         .tag.difficulty-4 { background: #f3e5f5; border-color: #9c27b0; color: #6a1b9a; }
-
-        /* Modal */
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.8);
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-            padding: 2rem;
-        }
-
-        .modal.active {
-            display: flex;
-        }
-
-        .modal-content {
-            max-width: 600px;
-            background: white;
-            border-radius: 12px;
-            padding: 2rem;
-            position: relative;
-            max-height: 90vh;
-            overflow-y: auto;
-        }
-
-        .modal-close {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: #f5f5f5;
-            border: none;
-            color: #666;
-            font-size: 1.5rem;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            cursor: pointer;
-        }
-
-        .modal-close:hover {
-            background: #e0e0e0;
-        }
-
-        .modal-image {
-            width: 100%;
-            max-height: 400px;
-            object-fit: contain;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-            background: white;
-        }
-
-        .modal-title {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            font-weight: 700;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 4rem;
-            font-size: 1.1rem;
-            color: #666;
-        }
-
+        .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; justify-content: center; align-items: center; padding: 2rem; }
+        .modal.active { display: flex; }
+        .modal-content { max-width: 700px; width: 100%; background: white; border-radius: 12px; padding: 2rem; position: relative; max-height: 90vh; overflow-y: auto; }
+        .modal-close { position: absolute; top: 1rem; right: 1rem; background: #f5f5f5; border: none; color: #666; font-size: 1.5rem; width: 32px; height: 32px; border-radius: 50%; cursor: pointer; }
+        .modal-close:hover { background: #e0e0e0; }
+        .modal-image { width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin-bottom: 1rem; background: white; }
+        .modal-title { font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700; }
+        .program-textarea { width: 100%; min-height: 300px; padding: 1rem; font-size: 0.9rem; font-family: monospace; border: 1px solid #e0e0e0; border-radius: 8px; resize: vertical; }
+        .program-textarea:focus { outline: none; border-color: #000; }
+        .program-help { font-size: 0.85rem; color: #666; margin-top: 0.5rem; line-height: 1.5; }
+        .program-day { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
+        .program-day h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #000; }
+        .program-exercise { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: white; border-radius: 6px; margin-bottom: 0.75rem; }
+        .program-exercise img { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; }
+        .program-exercise-info { flex: 1; }
+        .program-exercise-name { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
+        .program-exercise-sets { font-size: 0.85rem; color: #666; }
+        .loading { text-align: center; padding: 4rem; font-size: 1.1rem; color: #666; }
+        .workout-option { padding: 1.5rem; border: 2px solid #e0e0e0; border-radius: 12px; cursor: pointer; transition: all 0.2s; margin-bottom: 1rem; }
+        .workout-option:hover { border-color: #000; background: #fafafa; }
+        .workout-option h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .workout-option p { font-size: 0.9rem; color: #666; }
         @media (max-width: 768px) {
-            .exercise-grid {
-                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-                gap: 1rem;
-                padding: 0 1rem 2rem;
-            }
-
-            .controls {
-                padding: 0 1rem;
-            }
-
-            .tabs {
-                overflow-x: auto;
-            }
+            .exercise-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1rem; padding: 0 1rem 2rem; }
+            .controls { padding: 0 1rem; }
+            .filters-compact { grid-template-columns: 1fr; }
+            .header-actions { width: 100%; }
+            .btn { flex: 1; font-size: 0.85rem; padding: 0.6rem 1rem; }
         }
     </style>
 </head>
 <body>
     <div class="header">
         <div class="header-content">
-            <div class="logo">Exercise Library</div>
+            <div class="logo">💪 Exercise Library</div>
             <div class="header-actions">
-                <button class="btn btn-primary" onclick="openWorkoutBuilder()">Create Workout</button>
+                <button class="btn btn-secondary" onclick="openProgramBuilder()">Build Program</button>
+                <button class="btn btn-primary" onclick="openWorkoutGenerator()">Generate Workout</button>
             </div>
         </div>
     </div>
 
     <div class="controls">
-        <!-- Tabs for Exercise Type -->
         <div class="tabs">
             <button class="tab active" data-type="all" onclick="setTab('all')">All</button>
             <button class="tab" data-type="strength" onclick="setTab('strength')">Strength</button>
@@ -348,43 +91,33 @@
             <button class="tab" data-type="cardio" onclick="setTab('cardio')">Cardio</button>
         </div>
 
-        <input type="text" class="search-box" id="search" placeholder="Search exercises...">
+        <input type="text" class="search-box" id="search" placeholder="🔍 Search exercises...">
         
         <div class="stats">
             <span><strong id="shown-exercises">0</strong> of <strong id="total-exercises">0</strong> exercises</span>
         </div>
 
-        <div class="filters">
-            <div class="filter-group">
-                <h3>Muscle Group</h3>
-                <div class="filter-buttons" id="muscle-filters">
-                    <button class="filter-btn active" data-type="muscle" data-value="all">All</button>
-                </div>
-            </div>
+        <div class="filters-compact">
+            <select class="filter-select" id="muscle-select" onchange="setFilter('muscle', this.value)">
+                <option value="all">All Muscle Groups</option>
+            </select>
             
-            <div class="filter-group">
-                <h3>Difficulty</h3>
-                <div class="filter-buttons" id="difficulty-filters">
-                    <button class="filter-btn active" data-type="difficulty" data-value="all">All</button>
-                </div>
-            </div>
+            <select class="filter-select" id="difficulty-select" onchange="setFilter('difficulty', this.value)">
+                <option value="all">All Difficulties</option>
+            </select>
 
-            <div class="filter-group">
-                <h3>Equipment</h3>
-                <div class="filter-buttons" id="equipment-filters">
-                    <button class="filter-btn active" data-type="equipment" data-value="all">All</button>
-                </div>
-            </div>
+            <select class="filter-select" id="equipment-select" onchange="setFilter('equipment', this.value)">
+                <option value="all">All Equipment</option>
+            </select>
         </div>
     </div>
 
     <div class="loading" id="loading">Loading exercises...</div>
     <div class="exercise-grid" id="exercise-grid"></div>
 
-    <!-- Exercise Modal -->
     <div class="modal" id="modal">
         <div class="modal-content">
-            <button class="modal-close" id="modal-close">&times;</button>
+            <button class="modal-close" onclick="closeModal()">&times;</button>
             <img class="modal-image" id="modal-image" src="" alt="">
             <h2 class="modal-title" id="modal-title"></h2>
             <div class="exercise-tags">
@@ -395,191 +128,278 @@
         </div>
     </div>
 
+    <div class="modal" id="program-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProgramBuilder()">&times;</button>
+            <h2 class="modal-title">📋 Build Your Program</h2>
+            <p style="color: #666; margin-bottom: 1rem;">Enter your workout program below and we'll match exercises from the library.</p>
+            
+            <textarea class="program-textarea" id="program-text" placeholder="Example:
+
+Day 1: Push
+- Bench Press 4x8
+- Overhead Press 3x10
+- Dips 3x12
+
+Day 2: Pull
+- Pull Ups 4x8
+- Barbell Row 4x10
+
+Day 3: Legs
+- Squats 4x8
+- Romanian Deadlift 3x10"></textarea>
+            <div class="program-help">💡 Write naturally - include sets/reps like "3x10" or "4 sets of 12". We'll find matching exercises!</div>
+
+            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="buildProgram()">Build Program</button>
+            <div id="program-result"></div>
+        </div>
+    </div>
+
+    <div class="modal" id="workout-modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeWorkoutGenerator()">&times;</button>
+            <h2 class="modal-title">🎯 Generate Smart Workout</h2>
+            <p style="color: #666; margin-bottom: 1.5rem;">Get a personalized workout plan optimized for your goals.</p>
+            
+            <div class="workout-option" onclick="generateWorkout('strength')">
+                <h3>💪 General Strength</h3>
+                <p>3-day split focusing on progressive overload and compound movements.</p>
+            </div>
+            
+            <div class="workout-option" onclick="generateWorkout('gym-routine')">
+                <h3>🏋️ 4-Day Body Split</h3>
+                <p>Classic split: Chest/Tris, Back/Bis, Legs, Shoulders - balanced muscle development.</p>
+            </div>
+            
+            <div class="workout-option" onclick="generateWorkout('athletic')">
+                <h3>⚡ Athletic Performance</h3>
+                <p>Explosive power, functional strength, perfect for sports performance.</p>
+            </div>
+            
+            <div class="workout-option" onclick="generateWorkout('beginner')">
+                <h3>🌱 Beginner Full Body</h3>
+                <p>3x/week full-body routine focusing on foundational movements and form.</p>
+            </div>
+
+            <div id="workout-result"></div>
+        </div>
+    </div>
+
     <script>
         let allExercises = [];
-        let currentFilters = {
-            type: 'all',
-            muscle: 'all',
-            equipment: 'all',
-            difficulty: 'all',
-            search: ''
-        };
+        let currentFilters = { type: 'all', muscle: 'all', equipment: 'all', difficulty: 'all', search: '' };
 
-        // Helper to get image URL
-        function getImageUrl(exercise) {
-            if (exercise.external_url && exercise.filename.startsWith('http')) {
-                return exercise.filename;
-            }
-            return 'exercises/' + exercise.filename;
+        function getImageUrl(ex) {
+            return (ex.external_url && ex.filename.startsWith('http')) ? ex.filename : 'exercises/' + ex.filename;
         }
 
         async function loadExercises() {
             try {
-                const response = await fetch('exercises_categorized.json');
-                const data = await response.json();
+                const res = await fetch('exercises_categorized.json');
+                const data = await res.json();
                 allExercises = data.exercises || data;
                 
-                // Determine exercise type from category if not set
                 allExercises.forEach(ex => {
                     if (!ex.type) {
                         const name = ex.name.toLowerCase();
-                        const category = ex.category || '';
-                        
-                        if (category === 'stretching' || name.includes('stretch') || name.includes('pose') || name.includes('yoga')) {
-                            ex.type = 'stretching';
-                        } else if (category === 'cardio' || name.includes('cardio') || name.includes('running') || name.includes('jump')) {
-                            ex.type = 'cardio';
-                        } else {
-                            ex.type = 'strength';
-                        }
+                        const cat = ex.category || '';
+                        ex.type = (cat === 'stretching' || name.includes('stretch') || name.includes('pose')) ? 'stretching' :
+                                  (cat === 'cardio' || name.includes('cardio') || name.includes('jump')) ? 'cardio' : 'strength';
                     }
                 });
                 
                 document.getElementById('total-exercises').textContent = allExercises.length;
-                
-                populateFilters();
+                populateDropdowns();
                 renderExercises();
                 document.getElementById('loading').style.display = 'none';
-            } catch (error) {
-                console.error('Error loading exercises:', error);
+            } catch (e) {
                 document.getElementById('loading').textContent = 'Error loading exercises';
             }
         }
 
         function setTab(type) {
             currentFilters.type = type;
-            
-            // Update tab states
-            document.querySelectorAll('.tab').forEach(tab => {
-                tab.classList.toggle('active', tab.dataset.type === type);
-            });
-            
+            document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.type === type));
             renderExercises();
         }
 
-        function populateFilters() {
-            const muscles = new Set();
-            const equipment = new Set();
-            const difficulties = new Set();
-
+        function populateDropdowns() {
+            const muscles = new Set(), equipment = new Set(), difficulties = new Set();
             allExercises.forEach(ex => {
                 muscles.add(ex.muscle_group);
                 equipment.add(ex.equipment);
                 if (ex.difficulty_label) difficulties.add(ex.difficulty_label);
             });
 
-            const muscleContainer = document.getElementById('muscle-filters');
-            Array.from(muscles).sort().forEach(muscle => {
-                const btn = document.createElement('button');
-                btn.className = 'filter-btn';
-                btn.dataset.type = 'muscle';
-                btn.dataset.value = muscle;
-                const displayName = muscle.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-                btn.textContent = displayName;
-                btn.onclick = () => setFilter('muscle', muscle);
-                muscleContainer.appendChild(btn);
-            });
+            const addOptions = (id, items) => {
+                const sel = document.getElementById(id);
+                items.forEach(item => {
+                    const opt = document.createElement('option');
+                    opt.value = item;
+                    opt.textContent = item.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    sel.appendChild(opt);
+                });
+            };
 
-            const difficultyContainer = document.getElementById('difficulty-filters');
-            ['Beginner', 'Intermediate', 'Advanced', 'Expert'].forEach(diff => {
-                if (difficulties.has(diff)) {
-                    const btn = document.createElement('button');
-                    btn.className = 'filter-btn';
-                    btn.dataset.type = 'difficulty';
-                    btn.dataset.value = diff;
-                    btn.textContent = diff;
-                    btn.onclick = () => setFilter('difficulty', diff);
-                    difficultyContainer.appendChild(btn);
-                }
-            });
-
-            const equipmentContainer = document.getElementById('equipment-filters');
-            Array.from(equipment).sort().forEach(equip => {
-                const btn = document.createElement('button');
-                btn.className = 'filter-btn';
-                btn.dataset.type = 'equipment';
-                btn.dataset.value = equip;
-                btn.textContent = equip;
-                btn.onclick = () => setFilter('equipment', equip);
-                equipmentContainer.appendChild(btn);
-            });
+            addOptions('muscle-select', Array.from(muscles).sort());
+            addOptions('difficulty-select', ['Beginner', 'Intermediate', 'Advanced', 'Expert'].filter(d => difficulties.has(d)));
+            addOptions('equipment-select', Array.from(equipment).sort());
         }
 
         function setFilter(type, value) {
-            // Toggle filter - if clicking active filter, reset to 'all'
-            if (currentFilters[type] === value && value !== 'all') {
-                value = 'all';
-            }
-            
             currentFilters[type] = value;
-            
-            document.querySelectorAll(`.filter-btn[data-type="${type}"]`).forEach(btn => {
-                btn.classList.toggle('active', btn.dataset.value === value);
-            });
-            
             renderExercises();
         }
 
-        document.getElementById('search').addEventListener('input', (e) => {
+        document.getElementById('search').addEventListener('input', e => {
             currentFilters.search = e.target.value.toLowerCase();
             renderExercises();
         });
 
         function renderExercises() {
-            const filtered = allExercises.filter(ex => {
-                const matchesType = currentFilters.type === 'all' || ex.type === currentFilters.type;
-                const matchesMuscle = currentFilters.muscle === 'all' || ex.muscle_group === currentFilters.muscle;
-                const matchesEquipment = currentFilters.equipment === 'all' || ex.equipment === currentFilters.equipment;
-                const matchesDifficulty = currentFilters.difficulty === 'all' || ex.difficulty_label === currentFilters.difficulty;
-                const matchesSearch = !currentFilters.search || ex.name.toLowerCase().includes(currentFilters.search);
-                
-                return matchesType && matchesMuscle && matchesEquipment && matchesDifficulty && matchesSearch;
-            });
+            const filtered = allExercises.filter(ex =>
+                (currentFilters.type === 'all' || ex.type === currentFilters.type) &&
+                (currentFilters.muscle === 'all' || ex.muscle_group === currentFilters.muscle) &&
+                (currentFilters.equipment === 'all' || ex.equipment === currentFilters.equipment) &&
+                (currentFilters.difficulty === 'all' || ex.difficulty_label === currentFilters.difficulty) &&
+                (!currentFilters.search || ex.name.toLowerCase().includes(currentFilters.search))
+            );
 
-            const grid = document.getElementById('exercise-grid');
             document.getElementById('shown-exercises').textContent = filtered.length;
-            
-            grid.innerHTML = filtered.map(ex => {
-                const muscleDisplay = ex.muscle_group.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
-                const difficultyClass = `difficulty-${ex.difficulty || 2}`;
-                const imageUrl = getImageUrl(ex);
-                return `
-                <div class="exercise-card" onclick='openModal(${JSON.stringify(imageUrl)}, ${JSON.stringify(ex.name)}, "${muscleDisplay}", "${ex.equipment}", "${ex.difficulty_label || 'Intermediate'}", ${ex.difficulty || 2})'>
-                    <img class="exercise-image" src="${imageUrl}" alt="${ex.name}" loading="lazy">
+            document.getElementById('exercise-grid').innerHTML = filtered.map(ex => {
+                const muscle = ex.muscle_group.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                const diffClass = `difficulty-${ex.difficulty || 2}`;
+                return `<div class="exercise-card" onclick='openModal(${JSON.stringify(getImageUrl(ex))}, ${JSON.stringify(ex.name)}, "${muscle}", "${ex.equipment}", "${ex.difficulty_label || 'Intermediate'}", ${ex.difficulty || 2})'>
+                    <img class="exercise-image" src="${getImageUrl(ex)}" alt="${ex.name}" loading="lazy">
                     <div class="exercise-info">
                         <div class="exercise-name">${ex.name}</div>
-                        <div class="exercise-tags">
-                            <span class="tag ${difficultyClass}">${ex.difficulty_label || 'Intermediate'}</span>
-                        </div>
+                        <div class="exercise-tags"><span class="tag ${diffClass}">${ex.difficulty_label || 'Intermediate'}</span></div>
                     </div>
-                </div>
-            `;}).join('');
+                </div>`;
+            }).join('');
         }
 
-        function openModal(imageUrl, name, muscle, equipment, difficulty, difficultyNum) {
-            document.getElementById('modal-image').src = imageUrl;
+        function openModal(url, name, muscle, equipment, difficulty, diffNum) {
+            document.getElementById('modal-image').src = url;
             document.getElementById('modal-title').textContent = name;
             document.getElementById('modal-muscle').textContent = muscle;
             document.getElementById('modal-equipment').textContent = equipment;
-            
-            const diffTag = document.getElementById('modal-difficulty');
-            diffTag.textContent = difficulty;
-            diffTag.className = `tag difficulty-${difficultyNum}`;
-            
+            const tag = document.getElementById('modal-difficulty');
+            tag.textContent = difficulty;
+            tag.className = `tag difficulty-${diffNum}`;
             document.getElementById('modal').classList.add('active');
         }
 
-        function closeModal() {
-            document.getElementById('modal').classList.remove('active');
+        function closeModal() { document.getElementById('modal').classList.remove('active'); }
+        function openProgramBuilder() { 
+            document.getElementById('program-modal').classList.add('active');
+            document.getElementById('program-result').innerHTML = '';
+        }
+        function closeProgramBuilder() { document.getElementById('program-modal').classList.remove('active'); }
+        function openWorkoutGenerator() { 
+            document.getElementById('workout-modal').classList.add('active');
+            document.getElementById('workout-result').innerHTML = '';
+        }
+        function closeWorkoutGenerator() { document.getElementById('workout-modal').classList.remove('active'); }
+
+        function buildProgram() {
+            const text = document.getElementById('program-text').value.trim();
+            if (!text) return alert('Please enter your program');
+            
+            const lines = text.split('\n').filter(l => l.trim());
+            const program = [];
+            let currentDay = null;
+
+            lines.forEach(line => {
+                line = line.trim();
+                if (line.match(/^(day|monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i) || (line.includes(':') && !line.match(/^\d/))) {
+                    currentDay = { name: line.replace(/^-+\s*/, ''), exercises: [] };
+                    program.push(currentDay);
+                } else if (line.match(/^[-•\d]/)) {
+                    if (!currentDay) {
+                        currentDay = { name: 'Workout', exercises: [] };
+                        program.push(currentDay);
+                    }
+                    let exLine = line.replace(/^[-•\d.)\s]+/, '').trim();
+                    const setsMatch = exLine.match(/(\d+)\s*[x×]\s*(\d+)/) || exLine.match(/(\d+)\s+sets?\s+of\s+(\d+)/i);
+                    let sets = setsMatch ? `${setsMatch[1]} × ${setsMatch[2]}` : '3 × 10';
+                    if (setsMatch) exLine = exLine.replace(setsMatch[0], '').trim();
+                    
+                    const matched = findExercise(exLine);
+                    if (matched) currentDay.exercises.push({ ...matched, sets });
+                }
+            });
+
+            displayProgram(program, 'program-result');
         }
 
-        document.getElementById('modal-close').onclick = closeModal;
-        document.getElementById('modal').onclick = (e) => {
-            if (e.target.id === 'modal') closeModal();
-        };
+        function findExercise(term) {
+            term = term.toLowerCase();
+            let match = allExercises.find(ex => ex.name.toLowerCase() === term);
+            if (!match) match = allExercises.find(ex => ex.name.toLowerCase().includes(term) || term.includes(ex.name.toLowerCase()));
+            if (!match) {
+                const keywords = term.split(' ').filter(w => w.length > 3);
+                match = allExercises.find(ex => keywords.every(kw => ex.name.toLowerCase().includes(kw)));
+            }
+            return match;
+        }
 
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') closeModal();
+        function displayProgram(program, containerId) {
+            const html = program.map(day => `
+                <div class="program-day">
+                    <h3>${day.name}</h3>
+                    ${day.exercises.map(ex => `
+                        <div class="program-exercise">
+                            <img src="${getImageUrl(ex)}" alt="${ex.name}">
+                            <div class="program-exercise-info">
+                                <div class="program-exercise-name">${ex.name}</div>
+                                <div class="program-exercise-sets">${ex.sets}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `).join('');
+            document.getElementById(containerId).innerHTML = `<div style="margin-top: 2rem;"><h3 style="margin-bottom: 1rem;">Your Program</h3>${html}</div>`;
+        }
+
+        function generateWorkout(type) {
+            const plans = {
+                'strength': { name: 'General Strength', days: [
+                    { name: 'Day 1: Upper Push', exercises: selectExercises(['chest', 'shoulders'], [2,3], 6), sets: '4 × 8-10' },
+                    { name: 'Day 2: Lower Body', exercises: selectExercises(['legs'], [2,3], 6), sets: '4 × 8-12' },
+                    { name: 'Day 3: Upper Pull', exercises: selectExercises(['back', 'arms'], [2,3], 6), sets: '4 × 8-10' }
+                ]},
+                'gym-routine': { name: '4-Day Split', days: [
+                    { name: 'Chest & Triceps', exercises: selectExercises(['chest', 'arms'], [2,3], 6), sets: '4 × 10-12' },
+                    { name: 'Back & Biceps', exercises: selectExercises(['back', 'arms'], [2,3], 6), sets: '4 × 10-12' },
+                    { name: 'Legs', exercises: selectExercises(['legs'], [2,3], 6), sets: '4 × 8-12' },
+                    { name: 'Shoulders & Core', exercises: selectExercises(['shoulders', 'core'], [2,3], 6), sets: '4 × 10-12' }
+                ]},
+                'athletic': { name: 'Athletic Performance', days: [
+                    { name: 'Power', exercises: selectExercises(['legs', 'full_body'], [3,4], 6), sets: '5 × 5-8' },
+                    { name: 'Upper Strength', exercises: selectExercises(['chest', 'back'], [2,3], 6), sets: '4 × 6-8' },
+                    { name: 'Lower Strength', exercises: selectExercises(['legs'], [3,4], 6), sets: '5 × 5-8' },
+                    { name: 'Conditioning', exercises: selectExercises(['full_body', 'core'], [2,3], 6), sets: '3 × 12-15' }
+                ]},
+                'beginner': { name: 'Beginner Full Body', days: [
+                    { name: 'Full Body A', exercises: selectExercises(['chest', 'back', 'legs'], [1,2], 6), sets: '3 × 10-12' },
+                    { name: 'Full Body B', exercises: selectExercises(['shoulders', 'legs', 'arms'], [1,2], 6), sets: '3 × 10-12' },
+                    { name: 'Full Body C', exercises: selectExercises(['chest', 'back', 'core'], [1,2], 6), sets: '3 × 10-12' }
+                ]}
+            };
+
+            const plan = plans[type];
+            plan.days.forEach(day => day.exercises = day.exercises.map(ex => ({ ...ex, sets: day.sets })));
+            displayProgram(plan.days, 'workout-result');
+        }
+
+        function selectExercises(muscles, difficulties, count) {
+            return allExercises.filter(ex => muscles.includes(ex.muscle_group) && difficulties.includes(ex.difficulty || 2))
+                .sort(() => Math.random() - 0.5).slice(0, count);
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') { closeModal(); closeProgramBuilder(); closeWorkoutGenerator(); }
         });
 
         loadExercises();
