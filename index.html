@@ -14,8 +14,6 @@
         .btn { padding: 0.75rem 1.5rem; border-radius: 8px; border: none; cursor: pointer; font-size: 0.95rem; font-weight: 500; transition: all 0.2s; }
         .btn-primary { background: #000; color: white; }
         .btn-primary:hover { background: #333; }
-        .btn-secondary { background: white; color: #000; border: 1px solid #e0e0e0; }
-        .btn-secondary:hover { background: #f5f5f5; }
         .controls { max-width: 1400px; margin: 2rem auto; padding: 0 2rem; }
         .tabs { display: flex; gap: 0.5rem; margin-bottom: 2rem; border-bottom: 2px solid #e0e0e0; flex-wrap: wrap; }
         .tab { padding: 0.75rem 1.5rem; border: none; background: transparent; color: #666; cursor: pointer; font-size: 0.95rem; font-weight: 500; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: all 0.2s; }
@@ -23,6 +21,13 @@
         .tab.active { color: #000; border-bottom-color: #000; }
         .search-box { width: 100%; padding: 1rem; font-size: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; background: white; margin-bottom: 1rem; }
         .search-box:focus { outline: none; border-color: #000; }
+        .search-suggestions { background: white; border: 1px solid #e0e0e0; border-top: none; border-radius: 0 0 8px 8px; max-height: 300px; overflow-y: auto; display: none; position: relative; z-index: 10; }
+        .search-suggestions.active { display: block; }
+        .suggestion-item { padding: 0.75rem 1rem; cursor: pointer; border-bottom: 1px solid #f0f0f0; transition: background 0.15s; }
+        .suggestion-item:hover { background: #f8f8f8; }
+        .suggestion-item:last-child { border-bottom: none; }
+        .suggestion-name { font-weight: 500; margin-bottom: 0.25rem; }
+        .suggestion-meta { font-size: 0.85rem; color: #666; }
         .filters-compact { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
         .filter-select { width: 100%; padding: 0.75rem 1rem; font-size: 0.9rem; border: 1px solid #e0e0e0; border-radius: 8px; background: #f8f8f8; color: #666; cursor: pointer; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23666' d='M6 9L1 4h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1rem center; padding-right: 2.5rem; }
         .filter-select:hover { border-color: #000; }
@@ -48,21 +53,20 @@
         .modal-close:hover { background: #e0e0e0; }
         .modal-image { width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; margin-bottom: 1rem; background: white; }
         .modal-title { font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700; }
-        .program-textarea { width: 100%; min-height: 300px; padding: 1rem; font-size: 0.9rem; font-family: monospace; border: 1px solid #e0e0e0; border-radius: 8px; resize: vertical; }
-        .program-textarea:focus { outline: none; border-color: #000; }
-        .program-help { font-size: 0.85rem; color: #666; margin-top: 0.5rem; line-height: 1.5; }
-        .program-day { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
-        .program-day h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #000; }
-        .program-exercise { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: white; border-radius: 6px; margin-bottom: 0.75rem; }
-        .program-exercise img { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; }
-        .program-exercise-info { flex: 1; }
-        .program-exercise-name { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
-        .program-exercise-sets { font-size: 0.85rem; color: #666; }
         .loading { text-align: center; padding: 4rem; font-size: 1.1rem; color: #666; }
         .workout-option { padding: 1.5rem; border: 2px solid #e0e0e0; border-radius: 12px; cursor: pointer; transition: all 0.2s; margin-bottom: 1rem; }
         .workout-option:hover { border-color: #000; background: #fafafa; }
         .workout-option h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
         .workout-option p { font-size: 0.9rem; color: #666; }
+        .program-day { background: #f8f8f8; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
+        .program-day h3 { font-size: 1.1rem; margin-bottom: 1rem; color: #000; }
+        .program-section { margin-bottom: 1.5rem; }
+        .program-section h4 { font-size: 0.95rem; color: #666; margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .program-exercise { display: flex; align-items: center; gap: 1rem; padding: 0.75rem; background: white; border-radius: 6px; margin-bottom: 0.75rem; }
+        .program-exercise img { width: 60px; height: 60px; object-fit: cover; border-radius: 4px; }
+        .program-exercise-info { flex: 1; }
+        .program-exercise-name { font-weight: 600; font-size: 0.9rem; margin-bottom: 0.25rem; }
+        .program-exercise-sets { font-size: 0.85rem; color: #666; }
         @media (max-width: 768px) {
             .exercise-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1rem; padding: 0 1rem 2rem; }
             .controls { padding: 0 1rem; }
@@ -75,9 +79,8 @@
 <body>
     <div class="header">
         <div class="header-content">
-            <div class="logo">💪 Exercise Library</div>
+            <div class="logo">Exercise Library</div>
             <div class="header-actions">
-                <button class="btn btn-secondary" onclick="openProgramBuilder()">Build Program</button>
                 <button class="btn btn-primary" onclick="openWorkoutGenerator()">Generate Workout</button>
             </div>
         </div>
@@ -91,7 +94,10 @@
             <button class="tab" data-type="cardio" onclick="setTab('cardio')">Cardio</button>
         </div>
 
-        <input type="text" class="search-box" id="search" placeholder="🔍 Search exercises...">
+        <div style="position: relative;">
+            <input type="text" class="search-box" id="search" placeholder="Search exercises (e.g. 'DB squat', 'walking lunges')">
+            <div class="search-suggestions" id="suggestions"></div>
+        </div>
         
         <div class="stats">
             <span><strong id="shown-exercises">0</strong> of <strong id="total-exercises">0</strong> exercises</span>
@@ -128,56 +134,29 @@
         </div>
     </div>
 
-    <div class="modal" id="program-modal">
-        <div class="modal-content">
-            <button class="modal-close" onclick="closeProgramBuilder()">&times;</button>
-            <h2 class="modal-title">📋 Build Your Program</h2>
-            <p style="color: #666; margin-bottom: 1rem;">Enter your workout program below and we'll match exercises from the library.</p>
-            
-            <textarea class="program-textarea" id="program-text" placeholder="Example:
-
-Day 1: Push
-- Bench Press 4x8
-- Overhead Press 3x10
-- Dips 3x12
-
-Day 2: Pull
-- Pull Ups 4x8
-- Barbell Row 4x10
-
-Day 3: Legs
-- Squats 4x8
-- Romanian Deadlift 3x10"></textarea>
-            <div class="program-help">💡 Write naturally - include sets/reps like "3x10" or "4 sets of 12". We'll find matching exercises!</div>
-
-            <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="buildProgram()">Build Program</button>
-            <div id="program-result"></div>
-        </div>
-    </div>
-
     <div class="modal" id="workout-modal">
         <div class="modal-content">
             <button class="modal-close" onclick="closeWorkoutGenerator()">&times;</button>
-            <h2 class="modal-title">🎯 Generate Smart Workout</h2>
-            <p style="color: #666; margin-bottom: 1.5rem;">Get a personalized workout plan optimized for your goals.</p>
+            <h2 class="modal-title">Generate Smart Workout</h2>
+            <p style="color: #666; margin-bottom: 1.5rem;">Get a personalized workout plan with exercises and post-workout stretches.</p>
             
             <div class="workout-option" onclick="generateWorkout('strength')">
-                <h3>💪 General Strength</h3>
+                <h3>General Strength</h3>
                 <p>3-day split focusing on progressive overload and compound movements.</p>
             </div>
             
             <div class="workout-option" onclick="generateWorkout('gym-routine')">
-                <h3>🏋️ 4-Day Body Split</h3>
+                <h3>4-Day Body Split</h3>
                 <p>Classic split: Chest/Tris, Back/Bis, Legs, Shoulders - balanced muscle development.</p>
             </div>
             
             <div class="workout-option" onclick="generateWorkout('athletic')">
-                <h3>⚡ Athletic Performance</h3>
+                <h3>Athletic Performance</h3>
                 <p>Explosive power, functional strength, perfect for sports performance.</p>
             </div>
             
             <div class="workout-option" onclick="generateWorkout('beginner')">
-                <h3>🌱 Beginner Full Body</h3>
+                <h3>Beginner Full Body</h3>
                 <p>3x/week full-body routine focusing on foundational movements and form.</p>
             </div>
 
@@ -251,19 +230,112 @@ Day 3: Legs
             renderExercises();
         }
 
+        // Enhanced search with fuzzy matching
+        function normalizeSearchTerm(term) {
+            return term.toLowerCase()
+                .replace(/\b(db|dumbbell|dumbell)\b/g, 'dumbbell')
+                .replace(/\b(bb|barbell)\b/g, 'barbell')
+                .replace(/\b(kb|kettlebell)\b/g, 'kettlebell')
+                .replace(/\b(w\/|with)\b/g, '')
+                .replace(/[^\w\s]/g, ' ')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        function fuzzyMatch(exerciseName, searchTerm) {
+            const exName = normalizeSearchTerm(exerciseName);
+            const search = normalizeSearchTerm(searchTerm);
+            
+            // Exact match
+            if (exName.includes(search)) return 100;
+            
+            // Word-based matching
+            const searchWords = search.split(' ').filter(w => w.length > 2);
+            const exWords = exName.split(' ');
+            
+            let matches = 0;
+            searchWords.forEach(sw => {
+                if (exWords.some(ew => ew.includes(sw) || sw.includes(ew))) {
+                    matches++;
+                }
+            });
+            
+            return searchWords.length > 0 ? (matches / searchWords.length) * 80 : 0;
+        }
+
+        let searchTimeout;
         document.getElementById('search').addEventListener('input', e => {
-            currentFilters.search = e.target.value.toLowerCase();
+            const value = e.target.value;
+            currentFilters.search = value.toLowerCase();
+            
+            clearTimeout(searchTimeout);
+            
+            if (value.length >= 2) {
+                searchTimeout = setTimeout(() => showSuggestions(value), 200);
+            } else {
+                document.getElementById('suggestions').classList.remove('active');
+            }
+            
             renderExercises();
         });
 
+        function showSuggestions(searchTerm) {
+            const matches = allExercises
+                .map(ex => ({ ex, score: fuzzyMatch(ex.name, searchTerm) }))
+                .filter(m => m.score > 30)
+                .sort((a, b) => b.score - a.score)
+                .slice(0, 8);
+
+            const suggestionsDiv = document.getElementById('suggestions');
+            
+            if (matches.length === 0) {
+                suggestionsDiv.classList.remove('active');
+                return;
+            }
+
+            suggestionsDiv.innerHTML = matches.map(m => {
+                const muscle = m.ex.muscle_group.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                return `
+                    <div class="suggestion-item" onclick="selectSuggestion('${m.ex.name.replace(/'/g, "\\'")}')">
+                        <div class="suggestion-name">${m.ex.name}</div>
+                        <div class="suggestion-meta">${muscle} • ${m.ex.equipment}</div>
+                    </div>
+                `;
+            }).join('');
+            
+            suggestionsDiv.classList.add('active');
+        }
+
+        function selectSuggestion(name) {
+            document.getElementById('search').value = name;
+            currentFilters.search = name.toLowerCase();
+            document.getElementById('suggestions').classList.remove('active');
+            renderExercises();
+        }
+
+        // Close suggestions when clicking outside
+        document.addEventListener('click', e => {
+            if (!e.target.closest('.search-box') && !e.target.closest('.search-suggestions')) {
+                document.getElementById('suggestions').classList.remove('active');
+            }
+        });
+
         function renderExercises() {
-            const filtered = allExercises.filter(ex =>
+            let filtered = allExercises.filter(ex =>
                 (currentFilters.type === 'all' || ex.type === currentFilters.type) &&
                 (currentFilters.muscle === 'all' || ex.muscle_group === currentFilters.muscle) &&
                 (currentFilters.equipment === 'all' || ex.equipment === currentFilters.equipment) &&
-                (currentFilters.difficulty === 'all' || ex.difficulty_label === currentFilters.difficulty) &&
-                (!currentFilters.search || ex.name.toLowerCase().includes(currentFilters.search))
+                (currentFilters.difficulty === 'all' || ex.difficulty_label === currentFilters.difficulty)
             );
+
+            // Apply fuzzy search if search term exists
+            if (currentFilters.search) {
+                filtered = filtered
+                    .map(ex => ({ ex, score: fuzzyMatch(ex.name, currentFilters.search) }))
+                    .filter(m => m.score > 20)
+                    .sort((a, b) => b.score - a.score)
+                    .map(m => m.ex);
+            }
 
             document.getElementById('shown-exercises').textContent = filtered.length;
             document.getElementById('exercise-grid').innerHTML = filtered.map(ex => {
@@ -291,115 +363,119 @@ Day 3: Legs
         }
 
         function closeModal() { document.getElementById('modal').classList.remove('active'); }
-        function openProgramBuilder() { 
-            document.getElementById('program-modal').classList.add('active');
-            document.getElementById('program-result').innerHTML = '';
-        }
-        function closeProgramBuilder() { document.getElementById('program-modal').classList.remove('active'); }
         function openWorkoutGenerator() { 
             document.getElementById('workout-modal').classList.add('active');
             document.getElementById('workout-result').innerHTML = '';
         }
         function closeWorkoutGenerator() { document.getElementById('workout-modal').classList.remove('active'); }
 
-        function buildProgram() {
-            const text = document.getElementById('program-text').value.trim();
-            if (!text) return alert('Please enter your program');
-            
-            const lines = text.split('\n').filter(l => l.trim());
-            const program = [];
-            let currentDay = null;
-
-            lines.forEach(line => {
-                line = line.trim();
-                if (line.match(/^(day|monday|tuesday|wednesday|thursday|friday|saturday|sunday)/i) || (line.includes(':') && !line.match(/^\d/))) {
-                    currentDay = { name: line.replace(/^-+\s*/, ''), exercises: [] };
-                    program.push(currentDay);
-                } else if (line.match(/^[-•\d]/)) {
-                    if (!currentDay) {
-                        currentDay = { name: 'Workout', exercises: [] };
-                        program.push(currentDay);
-                    }
-                    let exLine = line.replace(/^[-•\d.)\s]+/, '').trim();
-                    const setsMatch = exLine.match(/(\d+)\s*[x×]\s*(\d+)/) || exLine.match(/(\d+)\s+sets?\s+of\s+(\d+)/i);
-                    let sets = setsMatch ? `${setsMatch[1]} × ${setsMatch[2]}` : '3 × 10';
-                    if (setsMatch) exLine = exLine.replace(setsMatch[0], '').trim();
-                    
-                    const matched = findExercise(exLine);
-                    if (matched) currentDay.exercises.push({ ...matched, sets });
+        function generateWorkout(type) {
+            const plans = {
+                'strength': { 
+                    name: 'General Strength', 
+                    days: [
+                        { 
+                            name: 'Day 1: Upper Push', 
+                            exercises: selectExercises(['chest', 'shoulders'], [2,3], 6), 
+                            sets: '4 × 8-10',
+                            stretches: selectExercises(['chest', 'shoulders'], [1,2], 3, 'stretching')
+                        },
+                        { 
+                            name: 'Day 2: Lower Body', 
+                            exercises: selectExercises(['legs'], [2,3], 6), 
+                            sets: '4 × 8-12',
+                            stretches: selectExercises(['legs'], [1,2], 3, 'stretching')
+                        },
+                        { 
+                            name: 'Day 3: Upper Pull', 
+                            exercises: selectExercises(['back', 'arms'], [2,3], 6), 
+                            sets: '4 × 8-10',
+                            stretches: selectExercises(['back', 'shoulders'], [1,2], 3, 'stretching')
+                        }
+                    ]
+                },
+                'gym-routine': { 
+                    name: '4-Day Split', 
+                    days: [
+                        { name: 'Chest & Triceps', exercises: selectExercises(['chest', 'arms'], [2,3], 6), sets: '4 × 10-12', stretches: selectExercises(['chest', 'arms'], [1,2], 3, 'stretching') },
+                        { name: 'Back & Biceps', exercises: selectExercises(['back', 'arms'], [2,3], 6), sets: '4 × 10-12', stretches: selectExercises(['back', 'shoulders'], [1,2], 3, 'stretching') },
+                        { name: 'Legs', exercises: selectExercises(['legs'], [2,3], 6), sets: '4 × 8-12', stretches: selectExercises(['legs'], [1,2], 4, 'stretching') },
+                        { name: 'Shoulders & Core', exercises: selectExercises(['shoulders', 'core'], [2,3], 6), sets: '4 × 10-12', stretches: selectExercises(['shoulders', 'back'], [1,2], 3, 'stretching') }
+                    ]
+                },
+                'athletic': { 
+                    name: 'Athletic Performance', 
+                    days: [
+                        { name: 'Power', exercises: selectExercises(['legs', 'full_body'], [3,4], 6), sets: '5 × 5-8', stretches: selectExercises(['legs'], [1,2], 3, 'stretching') },
+                        { name: 'Upper Strength', exercises: selectExercises(['chest', 'back'], [2,3], 6), sets: '4 × 6-8', stretches: selectExercises(['chest', 'back', 'shoulders'], [1,2], 3, 'stretching') },
+                        { name: 'Lower Strength', exercises: selectExercises(['legs'], [3,4], 6), sets: '5 × 5-8', stretches: selectExercises(['legs'], [1,2], 4, 'stretching') },
+                        { name: 'Conditioning', exercises: selectExercises(['full_body', 'core'], [2,3], 6), sets: '3 × 12-15', stretches: selectExercises(['full_body', 'legs'], [1,2], 3, 'stretching') }
+                    ]
+                },
+                'beginner': { 
+                    name: 'Beginner Full Body', 
+                    days: [
+                        { name: 'Full Body A', exercises: selectExercises(['chest', 'back', 'legs'], [1,2], 6), sets: '3 × 10-12', stretches: selectExercises(['chest', 'back', 'legs'], [1], 3, 'stretching') },
+                        { name: 'Full Body B', exercises: selectExercises(['shoulders', 'legs', 'arms'], [1,2], 6), sets: '3 × 10-12', stretches: selectExercises(['shoulders', 'legs'], [1], 3, 'stretching') },
+                        { name: 'Full Body C', exercises: selectExercises(['chest', 'back', 'core'], [1,2], 6), sets: '3 × 10-12', stretches: selectExercises(['chest', 'back'], [1], 3, 'stretching') }
+                    ]
                 }
+            };
+
+            const plan = plans[type];
+            plan.days.forEach(day => {
+                day.exercises = day.exercises.map(ex => ({ ...ex, sets: day.sets }));
+                day.stretches = day.stretches.map(ex => ({ ...ex, sets: 'Hold 30-60s' }));
             });
-
-            displayProgram(program, 'program-result');
+            displayWorkout(plan.days, 'workout-result');
         }
 
-        function findExercise(term) {
-            term = term.toLowerCase();
-            let match = allExercises.find(ex => ex.name.toLowerCase() === term);
-            if (!match) match = allExercises.find(ex => ex.name.toLowerCase().includes(term) || term.includes(ex.name.toLowerCase()));
-            if (!match) {
-                const keywords = term.split(' ').filter(w => w.length > 3);
-                match = allExercises.find(ex => keywords.every(kw => ex.name.toLowerCase().includes(kw)));
-            }
-            return match;
+        function selectExercises(muscles, difficulties, count, type = 'strength') {
+            return allExercises
+                .filter(ex => 
+                    muscles.includes(ex.muscle_group) && 
+                    difficulties.includes(ex.difficulty || 2) &&
+                    (type === 'stretching' ? ex.type === 'stretching' : ex.type !== 'stretching')
+                )
+                .sort(() => Math.random() - 0.5)
+                .slice(0, count);
         }
 
-        function displayProgram(program, containerId) {
-            const html = program.map(day => `
+        function displayWorkout(days, containerId) {
+            const html = days.map(day => `
                 <div class="program-day">
                     <h3>${day.name}</h3>
-                    ${day.exercises.map(ex => `
-                        <div class="program-exercise">
-                            <img src="${getImageUrl(ex)}" alt="${ex.name}">
-                            <div class="program-exercise-info">
-                                <div class="program-exercise-name">${ex.name}</div>
-                                <div class="program-exercise-sets">${ex.sets}</div>
+                    <div class="program-section">
+                        <h4>Main Workout</h4>
+                        ${day.exercises.map(ex => `
+                            <div class="program-exercise">
+                                <img src="${getImageUrl(ex)}" alt="${ex.name}">
+                                <div class="program-exercise-info">
+                                    <div class="program-exercise-name">${ex.name}</div>
+                                    <div class="program-exercise-sets">${ex.sets}</div>
+                                </div>
                             </div>
-                        </div>
-                    `).join('')}
+                        `).join('')}
+                    </div>
+                    <div class="program-section">
+                        <h4>Post-Workout Stretches</h4>
+                        ${day.stretches.map(ex => `
+                            <div class="program-exercise">
+                                <img src="${getImageUrl(ex)}" alt="${ex.name}">
+                                <div class="program-exercise-info">
+                                    <div class="program-exercise-name">${ex.name}</div>
+                                    <div class="program-exercise-sets">${ex.sets}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
                 </div>
             `).join('');
             document.getElementById(containerId).innerHTML = `<div style="margin-top: 2rem;"><h3 style="margin-bottom: 1rem;">Your Program</h3>${html}</div>`;
         }
 
-        function generateWorkout(type) {
-            const plans = {
-                'strength': { name: 'General Strength', days: [
-                    { name: 'Day 1: Upper Push', exercises: selectExercises(['chest', 'shoulders'], [2,3], 6), sets: '4 × 8-10' },
-                    { name: 'Day 2: Lower Body', exercises: selectExercises(['legs'], [2,3], 6), sets: '4 × 8-12' },
-                    { name: 'Day 3: Upper Pull', exercises: selectExercises(['back', 'arms'], [2,3], 6), sets: '4 × 8-10' }
-                ]},
-                'gym-routine': { name: '4-Day Split', days: [
-                    { name: 'Chest & Triceps', exercises: selectExercises(['chest', 'arms'], [2,3], 6), sets: '4 × 10-12' },
-                    { name: 'Back & Biceps', exercises: selectExercises(['back', 'arms'], [2,3], 6), sets: '4 × 10-12' },
-                    { name: 'Legs', exercises: selectExercises(['legs'], [2,3], 6), sets: '4 × 8-12' },
-                    { name: 'Shoulders & Core', exercises: selectExercises(['shoulders', 'core'], [2,3], 6), sets: '4 × 10-12' }
-                ]},
-                'athletic': { name: 'Athletic Performance', days: [
-                    { name: 'Power', exercises: selectExercises(['legs', 'full_body'], [3,4], 6), sets: '5 × 5-8' },
-                    { name: 'Upper Strength', exercises: selectExercises(['chest', 'back'], [2,3], 6), sets: '4 × 6-8' },
-                    { name: 'Lower Strength', exercises: selectExercises(['legs'], [3,4], 6), sets: '5 × 5-8' },
-                    { name: 'Conditioning', exercises: selectExercises(['full_body', 'core'], [2,3], 6), sets: '3 × 12-15' }
-                ]},
-                'beginner': { name: 'Beginner Full Body', days: [
-                    { name: 'Full Body A', exercises: selectExercises(['chest', 'back', 'legs'], [1,2], 6), sets: '3 × 10-12' },
-                    { name: 'Full Body B', exercises: selectExercises(['shoulders', 'legs', 'arms'], [1,2], 6), sets: '3 × 10-12' },
-                    { name: 'Full Body C', exercises: selectExercises(['chest', 'back', 'core'], [1,2], 6), sets: '3 × 10-12' }
-                ]}
-            };
-
-            const plan = plans[type];
-            plan.days.forEach(day => day.exercises = day.exercises.map(ex => ({ ...ex, sets: day.sets })));
-            displayProgram(plan.days, 'workout-result');
-        }
-
-        function selectExercises(muscles, difficulties, count) {
-            return allExercises.filter(ex => muscles.includes(ex.muscle_group) && difficulties.includes(ex.difficulty || 2))
-                .sort(() => Math.random() - 0.5).slice(0, count);
-        }
-
         document.addEventListener('keydown', e => {
-            if (e.key === 'Escape') { closeModal(); closeProgramBuilder(); closeWorkoutGenerator(); }
+            if (e.key === 'Escape') { closeModal(); closeWorkoutGenerator(); }
         });
 
         loadExercises();
