@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "34 Sit-Up",
-      "filename": "34_Sit-up.webp",
+      "filename": "34_Sit-up.gif",
       "file_type": ".gif",
       "file_size_kb": 272.08,
       "equipment": "Bodyweight",
@@ -51,7 +51,7 @@
     {
       "id": 7,
       "name": "45 Side Bend",
-      "filename": "45_Side_Bend.webp",
+      "filename": "45_Side_Bend.gif",
       "file_type": ".gif",
       "file_size_kb": 251.24,
       "equipment": "Bodyweight",
@@ -99,7 +99,7 @@
     {
       "id": 11,
       "name": "Ab Roller Crunch",
-      "filename": "Ab_Roller_Crunch.webp",
+      "filename": "Ab_Roller_Crunch.gif",
       "file_type": ".gif",
       "file_size_kb": 243.24,
       "equipment": "Bodyweight",
@@ -211,7 +211,7 @@
     {
       "id": 18,
       "name": "Air Squat - Dumbbell Single Leg Deadlift",
-      "filename": "Air_Squat_-_Dumbbell_Single_Leg_Deadlift.webp",
+      "filename": "Air_Squat_-_Dumbbell_Single_Leg_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 286.7,
       "equipment": "Dumbbell",
@@ -275,7 +275,7 @@
     {
       "id": 22,
       "name": "Alternate Lateral Pulldown - Floor Hyperextension",
-      "filename": "Alternate_Lateral_Pulldown_-_Floor_Hyperextension.webp",
+      "filename": "Alternate_Lateral_Pulldown_-_Floor_Hyperextension.gif",
       "file_type": ".gif",
       "file_size_kb": 281.78,
       "equipment": "Bodyweight",
@@ -403,7 +403,7 @@
     {
       "id": 30,
       "name": "Ardha Matsyendrasana Yoga Pose",
-      "filename": "Ardha_Matsyendrasana_Yoga_Pose.webp",
+      "filename": "Ardha_Matsyendrasana_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 358.21,
       "equipment": "Bodyweight",
@@ -435,7 +435,7 @@
     {
       "id": 32,
       "name": "Arm Circles - Cable One Arm Front Raise",
-      "filename": "Arm_Circles_-_Cable_One_Arm_Front_Raise.webp",
+      "filename": "Arm_Circles_-_Cable_One_Arm_Front_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 275.14,
       "equipment": "Cable",
@@ -451,7 +451,7 @@
     {
       "id": 33,
       "name": "Arm Circles - Dumbbell Push Press",
-      "filename": "Arm_Circles_-_Dumbbell_Push_Press.webp",
+      "filename": "Arm_Circles_-_Dumbbell_Push_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 275.13,
       "equipment": "Dumbbell",
@@ -483,7 +483,7 @@
     {
       "id": 35,
       "name": "Arm Up Rotator Stretch",
-      "filename": "Arm_Up_Rotator_Stretch.webp",
+      "filename": "Arm_Up_Rotator_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 53.29,
       "equipment": "Bodyweight",
@@ -531,7 +531,7 @@
     {
       "id": 38,
       "name": "Assisted Lying Hamstring Stretch",
-      "filename": "Assisted_Lying_Hamstring_Stretch.webp",
+      "filename": "Assisted_Lying_Hamstring_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 95.93,
       "equipment": "Bodyweight",
@@ -579,7 +579,7 @@
     {
       "id": 41,
       "name": "Assisted Sit-Up",
-      "filename": "Assisted_Sit-up.webp",
+      "filename": "Assisted_Sit-up.gif",
       "file_type": ".gif",
       "file_size_kb": 189.38,
       "equipment": "Bodyweight",
@@ -595,7 +595,7 @@
     {
       "id": 43,
       "name": "Assisted Triceps Dip",
-      "filename": "Assisted_Triceps_Dip.webp",
+      "filename": "Assisted_Triceps_Dip.gif",
       "file_type": ".gif",
       "file_size_kb": 308.97,
       "equipment": "Bodyweight",
@@ -675,7 +675,7 @@
     {
       "id": 48,
       "name": "Back Stretch",
-      "filename": "Back_Stretch.webp",
+      "filename": "Back_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 70.61,
       "equipment": "Bodyweight",
@@ -691,7 +691,7 @@
     {
       "id": 49,
       "name": "Backward Jump",
-      "filename": "Backward_Jump.webp",
+      "filename": "Backward_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 262.69,
       "equipment": "Bodyweight",
@@ -739,7 +739,7 @@
     {
       "id": 52,
       "name": "Balance Board - Dumbbell Walking Lunges",
-      "filename": "Balance_Board_-_Dumbbell_Walking_Lunges.webp",
+      "filename": "Balance_Board_-_Dumbbell_Walking_Lunges.gif",
       "file_type": ".gif",
       "file_size_kb": 413.73,
       "equipment": "Dumbbell",
@@ -931,7 +931,7 @@
     {
       "id": 64,
       "name": "Band Close Grip Row - Band Pull Apart",
-      "filename": "Band_Close_Grip_Row_-_Band_Pull_Apart.webp",
+      "filename": "Band_Close_Grip_Row_-_Band_Pull_Apart.gif",
       "file_type": ".gif",
       "file_size_kb": 202.72,
       "equipment": "Band",
@@ -947,7 +947,7 @@
     {
       "id": 65,
       "name": "Band Close Grip Row - Dumbbell Arnold Press",
-      "filename": "Band_Close_Grip_Row_-_Dumbbell_Arnold_Press.webp",
+      "filename": "Band_Close_Grip_Row_-_Dumbbell_Arnold_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 226.2,
       "equipment": "Dumbbell",
@@ -963,7 +963,7 @@
     {
       "id": 66,
       "name": "Band Close Grip Row - Squat On Bosu Ball",
-      "filename": "Band_Close_Grip_Row_-_Squat_on_Bosu_Ball.webp",
+      "filename": "Band_Close_Grip_Row_-_Squat_on_Bosu_Ball.gif",
       "file_type": ".gif",
       "file_size_kb": 229.11,
       "equipment": "Band",
@@ -1043,7 +1043,7 @@
     {
       "id": 71,
       "name": "Band Front Raise - Strongman Crucifix Hold",
-      "filename": "Band_Front_Raise_-_Strongman_Crucifix_Hold.webp",
+      "filename": "Band_Front_Raise_-_Strongman_Crucifix_Hold.gif",
       "file_type": ".gif",
       "file_size_kb": 271.12,
       "equipment": "Band",
@@ -1059,7 +1059,7 @@
     {
       "id": 72,
       "name": "Band Good Morning",
-      "filename": "Band_Good_Morning.webp",
+      "filename": "Band_Good_Morning.gif",
       "file_type": ".gif",
       "file_size_kb": 267.65,
       "equipment": "Band",
@@ -1139,7 +1139,7 @@
     {
       "id": 77,
       "name": "Band Hip Flexion",
-      "filename": "Band_Hip_Flexion.webp",
+      "filename": "Band_Hip_Flexion.gif",
       "file_type": ".gif",
       "file_size_kb": 268.22,
       "equipment": "Band",
@@ -1267,7 +1267,7 @@
     {
       "id": 85,
       "name": "Band Pull Apart",
-      "filename": "Band_Pull_Apart.webp",
+      "filename": "Band_Pull_Apart.gif",
       "file_type": ".gif",
       "file_size_kb": 202.72,
       "equipment": "Band",
@@ -1299,7 +1299,7 @@
     {
       "id": 87,
       "name": "Band Pull Through - Single Leg Push Off",
-      "filename": "Band_Pull_Through_-_Single_Leg_Push_Off.webp",
+      "filename": "Band_Pull_Through_-_Single_Leg_Push_Off.gif",
       "file_type": ".gif",
       "file_size_kb": 197.46,
       "equipment": "Band",
@@ -1315,7 +1315,7 @@
     {
       "id": 88,
       "name": "Band Push Up",
-      "filename": "Band_Push_Up.webp",
+      "filename": "Band_Push_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 248.52,
       "equipment": "Band",
@@ -1395,7 +1395,7 @@
     {
       "id": 93,
       "name": "Band Reverse Curl - Dumbbell Seated Hammer Curl",
-      "filename": "Band_Reverse_Curl_-_Dumbbell_Seated_Hammer_Curl.webp",
+      "filename": "Band_Reverse_Curl_-_Dumbbell_Seated_Hammer_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 314.71,
       "equipment": "Dumbbell",
@@ -1443,7 +1443,7 @@
     {
       "id": 96,
       "name": "Band Reverse Wrist Curl - Strongman Hercules Hold",
-      "filename": "Band_Reverse_Wrist_Curl_-_Strongman_Hercules_Hold.webp",
+      "filename": "Band_Reverse_Wrist_Curl_-_Strongman_Hercules_Hold.gif",
       "file_type": ".gif",
       "file_size_kb": 67.69,
       "equipment": "Band",
@@ -1523,7 +1523,7 @@
     {
       "id": 101,
       "name": "Band Skull Crusher",
-      "filename": "Band_Skull_Crusher.webp",
+      "filename": "Band_Skull_Crusher.gif",
       "file_type": ".gif",
       "file_size_kb": 269.39,
       "equipment": "Band",
@@ -1619,7 +1619,7 @@
     {
       "id": 107,
       "name": "Band Standing Crunch - Inchworm",
-      "filename": "Band_Standing_Crunch_-_Inchworm.webp",
+      "filename": "Band_Standing_Crunch_-_Inchworm.gif",
       "file_type": ".gif",
       "file_size_kb": 446.55,
       "equipment": "Band",
@@ -1667,7 +1667,7 @@
     {
       "id": 110,
       "name": "Band Straight Arm Pulldown",
-      "filename": "Band_Straight_Arm_Pulldown.webp",
+      "filename": "Band_Straight_Arm_Pulldown.gif",
       "file_type": ".gif",
       "file_size_kb": 266.61,
       "equipment": "Band",
@@ -1699,7 +1699,7 @@
     {
       "id": 112,
       "name": "Band Thruster",
-      "filename": "Band_Thruster.webp",
+      "filename": "Band_Thruster.gif",
       "file_type": ".gif",
       "file_size_kb": 250.07,
       "equipment": "Band",
@@ -1875,7 +1875,7 @@
     {
       "id": 124,
       "name": "Barbell Bench Squat - Dumbbell Goblet Squat",
-      "filename": "Barbell_Bench_Squat_-_Dumbbell_Goblet_Squat.webp",
+      "filename": "Barbell_Bench_Squat_-_Dumbbell_Goblet_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 212.11,
       "equipment": "Barbell",
@@ -1955,7 +1955,7 @@
     {
       "id": 129,
       "name": "Barbell Box Squat - Barbell Walking Lunge",
-      "filename": "Barbell_Box_Squat_-_Barbell_Walking_Lunge.webp",
+      "filename": "Barbell_Box_Squat_-_Barbell_Walking_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 353.53,
       "equipment": "Barbell",
@@ -1971,7 +1971,7 @@
     {
       "id": 130,
       "name": "Barbell Box Squat - Single Leg Push Off",
-      "filename": "Barbell_Box_Squat_-_Single_Leg_Push_Off.webp",
+      "filename": "Barbell_Box_Squat_-_Single_Leg_Push_Off.gif",
       "file_type": ".gif",
       "file_size_kb": 197.46,
       "equipment": "Barbell",
@@ -1987,7 +1987,7 @@
     {
       "id": 131,
       "name": "Barbell Box Squat - Trap Bar Farmers Carry",
-      "filename": "Barbell_Box_Squat_-_Trap_Bar_Farmers_Carry.webp",
+      "filename": "Barbell_Box_Squat_-_Trap_Bar_Farmers_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 260.99,
       "equipment": "Barbell",
@@ -2019,7 +2019,7 @@
     {
       "id": 133,
       "name": "Barbell Clean Deadlift",
-      "filename": "Barbell_Clean_Deadlift.webp",
+      "filename": "Barbell_Clean_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 283.76,
       "equipment": "Barbell",
@@ -2051,7 +2051,7 @@
     {
       "id": 136,
       "name": "Barbell Clean Pull",
-      "filename": "Barbell_Clean_Pull.webp",
+      "filename": "Barbell_Clean_Pull.gif",
       "file_type": ".gif",
       "file_size_kb": 262.66,
       "equipment": "Barbell",
@@ -2083,7 +2083,7 @@
     {
       "id": 139,
       "name": "Barbell Clean And Jerk - Strongman Tire Flip",
-      "filename": "Barbell_Clean_and_Jerk_-_Strongman_Tire_Flip.webp",
+      "filename": "Barbell_Clean_and_Jerk_-_Strongman_Tire_Flip.gif",
       "file_type": ".gif",
       "file_size_kb": 388.64,
       "equipment": "Barbell",
@@ -2227,7 +2227,7 @@
     {
       "id": 148,
       "name": "Barbell Drag Curl - Cable Drag Curl",
-      "filename": "Barbell_Drag_Curl_-_Cable_Drag_Curl.webp",
+      "filename": "Barbell_Drag_Curl_-_Cable_Drag_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 285.66,
       "equipment": "Barbell",
@@ -2387,7 +2387,7 @@
     {
       "id": 158,
       "name": "Barbell Full Clean - Cluster",
-      "filename": "Barbell_Full_Clean_-_Cluster.webp",
+      "filename": "Barbell_Full_Clean_-_Cluster.gif",
       "file_type": ".gif",
       "file_size_kb": 515.37,
       "equipment": "Barbell",
@@ -2419,7 +2419,7 @@
     {
       "id": 160,
       "name": "Barbell Full Squat - Single Leg Hip Thrusts",
-      "filename": "Barbell_Full_Squat_-_Single_Leg_Hip_Thrusts.webp",
+      "filename": "Barbell_Full_Squat_-_Single_Leg_Hip_Thrusts.gif",
       "file_type": ".gif",
       "file_size_kb": 181.85,
       "equipment": "Barbell",
@@ -2435,7 +2435,7 @@
     {
       "id": 161,
       "name": "Barbell Glute Bridge",
-      "filename": "Barbell_Glute_Bridge.webp",
+      "filename": "Barbell_Glute_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 304.49,
       "equipment": "Barbell",
@@ -2499,7 +2499,7 @@
     {
       "id": 165,
       "name": "Barbell Hang Clean",
-      "filename": "Barbell_Hang_Clean.webp",
+      "filename": "Barbell_Hang_Clean.gif",
       "file_type": ".gif",
       "file_size_kb": 502.03,
       "equipment": "Barbell",
@@ -2531,7 +2531,7 @@
     {
       "id": 167,
       "name": "Barbell Hang Snatch",
-      "filename": "Barbell_Hang_Snatch.webp",
+      "filename": "Barbell_Hang_Snatch.gif",
       "file_type": ".gif",
       "file_size_kb": 328.97,
       "equipment": "Barbell",
@@ -2547,7 +2547,7 @@
     {
       "id": 168,
       "name": "Barbell High Bar Squat",
-      "filename": "Barbell_High_Bar_Squat.webp",
+      "filename": "Barbell_High_Bar_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 300.51,
       "equipment": "Barbell",
@@ -2707,7 +2707,7 @@
     {
       "id": 178,
       "name": "Barbell Lateral Lunge",
-      "filename": "Barbell_Lateral_Lunge.webp",
+      "filename": "Barbell_Lateral_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 302.83,
       "equipment": "Barbell",
@@ -2723,7 +2723,7 @@
     {
       "id": 179,
       "name": "Barbell Low Bar Squat",
-      "filename": "Barbell_Low_Bar_Squat.webp",
+      "filename": "Barbell_Low_Bar_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 292.0,
       "equipment": "Barbell",
@@ -2803,7 +2803,7 @@
     {
       "id": 185,
       "name": "Barbell Muscle Snatch",
-      "filename": "Barbell_Muscle_Snatch.webp",
+      "filename": "Barbell_Muscle_Snatch.gif",
       "file_type": ".gif",
       "file_size_kb": 333.04,
       "equipment": "Barbell",
@@ -2835,7 +2835,7 @@
     {
       "id": 188,
       "name": "Barbell Olympic Squat",
-      "filename": "Barbell_Olympic_Squat.webp",
+      "filename": "Barbell_Olympic_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 280.18,
       "equipment": "Barbell",
@@ -2899,7 +2899,7 @@
     {
       "id": 192,
       "name": "Barbell Overhead Carry",
-      "filename": "Barbell_Overhead_Carry.webp",
+      "filename": "Barbell_Overhead_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 216.29,
       "equipment": "Barbell",
@@ -2931,7 +2931,7 @@
     {
       "id": 194,
       "name": "Barbell Overhead Shrug",
-      "filename": "Barbell_Overhead_Shrug.webp",
+      "filename": "Barbell_Overhead_Shrug.gif",
       "file_type": ".gif",
       "file_size_kb": 238.67,
       "equipment": "Barbell",
@@ -2963,7 +2963,7 @@
     {
       "id": 196,
       "name": "Barbell Palms Down Wrist Curl Over A Bench",
-      "filename": "Barbell_Palms_Down_Wrist_Curl_Over_a_Bench.webp",
+      "filename": "Barbell_Palms_Down_Wrist_Curl_Over_a_Bench.gif",
       "file_type": ".gif",
       "file_size_kb": 306.58,
       "equipment": "Barbell",
@@ -3027,7 +3027,7 @@
     {
       "id": 201,
       "name": "Barbell Power Jerk",
-      "filename": "Barbell_Power_Jerk.webp",
+      "filename": "Barbell_Power_Jerk.gif",
       "file_type": ".gif",
       "file_size_kb": 350.57,
       "equipment": "Barbell",
@@ -3059,7 +3059,7 @@
     {
       "id": 204,
       "name": "Barbell Power Snatch",
-      "filename": "Barbell_Power_Snatch.webp",
+      "filename": "Barbell_Power_Snatch.gif",
       "file_type": ".gif",
       "file_size_kb": 343.0,
       "equipment": "Barbell",
@@ -3155,7 +3155,7 @@
     {
       "id": 210,
       "name": "Barbell Quarter Squat",
-      "filename": "Barbell_Quarter_Squat.webp",
+      "filename": "Barbell_Quarter_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 285.93,
       "equipment": "Barbell",
@@ -3299,7 +3299,7 @@
     {
       "id": 219,
       "name": "Barbell Reverse Grip Skullcrusher",
-      "filename": "Barbell_Reverse_Grip_Skullcrusher.webp",
+      "filename": "Barbell_Reverse_Grip_Skullcrusher.gif",
       "file_type": ".gif",
       "file_size_kb": 259.56,
       "equipment": "Barbell",
@@ -3395,7 +3395,7 @@
     {
       "id": 225,
       "name": "Barbell Romanian Deadlift From Deficit",
-      "filename": "Barbell_Romanian_Deadlift_From_Deficit.webp",
+      "filename": "Barbell_Romanian_Deadlift_From_Deficit.gif",
       "file_type": ".gif",
       "file_size_kb": 268.9,
       "equipment": "Barbell",
@@ -3555,7 +3555,7 @@
     {
       "id": 235,
       "name": "Barbell Single Leg Deadlift",
-      "filename": "Barbell_Single_Leg_Deadlift.webp",
+      "filename": "Barbell_Single_Leg_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 301.7,
       "equipment": "Barbell",
@@ -3619,7 +3619,7 @@
     {
       "id": 239,
       "name": "Barbell Snatch",
-      "filename": "Barbell_Snatch.webp",
+      "filename": "Barbell_Snatch.gif",
       "file_type": ".gif",
       "file_size_kb": 348.82,
       "equipment": "Barbell",
@@ -3635,7 +3635,7 @@
     {
       "id": 240,
       "name": "Barbell Snatch Balance",
-      "filename": "Barbell_Snatch_Balance.webp",
+      "filename": "Barbell_Snatch_Balance.gif",
       "file_type": ".gif",
       "file_size_kb": 352.05,
       "equipment": "Barbell",
@@ -3651,7 +3651,7 @@
     {
       "id": 241,
       "name": "Barbell Snatch Deadlift",
-      "filename": "Barbell_Snatch_Deadlift.webp",
+      "filename": "Barbell_Snatch_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 287.63,
       "equipment": "Barbell",
@@ -3699,7 +3699,7 @@
     {
       "id": 245,
       "name": "Barbell Split Clean",
-      "filename": "Barbell_Split_Clean.webp",
+      "filename": "Barbell_Split_Clean.gif",
       "file_type": ".gif",
       "file_size_kb": 463.45,
       "equipment": "Barbell",
@@ -3715,7 +3715,7 @@
     {
       "id": 246,
       "name": "Barbell Split Jerk",
-      "filename": "Barbell_Split_Jerk.webp",
+      "filename": "Barbell_Split_Jerk.gif",
       "file_type": ".gif",
       "file_size_kb": 388.28,
       "equipment": "Barbell",
@@ -3731,7 +3731,7 @@
     {
       "id": 247,
       "name": "Barbell Split Jump",
-      "filename": "Barbell_Split_Jump.webp",
+      "filename": "Barbell_Split_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 353.53,
       "equipment": "Barbell",
@@ -3779,7 +3779,7 @@
     {
       "id": 250,
       "name": "Barbell Squat To Shoulder Press",
-      "filename": "Barbell_Squat_to_Shoulder_Press.webp",
+      "filename": "Barbell_Squat_to_Shoulder_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 261.85,
       "equipment": "Barbell",
@@ -3875,7 +3875,7 @@
     {
       "id": 256,
       "name": "Barbell Standing Wide-Grip Biceps Curl",
-      "filename": "Barbell_Standing_Wide-grip_Biceps_Curl.webp",
+      "filename": "Barbell_Standing_Wide-grip_Biceps_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 264.45,
       "equipment": "Barbell",
@@ -3907,7 +3907,7 @@
     {
       "id": 258,
       "name": "Barbell Stiff Legged Deadlift",
-      "filename": "Barbell_Stiff_Legged_Deadlift.webp",
+      "filename": "Barbell_Stiff_Legged_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 368.52,
       "equipment": "Barbell",
@@ -3939,7 +3939,7 @@
     {
       "id": 260,
       "name": "Barbell Suitcase Carry",
-      "filename": "Barbell_Suitcase_Carry.webp",
+      "filename": "Barbell_Suitcase_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 227.85,
       "equipment": "Barbell",
@@ -4035,7 +4035,7 @@
     {
       "id": 266,
       "name": "Barbell Walking Lunge",
-      "filename": "Barbell_Walking_Lunge.webp",
+      "filename": "Barbell_Walking_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 353.53,
       "equipment": "Barbell",
@@ -4115,7 +4115,7 @@
     {
       "id": 271,
       "name": "Barbell Zercher Carry",
-      "filename": "Barbell_Zercher_Carry.webp",
+      "filename": "Barbell_Zercher_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 268.13,
       "equipment": "Barbell",
@@ -4259,7 +4259,7 @@
     {
       "id": 280,
       "name": "Bent Arm Chest Stretch",
-      "filename": "Bent_Arm_Chest_Stretch.webp",
+      "filename": "Bent_Arm_Chest_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 75.94,
       "equipment": "Bodyweight",
@@ -4275,7 +4275,7 @@
     {
       "id": 281,
       "name": "Bent Arm Shoulder Stretch",
-      "filename": "Bent_Arm_Shoulder_Stretch.webp",
+      "filename": "Bent_Arm_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 57.03,
       "equipment": "Bodyweight",
@@ -4499,7 +4499,7 @@
     {
       "id": 295,
       "name": "Bodyweight Rear Lunge",
-      "filename": "Bodyweight_Rear_Lunge.webp",
+      "filename": "Bodyweight_Rear_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 506.03,
       "equipment": "Bodyweight",
@@ -4579,7 +4579,7 @@
     {
       "id": 300,
       "name": "Bodyweight Wall Squat",
-      "filename": "Bodyweight_Wall_Squat.webp",
+      "filename": "Bodyweight_Wall_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 214.09,
       "equipment": "Bodyweight",
@@ -4611,7 +4611,7 @@
     {
       "id": 303,
       "name": "Bow Yoga Pose",
-      "filename": "Bow_Yoga_Pose.webp",
+      "filename": "Bow_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 189.3,
       "equipment": "Bodyweight",
@@ -5075,7 +5075,7 @@
     {
       "id": 332,
       "name": "Cable Drag Curl",
-      "filename": "Cable_Drag_Curl.webp",
+      "filename": "Cable_Drag_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 285.66,
       "equipment": "Cable",
@@ -5299,7 +5299,7 @@
     {
       "id": 346,
       "name": "Cable Incline Fly - Plank Push-Up Row",
-      "filename": "Cable_Incline_Fly_-_Plank_Push-up_Row.webp",
+      "filename": "Cable_Incline_Fly_-_Plank_Push-up_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 875.09,
       "equipment": "Cable",
@@ -5667,7 +5667,7 @@
     {
       "id": 369,
       "name": "Cable One Arm Front Raise",
-      "filename": "Cable_One_Arm_Front_Raise.webp",
+      "filename": "Cable_One_Arm_Front_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 275.14,
       "equipment": "Cable",
@@ -5747,7 +5747,7 @@
     {
       "id": 374,
       "name": "Cable One Arm Tricep Pushdown",
-      "filename": "Cable_One_Arm_Tricep_Pushdown.webp",
+      "filename": "Cable_One_Arm_Tricep_Pushdown.gif",
       "file_type": ".gif",
       "file_size_kb": 285.4,
       "equipment": "Cable",
@@ -5763,7 +5763,7 @@
     {
       "id": 375,
       "name": "Cable Overhead Curl",
-      "filename": "Cable_Overhead_Curl.webp",
+      "filename": "Cable_Overhead_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 205.79,
       "equipment": "Cable",
@@ -6051,7 +6051,7 @@
     {
       "id": 394,
       "name": "Cable Rope High Pulley Overhead Tricep Extension",
-      "filename": "Cable_Rope_High_Pulley_Overhead_Tricep_Extension.webp",
+      "filename": "Cable_Rope_High_Pulley_Overhead_Tricep_Extension.gif",
       "file_type": ".gif",
       "file_size_kb": 214.74,
       "equipment": "Cable",
@@ -6211,7 +6211,7 @@
     {
       "id": 404,
       "name": "Cable Seated Twist",
-      "filename": "Cable_Seated_Twist.webp",
+      "filename": "Cable_Seated_Twist.gif",
       "file_type": ".gif",
       "file_size_kb": 227.1,
       "equipment": "Cable",
@@ -6467,7 +6467,7 @@
     {
       "id": 420,
       "name": "Cable Standing Hip Thrust",
-      "filename": "Cable_Standing_Hip_Thrust.webp",
+      "filename": "Cable_Standing_Hip_Thrust.gif",
       "file_type": ".gif",
       "file_size_kb": 269.49,
       "equipment": "Cable",
@@ -6499,7 +6499,7 @@
     {
       "id": 423,
       "name": "Cable Standing Leg Curl",
-      "filename": "Cable_Standing_Leg_Curl.webp",
+      "filename": "Cable_Standing_Leg_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 306.71,
       "equipment": "Cable",
@@ -6787,7 +6787,7 @@
     {
       "id": 441,
       "name": "Cable Wide Grip Lat Pulldown",
-      "filename": "Cable_Wide_Grip_Lat_Pulldown.webp",
+      "filename": "Cable_Wide_Grip_Lat_Pulldown.gif",
       "file_type": ".gif",
       "file_size_kb": 293.83,
       "equipment": "Cable",
@@ -6915,7 +6915,7 @@
     {
       "id": 450,
       "name": "Camel Pose Ustrasana",
-      "filename": "Camel_Pose_Ustrasana.webp",
+      "filename": "Camel_Pose_Ustrasana.gif",
       "file_type": ".gif",
       "file_size_kb": 418.11,
       "equipment": "Bodyweight",
@@ -7011,7 +7011,7 @@
     {
       "id": 456,
       "name": "Chair Leg Extended Stretch",
-      "filename": "Chair_Leg_Extended_Stretch.webp",
+      "filename": "Chair_Leg_Extended_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 262.74,
       "equipment": "Bodyweight",
@@ -7075,7 +7075,7 @@
     {
       "id": 460,
       "name": "Chest Lift With Rotation",
-      "filename": "Chest_Lift_With_Rotation.webp",
+      "filename": "Chest_Lift_With_Rotation.gif",
       "file_type": ".gif",
       "file_size_kb": 250.57,
       "equipment": "Bodyweight",
@@ -7283,7 +7283,7 @@
     {
       "id": 473,
       "name": "Cluster",
-      "filename": "Cluster.webp",
+      "filename": "Cluster.gif",
       "file_type": ".gif",
       "file_size_kb": 515.37,
       "equipment": "Bodyweight",
@@ -7363,7 +7363,7 @@
     {
       "id": 478,
       "name": "Cone Drill",
-      "filename": "Cone_Drill.webp",
+      "filename": "Cone_Drill.gif",
       "file_type": ".gif",
       "file_size_kb": 1189.64,
       "equipment": "Bodyweight",
@@ -7395,7 +7395,7 @@
     {
       "id": 480,
       "name": "Corpse Pose",
-      "filename": "Corpse_Pose.webp",
+      "filename": "Corpse_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 268.78,
       "equipment": "Bodyweight",
@@ -7411,7 +7411,7 @@
     {
       "id": 481,
       "name": "Cossack Squats",
-      "filename": "Cossack_Squats.webp",
+      "filename": "Cossack_Squats.gif",
       "file_type": ".gif",
       "file_size_kb": 503.81,
       "equipment": "Bodyweight",
@@ -7443,7 +7443,7 @@
     {
       "id": 483,
       "name": "Cow Stretch",
-      "filename": "Cow_Stretch.webp",
+      "filename": "Cow_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 62.97,
       "equipment": "Bodyweight",
@@ -7571,7 +7571,7 @@
     {
       "id": 491,
       "name": "Cross Over Shoulder Stretch",
-      "filename": "Cross_Over_Shoulder_Stretch.webp",
+      "filename": "Cross_Over_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 96.49,
       "equipment": "Bodyweight",
@@ -7603,7 +7603,7 @@
     {
       "id": 493,
       "name": "Crossover Reverse Lunge",
-      "filename": "Crossover_Reverse_Lunge.webp",
+      "filename": "Crossover_Reverse_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 334.48,
       "equipment": "Bodyweight",
@@ -7683,7 +7683,7 @@
     {
       "id": 498,
       "name": "Crunch With Medicine Ball - Hanging Leg Hip Raise",
-      "filename": "Crunch_With_Medicine_Ball_-_Hanging_Leg_Hip_Raise.webp",
+      "filename": "Crunch_With_Medicine_Ball_-_Hanging_Leg_Hip_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 194.14,
       "equipment": "Medicine Ball",
@@ -7731,7 +7731,7 @@
     {
       "id": 501,
       "name": "Cycle Cross Trainer",
-      "filename": "Cycle_Cross_Trainer.webp",
+      "filename": "Cycle_Cross_Trainer.gif",
       "file_type": ".gif",
       "file_size_kb": 286.14,
       "equipment": "Bodyweight",
@@ -7875,7 +7875,7 @@
     {
       "id": 510,
       "name": "Decline Twisting Sit Up",
-      "filename": "Decline_Twisting_Sit_Up.webp",
+      "filename": "Decline_Twisting_Sit_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 300.2,
       "equipment": "Bodyweight",
@@ -8035,7 +8035,7 @@
     {
       "id": 520,
       "name": "Dip Hold",
-      "filename": "Dip_Hold.webp",
+      "filename": "Dip_Hold.gif",
       "file_type": ".gif",
       "file_size_kb": 95.38,
       "equipment": "Bodyweight",
@@ -8147,7 +8147,7 @@
     {
       "id": 527,
       "name": "Double Kneeling Shin Stretch",
-      "filename": "Double_Kneeling_Shin_Stretch.webp",
+      "filename": "Double_Kneeling_Shin_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 89.51,
       "equipment": "Bodyweight",
@@ -8163,7 +8163,7 @@
     {
       "id": 528,
       "name": "Double Leg Butt Kick",
-      "filename": "Double_Leg_Butt_Kick.webp",
+      "filename": "Double_Leg_Butt_Kick.gif",
       "file_type": ".gif",
       "file_size_kb": 365.64,
       "equipment": "Bodyweight",
@@ -8179,7 +8179,7 @@
     {
       "id": 529,
       "name": "Double Leg Stretch",
-      "filename": "Double_Leg_Stretch.webp",
+      "filename": "Double_Leg_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 162.94,
       "equipment": "Bodyweight",
@@ -8355,7 +8355,7 @@
     {
       "id": 540,
       "name": "Dumbbell Alternating Floor Press",
-      "filename": "Dumbbell_Alternating_Floor_Press.webp",
+      "filename": "Dumbbell_Alternating_Floor_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 218.2,
       "equipment": "Dumbbell",
@@ -8387,7 +8387,7 @@
     {
       "id": 543,
       "name": "Dumbbell Arnold Press",
-      "filename": "Dumbbell_Arnold_Press.webp",
+      "filename": "Dumbbell_Arnold_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 226.2,
       "equipment": "Dumbbell",
@@ -8531,7 +8531,7 @@
     {
       "id": 552,
       "name": "Dumbbell Biceps Curl Reverse",
-      "filename": "Dumbbell_Biceps_Curl_Reverse.webp",
+      "filename": "Dumbbell_Biceps_Curl_Reverse.gif",
       "file_type": ".gif",
       "file_size_kb": 207.08,
       "equipment": "Dumbbell",
@@ -8547,7 +8547,7 @@
     {
       "id": 554,
       "name": "Dumbbell Biceps Curl Squat",
-      "filename": "Dumbbell_Biceps_Curl_Squat.webp",
+      "filename": "Dumbbell_Biceps_Curl_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 240.92,
       "equipment": "Dumbbell",
@@ -8563,7 +8563,7 @@
     {
       "id": 555,
       "name": "Dumbbell Bulgarian Split Squat",
-      "filename": "Dumbbell_Bulgarian_Split_Squat.webp",
+      "filename": "Dumbbell_Bulgarian_Split_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 246.06,
       "equipment": "Dumbbell",
@@ -8851,7 +8851,7 @@
     {
       "id": 573,
       "name": "Dumbbell Farmers Carry",
-      "filename": "Dumbbell_Farmers_Carry.webp",
+      "filename": "Dumbbell_Farmers_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 235.82,
       "equipment": "Dumbbell",
@@ -8979,7 +8979,7 @@
     {
       "id": 581,
       "name": "Dumbbell Front Squat",
-      "filename": "Dumbbell_Front_Squat.webp",
+      "filename": "Dumbbell_Front_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 247.87,
       "equipment": "Dumbbell",
@@ -9075,7 +9075,7 @@
     {
       "id": 587,
       "name": "Dumbbell Goblet Squat",
-      "filename": "Dumbbell_Goblet_Squat.webp",
+      "filename": "Dumbbell_Goblet_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 212.11,
       "equipment": "Dumbbell",
@@ -9203,7 +9203,7 @@
     {
       "id": 595,
       "name": "Dumbbell High Curl",
-      "filename": "Dumbbell_High_Curl.webp",
+      "filename": "Dumbbell_High_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 262.38,
       "equipment": "Dumbbell",
@@ -9427,7 +9427,7 @@
     {
       "id": 610,
       "name": "Dumbbell Incline Rear Fly",
-      "filename": "Dumbbell_Incline_Rear_Fly.webp",
+      "filename": "Dumbbell_Incline_Rear_Fly.gif",
       "file_type": ".gif",
       "file_size_kb": 276.5,
       "equipment": "Dumbbell",
@@ -9683,7 +9683,7 @@
     {
       "id": 626,
       "name": "Dumbbell Lateral Step Up",
-      "filename": "Dumbbell_Lateral_Step_Up.webp",
+      "filename": "Dumbbell_Lateral_Step_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 197.96,
       "equipment": "Dumbbell",
@@ -9971,7 +9971,7 @@
     {
       "id": 645,
       "name": "Dumbbell One Arm Bent Over Row",
-      "filename": "Dumbbell_One_Arm_Bent_Over_Row.webp",
+      "filename": "Dumbbell_One_Arm_Bent_Over_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 307.24,
       "equipment": "Dumbbell",
@@ -10019,7 +10019,7 @@
     {
       "id": 649,
       "name": "Dumbbell One Arm Seated Neutral Wrist Curl",
-      "filename": "Dumbbell_One_Arm_Seated_Neutral_Wrist_Curl.webp",
+      "filename": "Dumbbell_One_Arm_Seated_Neutral_Wrist_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 345.97,
       "equipment": "Dumbbell",
@@ -10115,7 +10115,7 @@
     {
       "id": 655,
       "name": "Dumbbell Overhead Carry",
-      "filename": "Dumbbell_Overhead_Carry.webp",
+      "filename": "Dumbbell_Overhead_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 229.81,
       "equipment": "Dumbbell",
@@ -10387,7 +10387,7 @@
     {
       "id": 672,
       "name": "Dumbbell Push Press",
-      "filename": "Dumbbell_Push_Press.webp",
+      "filename": "Dumbbell_Push_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 275.13,
       "equipment": "Dumbbell",
@@ -10419,7 +10419,7 @@
     {
       "id": 674,
       "name": "Dumbbell Rear Delt Fly",
-      "filename": "Dumbbell_Rear_Delt_Fly.webp",
+      "filename": "Dumbbell_Rear_Delt_Fly.gif",
       "file_type": ".gif",
       "file_size_kb": 317.05,
       "equipment": "Dumbbell",
@@ -10515,7 +10515,7 @@
     {
       "id": 680,
       "name": "Dumbbell Renegade Row",
-      "filename": "Dumbbell_Renegade_Row.webp",
+      "filename": "Dumbbell_Renegade_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 343.23,
       "equipment": "Dumbbell",
@@ -10579,7 +10579,7 @@
     {
       "id": 684,
       "name": "Dumbbell Reverse Grip Row",
-      "filename": "Dumbbell_Reverse_Grip_Row.webp",
+      "filename": "Dumbbell_Reverse_Grip_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 278.06,
       "equipment": "Dumbbell",
@@ -10611,7 +10611,7 @@
     {
       "id": 687,
       "name": "Dumbbell Reverse Spider Curl",
-      "filename": "Dumbbell_Reverse_Spider_Curl.webp",
+      "filename": "Dumbbell_Reverse_Spider_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 298.3,
       "equipment": "Dumbbell",
@@ -10659,7 +10659,7 @@
     {
       "id": 690,
       "name": "Dumbbell Romanian Deadlift",
-      "filename": "Dumbbell_Romanian_Deadlift.webp",
+      "filename": "Dumbbell_Romanian_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 233.39,
       "equipment": "Dumbbell",
@@ -10723,7 +10723,7 @@
     {
       "id": 694,
       "name": "Dumbbell Seated Bicep Curl",
-      "filename": "Dumbbell_Seated_Bicep_Curl.webp",
+      "filename": "Dumbbell_Seated_Bicep_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 327.96,
       "equipment": "Dumbbell",
@@ -10803,7 +10803,7 @@
     {
       "id": 699,
       "name": "Dumbbell Seated Hammer Curl",
-      "filename": "Dumbbell_Seated_Hammer_Curl.webp",
+      "filename": "Dumbbell_Seated_Hammer_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 314.71,
       "equipment": "Dumbbell",
@@ -10915,7 +10915,7 @@
     {
       "id": 706,
       "name": "Dumbbell Seated Triceps Extension",
-      "filename": "Dumbbell_Seated_Triceps_Extension.webp",
+      "filename": "Dumbbell_Seated_Triceps_Extension.gif",
       "file_type": ".gif",
       "file_size_kb": 187.5,
       "equipment": "Dumbbell",
@@ -11043,7 +11043,7 @@
     {
       "id": 714,
       "name": "Dumbbell Single Leg Deadlift",
-      "filename": "Dumbbell_Single_Leg_Deadlift.webp",
+      "filename": "Dumbbell_Single_Leg_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 286.7,
       "equipment": "Dumbbell",
@@ -11123,7 +11123,7 @@
     {
       "id": 719,
       "name": "Dumbbell Single Leg Step Up",
-      "filename": "Dumbbell_Single_Leg_Step_Up.webp",
+      "filename": "Dumbbell_Single_Leg_Step_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 305.53,
       "equipment": "Dumbbell",
@@ -11171,7 +11171,7 @@
     {
       "id": 722,
       "name": "Dumbbell Split Jump",
-      "filename": "Dumbbell_Split_Jump.webp",
+      "filename": "Dumbbell_Split_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 255.51,
       "equipment": "Dumbbell",
@@ -11187,7 +11187,7 @@
     {
       "id": 723,
       "name": "Dumbbell Split Squat",
-      "filename": "Dumbbell_Split_Squat.webp",
+      "filename": "Dumbbell_Split_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 266.5,
       "equipment": "Dumbbell",
@@ -11331,7 +11331,7 @@
     {
       "id": 732,
       "name": "Dumbbell Standing Lateral Raise",
-      "filename": "Dumbbell_Standing_Lateral_Raise.webp",
+      "filename": "Dumbbell_Standing_Lateral_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 226.54,
       "equipment": "Dumbbell",
@@ -11459,7 +11459,7 @@
     {
       "id": 740,
       "name": "Dumbbell Step Up Lunge",
-      "filename": "Dumbbell_Step_Up_Lunge.webp",
+      "filename": "Dumbbell_Step_Up_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 243.67,
       "equipment": "Dumbbell",
@@ -11539,7 +11539,7 @@
     {
       "id": 745,
       "name": "Dumbbell Suitcase Carry",
-      "filename": "Dumbbell_Suitcase_Carry.webp",
+      "filename": "Dumbbell_Suitcase_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 232.16,
       "equipment": "Dumbbell",
@@ -11651,7 +11651,7 @@
     {
       "id": 752,
       "name": "Dumbbell Thruster",
-      "filename": "Dumbbell_Thruster.webp",
+      "filename": "Dumbbell_Thruster.gif",
       "file_type": ".gif",
       "file_size_kb": 201.26,
       "equipment": "Dumbbell",
@@ -11683,7 +11683,7 @@
     {
       "id": 754,
       "name": "Dumbbell Twisting Bench Press",
-      "filename": "Dumbbell_Twisting_Bench_Press.webp",
+      "filename": "Dumbbell_Twisting_Bench_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 260.18,
       "equipment": "Dumbbell",
@@ -11795,7 +11795,7 @@
     {
       "id": 761,
       "name": "Dumbbell Walking Lunges",
-      "filename": "Dumbbell_Walking_Lunges.webp",
+      "filename": "Dumbbell_Walking_Lunges.gif",
       "file_type": ".gif",
       "file_size_kb": 413.73,
       "equipment": "Dumbbell",
@@ -11811,7 +11811,7 @@
     {
       "id": 762,
       "name": "Dumbbell Wall Squat",
-      "filename": "Dumbbell_Wall_Squat.webp",
+      "filename": "Dumbbell_Wall_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 223.04,
       "equipment": "Dumbbell",
@@ -11859,7 +11859,7 @@
     {
       "id": 765,
       "name": "Dumbbell Zottman Preacher Curl",
-      "filename": "Dumbbell_Zottman_Preacher_Curl.webp",
+      "filename": "Dumbbell_Zottman_Preacher_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 565.15,
       "equipment": "Dumbbell",
@@ -11875,7 +11875,7 @@
     {
       "id": 766,
       "name": "Dumbbells Sumo Squat",
-      "filename": "Dumbbells_Sumo_Squat.webp",
+      "filename": "Dumbbells_Sumo_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 225.6,
       "equipment": "Dumbbell",
@@ -11923,7 +11923,7 @@
     {
       "id": 769,
       "name": "Ez Bar Standing French Press",
-      "filename": "EZ_Bar_Standing_French_Press.webp",
+      "filename": "EZ_Bar_Standing_French_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 147.83,
       "equipment": "EZ Bar",
@@ -11955,7 +11955,7 @@
     {
       "id": 771,
       "name": "Eagle Pose Garudasana",
-      "filename": "Eagle_Pose_Garudasana.webp",
+      "filename": "Eagle_Pose_Garudasana.gif",
       "file_type": ".gif",
       "file_size_kb": 351.07,
       "equipment": "Bodyweight",
@@ -11987,7 +11987,7 @@
     {
       "id": 773,
       "name": "Elbow Flexor Stretch",
-      "filename": "Elbow_Flexor_Stretch.webp",
+      "filename": "Elbow_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 69.97,
       "equipment": "Bodyweight",
@@ -12003,7 +12003,7 @@
     {
       "id": 774,
       "name": "Elbow Out Rotator Stretch",
-      "filename": "Elbow_Out_Rotator_Stretch.webp",
+      "filename": "Elbow_Out_Rotator_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 58.54,
       "equipment": "Bodyweight",
@@ -12163,7 +12163,7 @@
     {
       "id": 784,
       "name": "Exercise Ball Dip",
-      "filename": "Exercise_Ball_Dip.webp",
+      "filename": "Exercise_Ball_Dip.gif",
       "file_type": ".gif",
       "file_size_kb": 317.79,
       "equipment": "Bodyweight",
@@ -12179,7 +12179,7 @@
     {
       "id": 786,
       "name": "Exercise Ball Hip Flexor Stretch",
-      "filename": "Exercise_Ball_Hip_Flexor_Stretch.webp",
+      "filename": "Exercise_Ball_Hip_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 422.71,
       "equipment": "Exercise Ball",
@@ -12227,7 +12227,7 @@
     {
       "id": 789,
       "name": "Exercise Ball One Legged Diagonal Kick Hamstring Curl",
-      "filename": "Exercise_Ball_One_Legged_Diagonal_Kick_Hamstring_Curl.webp",
+      "filename": "Exercise_Ball_One_Legged_Diagonal_Kick_Hamstring_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 250.83,
       "equipment": "Exercise Ball",
@@ -12243,7 +12243,7 @@
     {
       "id": 790,
       "name": "Exercise Ball Wall Squat",
-      "filename": "Exercise_Ball_Wall_Squat.webp",
+      "filename": "Exercise_Ball_Wall_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 246.23,
       "equipment": "Exercise Ball",
@@ -12275,7 +12275,7 @@
     {
       "id": 792,
       "name": "External Shoulder Rotation Stretch",
-      "filename": "External_Shoulder_Rotation_Stretch.webp",
+      "filename": "External_Shoulder_Rotation_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 63.19,
       "equipment": "Bodyweight",
@@ -12291,7 +12291,7 @@
     {
       "id": 793,
       "name": "Ez-Bar Close Grip Bench Press",
-      "filename": "Ez-bar_Close_Grip_Bench_Press.webp",
+      "filename": "Ez-bar_Close_Grip_Bench_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 288.9,
       "equipment": "EZ Bar",
@@ -12323,7 +12323,7 @@
     {
       "id": 795,
       "name": "Ez Bar Seated Close Grip Concentration Curl",
-      "filename": "Ez_Bar_Seated_Close_Grip_Concentration_Curl.webp",
+      "filename": "Ez_Bar_Seated_Close_Grip_Concentration_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 287.75,
       "equipment": "EZ Bar",
@@ -12387,7 +12387,7 @@
     {
       "id": 799,
       "name": "Farmers Walk",
-      "filename": "Farmers_Walk.webp",
+      "filename": "Farmers_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 378.66,
       "equipment": "Bodyweight",
@@ -12435,7 +12435,7 @@
     {
       "id": 802,
       "name": "Finger Extension Stretch",
-      "filename": "Finger_Extension_Stretch.webp",
+      "filename": "Finger_Extension_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 90.93,
       "equipment": "Bodyweight",
@@ -12451,7 +12451,7 @@
     {
       "id": 803,
       "name": "Finger Extensor Stretch",
-      "filename": "Finger_Extensor_Stretch.webp",
+      "filename": "Finger_Extensor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 72.69,
       "equipment": "Bodyweight",
@@ -12467,7 +12467,7 @@
     {
       "id": 804,
       "name": "Finger Flexor Stretch",
-      "filename": "Finger_Flexor_Stretch.webp",
+      "filename": "Finger_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 59.36,
       "equipment": "Bodyweight",
@@ -12499,7 +12499,7 @@
     {
       "id": 806,
       "name": "Finger Stretch",
-      "filename": "Finger_Stretch.webp",
+      "filename": "Finger_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 57.0,
       "equipment": "Bodyweight",
@@ -12531,7 +12531,7 @@
     {
       "id": 808,
       "name": "Fixed Bar Back Stretch",
-      "filename": "Fixed_Bar_Back_Stretch.webp",
+      "filename": "Fixed_Bar_Back_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 67.49,
       "equipment": "Bodyweight",
@@ -12547,7 +12547,7 @@
     {
       "id": 809,
       "name": "Floor Hyperextension",
-      "filename": "Floor_Hyperextension.webp",
+      "filename": "Floor_Hyperextension.gif",
       "file_type": ".gif",
       "file_size_kb": 281.78,
       "equipment": "Bodyweight",
@@ -12595,7 +12595,7 @@
     {
       "id": 812,
       "name": "Forearm Pronator Stretch",
-      "filename": "Forearm_Pronator_Stretch.webp",
+      "filename": "Forearm_Pronator_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 83.54,
       "equipment": "Bodyweight",
@@ -12611,7 +12611,7 @@
     {
       "id": 813,
       "name": "Forearm Wall Slide",
-      "filename": "Forearm_Wall_Slide.webp",
+      "filename": "Forearm_Wall_Slide.gif",
       "file_type": ".gif",
       "file_size_kb": 298.57,
       "equipment": "Bodyweight",
@@ -12627,7 +12627,7 @@
     {
       "id": 814,
       "name": "Forward Flexion Neck Stretch",
-      "filename": "Forward_Flexion_Neck_Stretch.webp",
+      "filename": "Forward_Flexion_Neck_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 59.33,
       "equipment": "Bodyweight",
@@ -12643,7 +12643,7 @@
     {
       "id": 815,
       "name": "Forward Hops",
-      "filename": "Forward_Hops.webp",
+      "filename": "Forward_Hops.gif",
       "file_type": ".gif",
       "file_size_kb": 326.86,
       "equipment": "Bodyweight",
@@ -12659,7 +12659,7 @@
     {
       "id": 816,
       "name": "Forward Jump",
-      "filename": "Forward_Jump.webp",
+      "filename": "Forward_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 246.43,
       "equipment": "Bodyweight",
@@ -12723,7 +12723,7 @@
     {
       "id": 820,
       "name": "Frog Crunch",
-      "filename": "Frog_Crunch.webp",
+      "filename": "Frog_Crunch.gif",
       "file_type": ".gif",
       "file_size_kb": 352.87,
       "equipment": "Bodyweight",
@@ -12739,7 +12739,7 @@
     {
       "id": 821,
       "name": "Frog Hip Thrust",
-      "filename": "Frog_Hip_Thrust.webp",
+      "filename": "Frog_Hip_Thrust.gif",
       "file_type": ".gif",
       "file_size_kb": 357.12,
       "equipment": "Bodyweight",
@@ -12787,7 +12787,7 @@
     {
       "id": 824,
       "name": "Frog Pose Mandukasana",
-      "filename": "Frog_Pose_Mandukasana.webp",
+      "filename": "Frog_Pose_Mandukasana.gif",
       "file_type": ".gif",
       "file_size_kb": 349.33,
       "equipment": "Bodyweight",
@@ -12931,7 +12931,7 @@
     {
       "id": 833,
       "name": "Front Plank With Arm Lift",
-      "filename": "Front_Plank_With_Arm_Lift.webp",
+      "filename": "Front_Plank_With_Arm_Lift.gif",
       "file_type": ".gif",
       "file_size_kb": 59.59,
       "equipment": "Bodyweight",
@@ -12995,7 +12995,7 @@
     {
       "id": 837,
       "name": "Full Lotus Yoga Pose",
-      "filename": "Full_Lotus_Yoga_Pose.webp",
+      "filename": "Full_Lotus_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 130.5,
       "equipment": "Bodyweight",
@@ -13075,7 +13075,7 @@
     {
       "id": 842,
       "name": "Garland Pose Malasana",
-      "filename": "Garland_Pose_Malasana.webp",
+      "filename": "Garland_Pose_Malasana.gif",
       "file_type": ".gif",
       "file_size_kb": 355.04,
       "equipment": "Bodyweight",
@@ -13315,7 +13315,7 @@
     {
       "id": 857,
       "name": "Hands Bike",
-      "filename": "Hands_Bike.webp",
+      "filename": "Hands_Bike.gif",
       "file_type": ".gif",
       "file_size_kb": 275.23,
       "equipment": "Bodyweight",
@@ -13347,7 +13347,7 @@
     {
       "id": 859,
       "name": "Handstand Hold On Wall",
-      "filename": "Handstand_Hold_on_Wall.webp",
+      "filename": "Handstand_Hold_on_Wall.gif",
       "file_type": ".gif",
       "file_size_kb": 168.34,
       "equipment": "Bodyweight",
@@ -13443,7 +13443,7 @@
     {
       "id": 865,
       "name": "Hanging Leg Hip Raise",
-      "filename": "Hanging_Leg_Hip_Raise.webp",
+      "filename": "Hanging_Leg_Hip_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 194.14,
       "equipment": "Bodyweight",
@@ -13875,7 +13875,7 @@
     {
       "id": 892,
       "name": "Hip External Rotator Stretch",
-      "filename": "Hip_External_Rotator_Stretch.webp",
+      "filename": "Hip_External_Rotator_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 69.76,
       "equipment": "Bodyweight",
@@ -13971,7 +13971,7 @@
     {
       "id": 898,
       "name": "Hip Thrusts",
-      "filename": "Hip_Thrusts.webp",
+      "filename": "Hip_Thrusts.gif",
       "file_type": ".gif",
       "file_size_kb": 313.1,
       "equipment": "Bodyweight",
@@ -14003,7 +14003,7 @@
     {
       "id": 900,
       "name": "Hollow Rock",
-      "filename": "Hollow_Rock.webp",
+      "filename": "Hollow_Rock.gif",
       "file_type": ".gif",
       "file_size_kb": 152.58,
       "equipment": "Bodyweight",
@@ -14099,7 +14099,7 @@
     {
       "id": 906,
       "name": "Inchworm",
-      "filename": "Inchworm.webp",
+      "filename": "Inchworm.gif",
       "file_type": ".gif",
       "file_size_kb": 446.55,
       "equipment": "Bodyweight",
@@ -14131,7 +14131,7 @@
     {
       "id": 908,
       "name": "Incline Push Press",
-      "filename": "Incline_Push_Press.webp",
+      "filename": "Incline_Push_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 237.98,
       "equipment": "Bodyweight",
@@ -14227,7 +14227,7 @@
     {
       "id": 914,
       "name": "Internal Shoulder Rotation Stretch",
-      "filename": "Internal_Shoulder_Rotation_Stretch.webp",
+      "filename": "Internal_Shoulder_Rotation_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 66.18,
       "equipment": "Bodyweight",
@@ -14259,7 +14259,7 @@
     {
       "id": 916,
       "name": "Inverted Row Bent Knees",
-      "filename": "Inverted_Row_Bent_Knees.webp",
+      "filename": "Inverted_Row_Bent_Knees.gif",
       "file_type": ".gif",
       "file_size_kb": 253.67,
       "equipment": "Bodyweight",
@@ -14307,7 +14307,7 @@
     {
       "id": 919,
       "name": "Inverted Row On Bench",
-      "filename": "Inverted_Row_on_Bench.webp",
+      "filename": "Inverted_Row_on_Bench.gif",
       "file_type": ".gif",
       "file_size_kb": 215.42,
       "equipment": "Bodyweight",
@@ -14451,7 +14451,7 @@
     {
       "id": 928,
       "name": "Jack Plank",
-      "filename": "Jack_Plank.webp",
+      "filename": "Jack_Plank.gif",
       "file_type": ".gif",
       "file_size_kb": 181.46,
       "equipment": "Bodyweight",
@@ -14787,7 +14787,7 @@
     {
       "id": 949,
       "name": "Kettlebell Angled Press",
-      "filename": "Kettlebell_Angled_Press.webp",
+      "filename": "Kettlebell_Angled_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 302.1,
       "equipment": "Kettlebell",
@@ -14995,7 +14995,7 @@
     {
       "id": 962,
       "name": "Kettlebell Dead Clean",
-      "filename": "Kettlebell_Dead_Clean.webp",
+      "filename": "Kettlebell_Dead_Clean.gif",
       "file_type": ".gif",
       "file_size_kb": 232.01,
       "equipment": "Kettlebell",
@@ -15219,7 +15219,7 @@
     {
       "id": 977,
       "name": "Kettlebell Goblet Carry",
-      "filename": "Kettlebell_Goblet_Carry.webp",
+      "filename": "Kettlebell_Goblet_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 258.05,
       "equipment": "Kettlebell",
@@ -15491,7 +15491,7 @@
     {
       "id": 994,
       "name": "Kettlebell One Arm Swing",
-      "filename": "Kettlebell_One_Arm_Swing.webp",
+      "filename": "Kettlebell_One_Arm_Swing.gif",
       "file_type": ".gif",
       "file_size_kb": 208.21,
       "equipment": "Kettlebell",
@@ -15507,7 +15507,7 @@
     {
       "id": 995,
       "name": "Kettlebell One Legged Deadlift",
-      "filename": "Kettlebell_One_Legged_Deadlift.webp",
+      "filename": "Kettlebell_One_Legged_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 268.65,
       "equipment": "Kettlebell",
@@ -15715,7 +15715,7 @@
     {
       "id": 1008,
       "name": "Kettlebell Side Lunge - One Leg Squat",
-      "filename": "Kettlebell_Side_Lunge_-_One_Leg_Squat.webp",
+      "filename": "Kettlebell_Side_Lunge_-_One_Leg_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 248.63,
       "equipment": "Kettlebell",
@@ -16227,7 +16227,7 @@
     {
       "id": 1040,
       "name": "Knee Tuck Jump",
-      "filename": "Knee_Tuck_Jump.webp",
+      "filename": "Knee_Tuck_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 372.08,
       "equipment": "Bodyweight",
@@ -16275,7 +16275,7 @@
     {
       "id": 1043,
       "name": "Kneeling Chest Stretch",
-      "filename": "Kneeling_Chest_Stretch.webp",
+      "filename": "Kneeling_Chest_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 55.47,
       "equipment": "Bodyweight",
@@ -16339,7 +16339,7 @@
     {
       "id": 1047,
       "name": "Kneeling Jump Squat",
-      "filename": "Kneeling_Jump_Squat.webp",
+      "filename": "Kneeling_Jump_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 346.76,
       "equipment": "Bodyweight",
@@ -16499,7 +16499,7 @@
     {
       "id": 1057,
       "name": "L-Sit",
-      "filename": "L-sit.webp",
+      "filename": "L-sit.gif",
       "file_type": ".gif",
       "file_size_kb": 69.23,
       "equipment": "Bodyweight",
@@ -16723,7 +16723,7 @@
     {
       "id": 1071,
       "name": "Landmine Squat And Press",
-      "filename": "Landmine_Squat_and_Press.webp",
+      "filename": "Landmine_Squat_and_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 270.64,
       "equipment": "Bodyweight",
@@ -16803,7 +16803,7 @@
     {
       "id": 1076,
       "name": "Lateral Side Plank",
-      "filename": "Lateral_Side_Plank.webp",
+      "filename": "Lateral_Side_Plank.gif",
       "file_type": ".gif",
       "file_size_kb": 225.94,
       "equipment": "Bodyweight",
@@ -16899,7 +16899,7 @@
     {
       "id": 1082,
       "name": "Leg Pull",
-      "filename": "Leg_Pull.webp",
+      "filename": "Leg_Pull.gif",
       "file_type": ".gif",
       "file_size_kb": 277.6,
       "equipment": "Bodyweight",
@@ -16915,7 +16915,7 @@
     {
       "id": 1083,
       "name": "Leg Raise Hip Lift",
-      "filename": "Leg_Raise_Hip_Lift.webp",
+      "filename": "Leg_Raise_Hip_Lift.gif",
       "file_type": ".gif",
       "file_size_kb": 239.52,
       "equipment": "Bodyweight",
@@ -16931,7 +16931,7 @@
     {
       "id": 1084,
       "name": "Leg Up Hamstring Stretch",
-      "filename": "Leg_Up_Hamstring_Stretch.webp",
+      "filename": "Leg_Up_Hamstring_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 181.43,
       "equipment": "Bodyweight",
@@ -16963,7 +16963,7 @@
     {
       "id": 1086,
       "name": "Lever Belt Squat",
-      "filename": "Lever_Belt_Squat.webp",
+      "filename": "Lever_Belt_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 391.21,
       "equipment": "Machine",
@@ -17075,7 +17075,7 @@
     {
       "id": 1094,
       "name": "Lever Incline Chest Press",
-      "filename": "Lever_Incline_Chest_Press.webp",
+      "filename": "Lever_Incline_Chest_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 347.97,
       "equipment": "Machine",
@@ -17139,7 +17139,7 @@
     {
       "id": 1098,
       "name": "Lever Lying Crunch",
-      "filename": "Lever_Lying_Crunch.webp",
+      "filename": "Lever_Lying_Crunch.gif",
       "file_type": ".gif",
       "file_size_kb": 347.9,
       "equipment": "Machine",
@@ -17203,7 +17203,7 @@
     {
       "id": 1102,
       "name": "Lever Seated Calf Press",
-      "filename": "Lever_Seated_Calf_Press.webp",
+      "filename": "Lever_Seated_Calf_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 341.12,
       "equipment": "Machine",
@@ -17219,7 +17219,7 @@
     {
       "id": 1103,
       "name": "Lever Seated Crunch",
-      "filename": "Lever_Seated_Crunch.webp",
+      "filename": "Lever_Seated_Crunch.gif",
       "file_type": ".gif",
       "file_size_kb": 396.88,
       "equipment": "Machine",
@@ -17299,7 +17299,7 @@
     {
       "id": 1108,
       "name": "Lever Seated Leg Press",
-      "filename": "Lever_Seated_Leg_Press.webp",
+      "filename": "Lever_Seated_Leg_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 336.51,
       "equipment": "Machine",
@@ -17347,7 +17347,7 @@
     {
       "id": 1111,
       "name": "Lever Seated Shoulder Press",
-      "filename": "Lever_Seated_Shoulder_Press.webp",
+      "filename": "Lever_Seated_Shoulder_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 325.19,
       "equipment": "Machine",
@@ -17475,7 +17475,7 @@
     {
       "id": 1120,
       "name": "Lotus Yoga Pose Padmasana",
-      "filename": "Lotus_Yoga_Pose_Padmasana.webp",
+      "filename": "Lotus_Yoga_Pose_Padmasana.gif",
       "file_type": ".gif",
       "file_size_kb": 567.08,
       "equipment": "Bodyweight",
@@ -17619,7 +17619,7 @@
     {
       "id": 1129,
       "name": "Lunge With Twist",
-      "filename": "Lunge_With_Twist.webp",
+      "filename": "Lunge_With_Twist.gif",
       "file_type": ".gif",
       "file_size_kb": 263.53,
       "equipment": "Bodyweight",
@@ -17635,7 +17635,7 @@
     {
       "id": 1130,
       "name": "Lying Abductor Stretch",
-      "filename": "Lying_Abductor_Stretch.webp",
+      "filename": "Lying_Abductor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 73.73,
       "equipment": "Bodyweight",
@@ -17731,7 +17731,7 @@
     {
       "id": 1136,
       "name": "Lying Elbow To Knee",
-      "filename": "Lying_Elbow_to_Knee.webp",
+      "filename": "Lying_Elbow_to_Knee.gif",
       "file_type": ".gif",
       "file_size_kb": 261.22,
       "equipment": "Bodyweight",
@@ -17795,7 +17795,7 @@
     {
       "id": 1140,
       "name": "Lying Hip Flexor",
-      "filename": "Lying_Hip_Flexor.webp",
+      "filename": "Lying_Hip_Flexor.gif",
       "file_type": ".gif",
       "file_size_kb": 198.97,
       "equipment": "Bodyweight",
@@ -17827,7 +17827,7 @@
     {
       "id": 1142,
       "name": "Lying Knee Roll Over Stretch",
-      "filename": "Lying_Knee_Roll_Over_Stretch.webp",
+      "filename": "Lying_Knee_Roll_Over_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 62.96,
       "equipment": "Bodyweight",
@@ -17843,7 +17843,7 @@
     {
       "id": 1143,
       "name": "Lying Knee To Chest Stretch",
-      "filename": "Lying_Knee_to_Chest_Stretch.webp",
+      "filename": "Lying_Knee_to_Chest_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 199.8,
       "equipment": "Bodyweight",
@@ -17987,7 +17987,7 @@
     {
       "id": 1152,
       "name": "Lying Single Leg Circle",
-      "filename": "Lying_Single_Leg_Circle.webp",
+      "filename": "Lying_Single_Leg_Circle.gif",
       "file_type": ".gif",
       "file_size_kb": 231.21,
       "equipment": "Bodyweight",
@@ -18163,7 +18163,7 @@
     {
       "id": 1163,
       "name": "Medicine Ball Rotational Throw",
-      "filename": "Medicine_Ball_Rotational_Throw.webp",
+      "filename": "Medicine_Ball_Rotational_Throw.gif",
       "file_type": ".gif",
       "file_size_kb": 213.25,
       "equipment": "Medicine Ball",
@@ -18179,7 +18179,7 @@
     {
       "id": 1164,
       "name": "Medicine Ball Single Leg Deadlift",
-      "filename": "Medicine_Ball_Single_Leg_Deadlift.webp",
+      "filename": "Medicine_Ball_Single_Leg_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 245.08,
       "equipment": "Medicine Ball",
@@ -18227,7 +18227,7 @@
     {
       "id": 1167,
       "name": "Medicine Ball Supine Chest Throw",
-      "filename": "Medicine_Ball_Supine_Chest_Throw.webp",
+      "filename": "Medicine_Ball_Supine_Chest_Throw.gif",
       "file_type": ".gif",
       "file_size_kb": 253.73,
       "equipment": "Medicine Ball",
@@ -18291,7 +18291,7 @@
     {
       "id": 1171,
       "name": "Modified Push Up To Forearms",
-      "filename": "Modified_Push_Up_to_Forearms.webp",
+      "filename": "Modified_Push_Up_to_Forearms.gif",
       "file_type": ".gif",
       "file_size_kb": 181.94,
       "equipment": "Bodyweight",
@@ -18435,7 +18435,7 @@
     {
       "id": 1180,
       "name": "Neck Extension Stretch",
-      "filename": "Neck_Extension_Stretch.webp",
+      "filename": "Neck_Extension_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 59.04,
       "equipment": "Bodyweight",
@@ -18451,7 +18451,7 @@
     {
       "id": 1181,
       "name": "Neck Extensor Stretch",
-      "filename": "Neck_Extensor_Stretch.webp",
+      "filename": "Neck_Extensor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 61.97,
       "equipment": "Bodyweight",
@@ -18467,7 +18467,7 @@
     {
       "id": 1182,
       "name": "Neck Flexor Stretch",
-      "filename": "Neck_Flexor_Stretch.webp",
+      "filename": "Neck_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 62.38,
       "equipment": "Bodyweight",
@@ -18595,7 +18595,7 @@
     {
       "id": 1190,
       "name": "One Arm Lat Stretch",
-      "filename": "One_Arm_Lat_Stretch.webp",
+      "filename": "One_Arm_Lat_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 57.67,
       "equipment": "Bodyweight",
@@ -18643,7 +18643,7 @@
     {
       "id": 1193,
       "name": "One Leg Quarter Squat",
-      "filename": "One_Leg_Quarter_Squat.webp",
+      "filename": "One_Leg_Quarter_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 261.82,
       "equipment": "Bodyweight",
@@ -18659,7 +18659,7 @@
     {
       "id": 1194,
       "name": "One Leg Squat",
-      "filename": "One_Leg_Squat.webp",
+      "filename": "One_Leg_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 248.63,
       "equipment": "Bodyweight",
@@ -18771,7 +18771,7 @@
     {
       "id": 1201,
       "name": "Pavanamuktasana Yoga Pose",
-      "filename": "Pavanamuktasana_Yoga_Pose.webp",
+      "filename": "Pavanamuktasana_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 654.32,
       "equipment": "Bodyweight",
@@ -18803,7 +18803,7 @@
     {
       "id": 1203,
       "name": "Pelvic Tilt Into Bridge",
-      "filename": "Pelvic_Tilt_Into_Bridge.webp",
+      "filename": "Pelvic_Tilt_Into_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 209.24,
       "equipment": "Bodyweight",
@@ -18835,7 +18835,7 @@
     {
       "id": 1205,
       "name": "Pigeon Hip Stretch",
-      "filename": "Pigeon_Hip_Stretch.webp",
+      "filename": "Pigeon_Hip_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 219.03,
       "equipment": "Bodyweight",
@@ -18867,7 +18867,7 @@
     {
       "id": 1207,
       "name": "Pike To Cobra",
-      "filename": "Pike_to_Cobra.webp",
+      "filename": "Pike_to_Cobra.gif",
       "file_type": ".gif",
       "file_size_kb": 657.21,
       "equipment": "Bodyweight",
@@ -18899,7 +18899,7 @@
     {
       "id": 1209,
       "name": "Pistol Squat To Box",
-      "filename": "Pistol_Squat_to_Box.webp",
+      "filename": "Pistol_Squat_to_Box.gif",
       "file_type": ".gif",
       "file_size_kb": 271.56,
       "equipment": "Bodyweight",
@@ -18915,7 +18915,7 @@
     {
       "id": 1211,
       "name": "Plank Arm Lifts",
-      "filename": "Plank_Arm_Lifts.webp",
+      "filename": "Plank_Arm_Lifts.gif",
       "file_type": ".gif",
       "file_size_kb": 123.2,
       "equipment": "Bodyweight",
@@ -18947,7 +18947,7 @@
     {
       "id": 1213,
       "name": "Plank Jump",
-      "filename": "Plank_Jump.webp",
+      "filename": "Plank_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 190.79,
       "equipment": "Bodyweight",
@@ -18979,7 +18979,7 @@
     {
       "id": 1215,
       "name": "Plank Push-Up Row",
-      "filename": "Plank_Push-up_Row.webp",
+      "filename": "Plank_Push-up_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 875.09,
       "equipment": "Bodyweight",
@@ -18995,7 +18995,7 @@
     {
       "id": 1216,
       "name": "Plank Walk-Up",
-      "filename": "Plank_Walk-up.webp",
+      "filename": "Plank_Walk-up.gif",
       "file_type": ".gif",
       "file_size_kb": 244.56,
       "equipment": "Bodyweight",
@@ -19027,7 +19027,7 @@
     {
       "id": 1218,
       "name": "Plantar Flexion Stretch",
-      "filename": "Plantar_Flexion_Stretch.webp",
+      "filename": "Plantar_Flexion_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 86.97,
       "equipment": "Bodyweight",
@@ -19075,7 +19075,7 @@
     {
       "id": 1221,
       "name": "Plow Yoga Pose",
-      "filename": "Plow_Yoga_Pose.webp",
+      "filename": "Plow_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 142.45,
       "equipment": "Bodyweight",
@@ -19203,7 +19203,7 @@
     {
       "id": 1229,
       "name": "Power Sled Push",
-      "filename": "Power_Sled_Push.webp",
+      "filename": "Power_Sled_Push.gif",
       "file_type": ".gif",
       "file_size_kb": 156.07,
       "equipment": "Bodyweight",
@@ -19315,7 +19315,7 @@
     {
       "id": 1236,
       "name": "Prisoner Squat",
-      "filename": "Prisoner_Squat.webp",
+      "filename": "Prisoner_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 292.14,
       "equipment": "Bodyweight",
@@ -19347,7 +19347,7 @@
     {
       "id": 1239,
       "name": "Prone Single Arm Trap Raise",
-      "filename": "Prone_Single_Arm_Trap_Raise.webp",
+      "filename": "Prone_Single_Arm_Trap_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 282.07,
       "equipment": "Bodyweight",
@@ -19731,7 +19731,7 @@
     {
       "id": 1264,
       "name": "Quick Feet",
-      "filename": "Quick_Feet.webp",
+      "filename": "Quick_Feet.gif",
       "file_type": ".gif",
       "file_size_kb": 267.65,
       "equipment": "Bodyweight",
@@ -19747,7 +19747,7 @@
     {
       "id": 1265,
       "name": "Reaching Up Shoulder Stretch",
-      "filename": "Reaching_Up_Shoulder_Stretch.webp",
+      "filename": "Reaching_Up_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 63.58,
       "equipment": "Bodyweight",
@@ -19763,7 +19763,7 @@
     {
       "id": 1266,
       "name": "Reaching Upper Back Stretch",
-      "filename": "Reaching_Upper_Back_Stretch.webp",
+      "filename": "Reaching_Upper_Back_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 59.08,
       "equipment": "Bodyweight",
@@ -19827,7 +19827,7 @@
     {
       "id": 1270,
       "name": "Recumbent Hip External Rotator And Hip Extensor Stretch",
-      "filename": "Recumbent_Hip_External_Rotator_and_Hip_Extensor_Stretch.webp",
+      "filename": "Recumbent_Hip_External_Rotator_and_Hip_Extensor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 55.22,
       "equipment": "Bodyweight",
@@ -19891,7 +19891,7 @@
     {
       "id": 1274,
       "name": "Resistance Band Calf Raise",
-      "filename": "Resistance_Band_Calf_Raise.webp",
+      "filename": "Resistance_Band_Calf_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 259.96,
       "equipment": "Band",
@@ -19923,7 +19923,7 @@
     {
       "id": 1276,
       "name": "Resistance Band Duck Walk",
-      "filename": "Resistance_Band_Duck_Walk.webp",
+      "filename": "Resistance_Band_Duck_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 321.23,
       "equipment": "Band",
@@ -19939,7 +19939,7 @@
     {
       "id": 1277,
       "name": "Resistance Band External Rotation",
-      "filename": "Resistance_Band_External_Rotation.webp",
+      "filename": "Resistance_Band_External_Rotation.gif",
       "file_type": ".gif",
       "file_size_kb": 196.7,
       "equipment": "Band",
@@ -19955,7 +19955,7 @@
     {
       "id": 1278,
       "name": "Resistance Band Glute Bridge",
-      "filename": "Resistance_Band_Glute_Bridge.webp",
+      "filename": "Resistance_Band_Glute_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 245.13,
       "equipment": "Band",
@@ -19987,7 +19987,7 @@
     {
       "id": 1280,
       "name": "Resistance Band Hip Thrust",
-      "filename": "Resistance_Band_Hip_Thrust.webp",
+      "filename": "Resistance_Band_Hip_Thrust.gif",
       "file_type": ".gif",
       "file_size_kb": 263.84,
       "equipment": "Band",
@@ -20035,7 +20035,7 @@
     {
       "id": 1283,
       "name": "Resistance Band Lateral Walk",
-      "filename": "Resistance_Band_Lateral_Walk.webp",
+      "filename": "Resistance_Band_Lateral_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 435.07,
       "equipment": "Band",
@@ -20083,7 +20083,7 @@
     {
       "id": 1286,
       "name": "Resistance Band Leg Lift",
-      "filename": "Resistance_Band_Leg_Lift.webp",
+      "filename": "Resistance_Band_Leg_Lift.gif",
       "file_type": ".gif",
       "file_size_kb": 159.73,
       "equipment": "Band",
@@ -20099,7 +20099,7 @@
     {
       "id": 1287,
       "name": "Resistance Band Lunge",
-      "filename": "Resistance_Band_Lunge.webp",
+      "filename": "Resistance_Band_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 208.3,
       "equipment": "Band",
@@ -20243,7 +20243,7 @@
     {
       "id": 1296,
       "name": "Resistance Band Reverse Hyperextension",
-      "filename": "Resistance_Band_Reverse_Hyperextension.webp",
+      "filename": "Resistance_Band_Reverse_Hyperextension.gif",
       "file_type": ".gif",
       "file_size_kb": 239.76,
       "equipment": "Band",
@@ -20339,7 +20339,7 @@
     {
       "id": 1302,
       "name": "Resistance Band Side Plank",
-      "filename": "Resistance_Band_Side_Plank.webp",
+      "filename": "Resistance_Band_Side_Plank.gif",
       "file_type": ".gif",
       "file_size_kb": 59.48,
       "equipment": "Band",
@@ -20355,7 +20355,7 @@
     {
       "id": 1303,
       "name": "Resistance Band Side Walk",
-      "filename": "Resistance_Band_Side_Walk.webp",
+      "filename": "Resistance_Band_Side_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 474.64,
       "equipment": "Band",
@@ -20435,7 +20435,7 @@
     {
       "id": 1308,
       "name": "Resistance Band Walk",
-      "filename": "Resistance_Band_Walk.webp",
+      "filename": "Resistance_Band_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 361.31,
       "equipment": "Band",
@@ -20451,7 +20451,7 @@
     {
       "id": 1309,
       "name": "Reverse Chest Stretch",
-      "filename": "Reverse_Chest_Stretch.webp",
+      "filename": "Reverse_Chest_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 91.13,
       "equipment": "Bodyweight",
@@ -20563,7 +20563,7 @@
     {
       "id": 1316,
       "name": "Reverse Hyper On Flat Bench",
-      "filename": "Reverse_Hyper_on_Flat_Bench.webp",
+      "filename": "Reverse_Hyper_on_Flat_Bench.gif",
       "file_type": ".gif",
       "file_size_kb": 202.29,
       "equipment": "Bodyweight",
@@ -20659,7 +20659,7 @@
     {
       "id": 1322,
       "name": "Reverse Shoulder Stretch",
-      "filename": "Reverse_Shoulder_Stretch.webp",
+      "filename": "Reverse_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 64.29,
       "equipment": "Bodyweight",
@@ -20771,7 +20771,7 @@
     {
       "id": 1329,
       "name": "Ring Dips",
-      "filename": "Ring_Dips.webp",
+      "filename": "Ring_Dips.gif",
       "file_type": ".gif",
       "file_size_kb": 163.87,
       "equipment": "Bodyweight",
@@ -20835,7 +20835,7 @@
     {
       "id": 1333,
       "name": "Rocker With Open Legs",
-      "filename": "Rocker_With_Open_Legs.webp",
+      "filename": "Rocker_With_Open_Legs.gif",
       "file_type": ".gif",
       "file_size_kb": 313.02,
       "equipment": "Bodyweight",
@@ -20851,7 +20851,7 @@
     {
       "id": 1334,
       "name": "Rocket Jump",
-      "filename": "Rocket_Jump.webp",
+      "filename": "Rocket_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 158.92,
       "equipment": "Bodyweight",
@@ -20867,7 +20867,7 @@
     {
       "id": 1335,
       "name": "Rocking Ankle Stretch",
-      "filename": "Rocking_Ankle_Stretch.webp",
+      "filename": "Rocking_Ankle_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 174.66,
       "equipment": "Bodyweight",
@@ -20883,7 +20883,7 @@
     {
       "id": 1336,
       "name": "Rocking Frog Stretch",
-      "filename": "Rocking_Frog_Stretch.webp",
+      "filename": "Rocking_Frog_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 213.37,
       "equipment": "Bodyweight",
@@ -20899,7 +20899,7 @@
     {
       "id": 1337,
       "name": "Roll Back Stretch",
-      "filename": "Roll_Back_Stretch.webp",
+      "filename": "Roll_Back_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 197.31,
       "equipment": "Bodyweight",
@@ -20979,7 +20979,7 @@
     {
       "id": 1342,
       "name": "Rollover",
-      "filename": "Rollover.webp",
+      "filename": "Rollover.gif",
       "file_type": ".gif",
       "file_size_kb": 165.68,
       "equipment": "Bodyweight",
@@ -21027,7 +21027,7 @@
     {
       "id": 1345,
       "name": "Rotate Push Up",
-      "filename": "Rotate_Push_Up.webp",
+      "filename": "Rotate_Push_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 269.23,
       "equipment": "Bodyweight",
@@ -21043,7 +21043,7 @@
     {
       "id": 1347,
       "name": "Rotating Neck Stretch",
-      "filename": "Rotating_Neck_Stretch.webp",
+      "filename": "Rotating_Neck_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 230.14,
       "equipment": "Bodyweight",
@@ -21059,7 +21059,7 @@
     {
       "id": 1348,
       "name": "Rotating Stomach Stretch",
-      "filename": "Rotating_Stomach_Stretch.webp",
+      "filename": "Rotating_Stomach_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 54.94,
       "equipment": "Bodyweight",
@@ -21107,7 +21107,7 @@
     {
       "id": 1351,
       "name": "Rotator Cuff Stretch",
-      "filename": "Rotator_Cuff_Stretch.webp",
+      "filename": "Rotator_Cuff_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 53.4,
       "equipment": "Bodyweight",
@@ -21171,7 +21171,7 @@
     {
       "id": 1355,
       "name": "Run On Treadmill",
-      "filename": "Run_on_Treadmill.webp",
+      "filename": "Run_on_Treadmill.gif",
       "file_type": ".gif",
       "file_size_kb": 238.54,
       "equipment": "Bodyweight",
@@ -21363,7 +21363,7 @@
     {
       "id": 1367,
       "name": "Seal Push Up",
-      "filename": "Seal_Push_Up.webp",
+      "filename": "Seal_Push_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 185.1,
       "equipment": "Bodyweight",
@@ -21379,7 +21379,7 @@
     {
       "id": 1368,
       "name": "Seated Ankle Stretch",
-      "filename": "Seated_Ankle_Stretch.webp",
+      "filename": "Seated_Ankle_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 74.67,
       "equipment": "Bodyweight",
@@ -21395,7 +21395,7 @@
     {
       "id": 1369,
       "name": "Seated Ballerina",
-      "filename": "Seated_Ballerina.webp",
+      "filename": "Seated_Ballerina.gif",
       "file_type": ".gif",
       "file_size_kb": 385.89,
       "equipment": "Bodyweight",
@@ -21475,7 +21475,7 @@
     {
       "id": 1374,
       "name": "Seated Glute Stretch",
-      "filename": "Seated_Glute_Stretch.webp",
+      "filename": "Seated_Glute_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 381.54,
       "equipment": "Bodyweight",
@@ -21507,7 +21507,7 @@
     {
       "id": 1376,
       "name": "Seated Knee Flexor Stretch",
-      "filename": "Seated_Knee_Flexor_Stretch.webp",
+      "filename": "Seated_Knee_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 97.46,
       "equipment": "Bodyweight",
@@ -21571,7 +21571,7 @@
     {
       "id": 1380,
       "name": "Seated Piriformis Stretch",
-      "filename": "Seated_Piriformis_Stretch.webp",
+      "filename": "Seated_Piriformis_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 461.33,
       "equipment": "Bodyweight",
@@ -21603,7 +21603,7 @@
     {
       "id": 1382,
       "name": "Seated Quadriceps Stretch",
-      "filename": "Seated_Quadriceps_Stretch.webp",
+      "filename": "Seated_Quadriceps_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 76.65,
       "equipment": "Bodyweight",
@@ -21731,7 +21731,7 @@
     {
       "id": 1390,
       "name": "Shoulder Bridge",
-      "filename": "Shoulder_Bridge.webp",
+      "filename": "Shoulder_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 228.0,
       "equipment": "Bodyweight",
@@ -21763,7 +21763,7 @@
     {
       "id": 1392,
       "name": "Shoulder Stand Yoga Pose",
-      "filename": "Shoulder_Stand_Yoga_Pose.webp",
+      "filename": "Shoulder_Stand_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 98.38,
       "equipment": "Bodyweight",
@@ -21891,7 +21891,7 @@
     {
       "id": 1400,
       "name": "Side Bend",
-      "filename": "Side_Bend.webp",
+      "filename": "Side_Bend.gif",
       "file_type": ".gif",
       "file_size_kb": 184.69,
       "equipment": "Bodyweight",
@@ -21971,7 +21971,7 @@
     {
       "id": 1406,
       "name": "Side Kick",
-      "filename": "Side_Kick.webp",
+      "filename": "Side_Kick.gif",
       "file_type": ".gif",
       "file_size_kb": 607.48,
       "equipment": "Bodyweight",
@@ -21987,7 +21987,7 @@
     {
       "id": 1407,
       "name": "Side Kick Kneeling",
-      "filename": "Side_Kick_Kneeling.webp",
+      "filename": "Side_Kick_Kneeling.gif",
       "file_type": ".gif",
       "file_size_kb": 225.12,
       "equipment": "Bodyweight",
@@ -22003,7 +22003,7 @@
     {
       "id": 1408,
       "name": "Side Lat Stretch",
-      "filename": "Side_Lat_Stretch.webp",
+      "filename": "Side_Lat_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 45.99,
       "equipment": "Bodyweight",
@@ -22019,7 +22019,7 @@
     {
       "id": 1409,
       "name": "Side Lunge",
-      "filename": "Side_Lunge.webp",
+      "filename": "Side_Lunge.gif",
       "file_type": ".gif",
       "file_size_kb": 278.89,
       "equipment": "Bodyweight",
@@ -22035,7 +22035,7 @@
     {
       "id": 1410,
       "name": "Side Lunge Adductor Stretch",
-      "filename": "Side_Lunge_Adductor_Stretch.webp",
+      "filename": "Side_Lunge_Adductor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 75.08,
       "equipment": "Bodyweight",
@@ -22067,7 +22067,7 @@
     {
       "id": 1412,
       "name": "Side Lying Clam",
-      "filename": "Side_Lying_Clam.webp",
+      "filename": "Side_Lying_Clam.gif",
       "file_type": ".gif",
       "file_size_kb": 161.31,
       "equipment": "Bodyweight",
@@ -22179,7 +22179,7 @@
     {
       "id": 1419,
       "name": "Side Plank Hip Adduction",
-      "filename": "Side_Plank_Hip_Adduction.webp",
+      "filename": "Side_Plank_Hip_Adduction.gif",
       "file_type": ".gif",
       "file_size_kb": 215.32,
       "equipment": "Bodyweight",
@@ -22355,7 +22355,7 @@
     {
       "id": 1430,
       "name": "Side Twist",
-      "filename": "Side_Twist.webp",
+      "filename": "Side_Twist.gif",
       "file_type": ".gif",
       "file_size_kb": 171.4,
       "equipment": "Bodyweight",
@@ -22387,7 +22387,7 @@
     {
       "id": 1432,
       "name": "Side To Side Box Shuffle",
-      "filename": "Side_to_Side_Box_Shuffle.webp",
+      "filename": "Side_to_Side_Box_Shuffle.gif",
       "file_type": ".gif",
       "file_size_kb": 417.83,
       "equipment": "Bodyweight",
@@ -22499,7 +22499,7 @@
     {
       "id": 1440,
       "name": "Single Leg Butt Kick",
-      "filename": "Single_Leg_Butt_Kick.webp",
+      "filename": "Single_Leg_Butt_Kick.gif",
       "file_type": ".gif",
       "file_size_kb": 366.86,
       "equipment": "Bodyweight",
@@ -22547,7 +22547,7 @@
     {
       "id": 1443,
       "name": "Single Leg Hip Thrusts",
-      "filename": "Single_Leg_Hip_Thrusts.webp",
+      "filename": "Single_Leg_Hip_Thrusts.gif",
       "file_type": ".gif",
       "file_size_kb": 181.85,
       "equipment": "Bodyweight",
@@ -22579,7 +22579,7 @@
     {
       "id": 1445,
       "name": "Single Leg Push Off",
-      "filename": "Single_Leg_Push_Off.webp",
+      "filename": "Single_Leg_Push_Off.gif",
       "file_type": ".gif",
       "file_size_kb": 197.46,
       "equipment": "Bodyweight",
@@ -22595,7 +22595,7 @@
     {
       "id": 1446,
       "name": "Single Leg Squat With Support",
-      "filename": "Single_Leg_Squat_With_Support.webp",
+      "filename": "Single_Leg_Squat_With_Support.gif",
       "file_type": ".gif",
       "file_size_kb": 240.04,
       "equipment": "Bodyweight",
@@ -22643,7 +22643,7 @@
     {
       "id": 1450,
       "name": "Single Leg Stride Jump",
-      "filename": "Single_Leg_Stride_Jump.webp",
+      "filename": "Single_Leg_Stride_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 328.11,
       "equipment": "Bodyweight",
@@ -22691,7 +22691,7 @@
     {
       "id": 1453,
       "name": "Sissy Squat Bodyweight",
-      "filename": "Sissy_Squat_Bodyweight.webp",
+      "filename": "Sissy_Squat_Bodyweight.gif",
       "file_type": ".gif",
       "file_size_kb": 286.17,
       "equipment": "Bodyweight",
@@ -22707,7 +22707,7 @@
     {
       "id": 1454,
       "name": "Sit Squat",
-      "filename": "Sit_Squat.webp",
+      "filename": "Sit_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 237.91,
       "equipment": "Bodyweight",
@@ -22739,7 +22739,7 @@
     {
       "id": 1456,
       "name": "Sitting Wide Leg Adductor Stretch",
-      "filename": "Sitting_Wide_Leg_Adductor_Stretch.webp",
+      "filename": "Sitting_Wide_Leg_Adductor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 86.09,
       "equipment": "Bodyweight",
@@ -22803,7 +22803,7 @@
     {
       "id": 1460,
       "name": "Ski Ergometer",
-      "filename": "Ski_Ergometer.webp",
+      "filename": "Ski_Ergometer.gif",
       "file_type": ".gif",
       "file_size_kb": 368.8,
       "equipment": "Bodyweight",
@@ -22883,7 +22883,7 @@
     {
       "id": 1465,
       "name": "Sled 45 Leg Press",
-      "filename": "Sled_45_Leg_Press.webp",
+      "filename": "Sled_45_Leg_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 307.35,
       "equipment": "Bodyweight",
@@ -22915,7 +22915,7 @@
     {
       "id": 1467,
       "name": "Sledge Hammer",
-      "filename": "Sledge_Hammer.webp",
+      "filename": "Sledge_Hammer.gif",
       "file_type": ".gif",
       "file_size_kb": 294.65,
       "equipment": "Bodyweight",
@@ -22963,7 +22963,7 @@
     {
       "id": 1470,
       "name": "Smith Bent Over Row",
-      "filename": "Smith_Bent_Over_Row.webp",
+      "filename": "Smith_Bent_Over_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 223.19,
       "equipment": "Machine",
@@ -23059,7 +23059,7 @@
     {
       "id": 1476,
       "name": "Smith Front Squat",
-      "filename": "Smith_Front_Squat.webp",
+      "filename": "Smith_Front_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 231.1,
       "equipment": "Machine",
@@ -23091,7 +23091,7 @@
     {
       "id": 1479,
       "name": "Smith Hex Press",
-      "filename": "Smith_Hex_Press.webp",
+      "filename": "Smith_Hex_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 255.38,
       "equipment": "Machine",
@@ -23155,7 +23155,7 @@
     {
       "id": 1483,
       "name": "Smith Machine Bicep Curl",
-      "filename": "Smith_Machine_Bicep_Curl.webp",
+      "filename": "Smith_Machine_Bicep_Curl.gif",
       "file_type": ".gif",
       "file_size_kb": 274.09,
       "equipment": "Machine",
@@ -23171,7 +23171,7 @@
     {
       "id": 1484,
       "name": "Smith Machine Incline Tricep Extension",
-      "filename": "Smith_Machine_Incline_Tricep_Extension.webp",
+      "filename": "Smith_Machine_Incline_Tricep_Extension.gif",
       "file_type": ".gif",
       "file_size_kb": 244.41,
       "equipment": "Machine",
@@ -23203,7 +23203,7 @@
     {
       "id": 1486,
       "name": "Smith Rear Delt Row",
-      "filename": "Smith_Rear_Delt_Row.webp",
+      "filename": "Smith_Rear_Delt_Row.gif",
       "file_type": ".gif",
       "file_size_kb": 223.19,
       "equipment": "Machine",
@@ -23331,7 +23331,7 @@
     {
       "id": 1495,
       "name": "Smith Stiff Legged Deadlift",
-      "filename": "Smith_Stiff_Legged_Deadlift.webp",
+      "filename": "Smith_Stiff_Legged_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 356.5,
       "equipment": "Machine",
@@ -23523,7 +23523,7 @@
     {
       "id": 1508,
       "name": "Spine Twist",
-      "filename": "Spine_Twist.webp",
+      "filename": "Spine_Twist.gif",
       "file_type": ".gif",
       "file_size_kb": 272.8,
       "equipment": "Bodyweight",
@@ -23571,7 +23571,7 @@
     {
       "id": 1511,
       "name": "Split Squats",
-      "filename": "Split_Squats.webp",
+      "filename": "Split_Squats.gif",
       "file_type": ".gif",
       "file_size_kb": 250.73,
       "equipment": "Bodyweight",
@@ -23667,7 +23667,7 @@
     {
       "id": 1517,
       "name": "Squat Mobility",
-      "filename": "Squat_Mobility.webp",
+      "filename": "Squat_Mobility.gif",
       "file_type": ".gif",
       "file_size_kb": 264.15,
       "equipment": "Bodyweight",
@@ -23683,7 +23683,7 @@
     {
       "id": 1519,
       "name": "Squat Mobility Complex",
-      "filename": "Squat_Mobility_Complex.webp",
+      "filename": "Squat_Mobility_Complex.gif",
       "file_type": ".gif",
       "file_size_kb": 392.74,
       "equipment": "Bodyweight",
@@ -23699,7 +23699,7 @@
     {
       "id": 1520,
       "name": "Squat Side Kick",
-      "filename": "Squat_Side_Kick.webp",
+      "filename": "Squat_Side_Kick.gif",
       "file_type": ".gif",
       "file_size_kb": 243.9,
       "equipment": "Bodyweight",
@@ -23763,7 +23763,7 @@
     {
       "id": 1524,
       "name": "Squat On Bosu Ball",
-      "filename": "Squat_on_Bosu_Ball.webp",
+      "filename": "Squat_on_Bosu_Ball.gif",
       "file_type": ".gif",
       "file_size_kb": 229.11,
       "equipment": "Bodyweight",
@@ -23779,7 +23779,7 @@
     {
       "id": 1525,
       "name": "Squat To Overhead Reach",
-      "filename": "Squat_to_Overhead_Reach.webp",
+      "filename": "Squat_to_Overhead_Reach.gif",
       "file_type": ".gif",
       "file_size_kb": 153.42,
       "equipment": "Bodyweight",
@@ -23795,7 +23795,7 @@
     {
       "id": 1526,
       "name": "Squat To Overhead Reach With Twist",
-      "filename": "Squat_to_Overhead_Reach_With_Twist.webp",
+      "filename": "Squat_to_Overhead_Reach_With_Twist.gif",
       "file_type": ".gif",
       "file_size_kb": 150.23,
       "equipment": "Bodyweight",
@@ -23811,7 +23811,7 @@
     {
       "id": 1527,
       "name": "Stability Ball Rollout",
-      "filename": "Stability_Ball_Rollout.webp",
+      "filename": "Stability_Ball_Rollout.gif",
       "file_type": ".gif",
       "file_size_kb": 218.77,
       "equipment": "Exercise Ball",
@@ -23827,7 +23827,7 @@
     {
       "id": 1529,
       "name": "Stability Ball Single Leg Squat",
-      "filename": "Stability_Ball_Single_Leg_Squat.webp",
+      "filename": "Stability_Ball_Single_Leg_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 230.22,
       "equipment": "Exercise Ball",
@@ -23923,7 +23923,7 @@
     {
       "id": 1535,
       "name": "Standing Achilles Stretch",
-      "filename": "Standing_Achilles_Stretch.webp",
+      "filename": "Standing_Achilles_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 59.7,
       "equipment": "Bodyweight",
@@ -24035,7 +24035,7 @@
     {
       "id": 1542,
       "name": "Standing Forward Bend Uttanasana",
-      "filename": "Standing_Forward_Bend_Uttanasana.webp",
+      "filename": "Standing_Forward_Bend_Uttanasana.gif",
       "file_type": ".gif",
       "file_size_kb": 257.21,
       "equipment": "Bodyweight",
@@ -24083,7 +24083,7 @@
     {
       "id": 1545,
       "name": "Standing High Leg Bent Knee Hamstring Stretch",
-      "filename": "Standing_High_Leg_Bent_Knee_Hamstring_Stretch.webp",
+      "filename": "Standing_High_Leg_Bent_Knee_Hamstring_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 66.28,
       "equipment": "Bodyweight",
@@ -24115,7 +24115,7 @@
     {
       "id": 1547,
       "name": "Standing Hip Adduction Stretch",
-      "filename": "Standing_Hip_Adduction_Stretch.webp",
+      "filename": "Standing_Hip_Adduction_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 64.64,
       "equipment": "Bodyweight",
@@ -24147,7 +24147,7 @@
     {
       "id": 1549,
       "name": "Standing Hip Flexor Stretch",
-      "filename": "Standing_Hip_Flexor_Stretch.webp",
+      "filename": "Standing_Hip_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 62.16,
       "equipment": "Bodyweight",
@@ -24163,7 +24163,7 @@
     {
       "id": 1550,
       "name": "Standing Iliotibial Stretch",
-      "filename": "Standing_Iliotibial_Stretch.webp",
+      "filename": "Standing_Iliotibial_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 63.12,
       "equipment": "Bodyweight",
@@ -24179,7 +24179,7 @@
     {
       "id": 1551,
       "name": "Standing Knee To Chest Stretch",
-      "filename": "Standing_Knee_to_Chest_Stretch.webp",
+      "filename": "Standing_Knee_to_Chest_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 55.25,
       "equipment": "Bodyweight",
@@ -24195,7 +24195,7 @@
     {
       "id": 1552,
       "name": "Standing Lateral Side Stretch",
-      "filename": "Standing_Lateral_Side_Stretch.webp",
+      "filename": "Standing_Lateral_Side_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 73.48,
       "equipment": "Bodyweight",
@@ -24227,7 +24227,7 @@
     {
       "id": 1554,
       "name": "Standing Lean Back Stomach Stretch",
-      "filename": "Standing_Lean_Back_Stomach_Stretch.webp",
+      "filename": "Standing_Lean_Back_Stomach_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 52.51,
       "equipment": "Bodyweight",
@@ -24259,7 +24259,7 @@
     {
       "id": 1556,
       "name": "Standing Leg Cross Abductor Stretch",
-      "filename": "Standing_Leg_Cross_Abductor_Stretch.webp",
+      "filename": "Standing_Leg_Cross_Abductor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 73.79,
       "equipment": "Bodyweight",
@@ -24275,7 +24275,7 @@
     {
       "id": 1557,
       "name": "Standing Long Jump",
-      "filename": "Standing_Long_Jump.webp",
+      "filename": "Standing_Long_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 172.13,
       "equipment": "Bodyweight",
@@ -24291,7 +24291,7 @@
     {
       "id": 1558,
       "name": "Standing Outer Hip Stretch",
-      "filename": "Standing_Outer_Hip_Stretch.webp",
+      "filename": "Standing_Outer_Hip_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 89.02,
       "equipment": "Bodyweight",
@@ -24339,7 +24339,7 @@
     {
       "id": 1561,
       "name": "Standing Reverse Shoulder Stretch",
-      "filename": "Standing_Reverse_Shoulder_Stretch.webp",
+      "filename": "Standing_Reverse_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 60.05,
       "equipment": "Bodyweight",
@@ -24371,7 +24371,7 @@
     {
       "id": 1563,
       "name": "Standing Shin Stretch",
-      "filename": "Standing_Shin_Stretch.webp",
+      "filename": "Standing_Shin_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 51.02,
       "equipment": "Bodyweight",
@@ -24435,7 +24435,7 @@
     {
       "id": 1567,
       "name": "Standing Side Stretch",
-      "filename": "Standing_Side_Stretch.webp",
+      "filename": "Standing_Side_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 70.23,
       "equipment": "Bodyweight",
@@ -24483,7 +24483,7 @@
     {
       "id": 1570,
       "name": "Standing Toe Up Calf Stretch",
-      "filename": "Standing_Toe_Up_Calf_Stretch.webp",
+      "filename": "Standing_Toe_Up_Calf_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 63.78,
       "equipment": "Bodyweight",
@@ -24739,7 +24739,7 @@
     {
       "id": 1586,
       "name": "Stretching - Back Stretch",
-      "filename": "Stretching_-_Back_Stretch.webp",
+      "filename": "Stretching_-_Back_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 70.61,
       "equipment": "Bodyweight",
@@ -24755,7 +24755,7 @@
     {
       "id": 1587,
       "name": "Stretching - Backward Jump",
-      "filename": "Stretching_-_Backward_Jump.webp",
+      "filename": "Stretching_-_Backward_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 262.69,
       "equipment": "Bodyweight",
@@ -24771,7 +24771,7 @@
     {
       "id": 1588,
       "name": "Stretching - Barbell Snatch Balance",
-      "filename": "Stretching_-_Barbell_Snatch_Balance.webp",
+      "filename": "Stretching_-_Barbell_Snatch_Balance.gif",
       "file_type": ".gif",
       "file_size_kb": 352.05,
       "equipment": "Barbell",
@@ -24787,7 +24787,7 @@
     {
       "id": 1589,
       "name": "Stretching - Barbell Split Jump",
-      "filename": "Stretching_-_Barbell_Split_Jump.webp",
+      "filename": "Stretching_-_Barbell_Split_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 353.53,
       "equipment": "Barbell",
@@ -24803,7 +24803,7 @@
     {
       "id": 1590,
       "name": "Stretching - Camel Pose Ustrasana",
-      "filename": "Stretching_-_Camel_Pose_Ustrasana.webp",
+      "filename": "Stretching_-_Camel_Pose_Ustrasana.gif",
       "file_type": ".gif",
       "file_size_kb": 418.11,
       "equipment": "Bodyweight",
@@ -24819,7 +24819,7 @@
     {
       "id": 1591,
       "name": "Stretching - Chest Lift With Rotation",
-      "filename": "Stretching_-_Chest_Lift_With_Rotation.webp",
+      "filename": "Stretching_-_Chest_Lift_With_Rotation.gif",
       "file_type": ".gif",
       "file_size_kb": 250.57,
       "equipment": "Bodyweight",
@@ -24835,7 +24835,7 @@
     {
       "id": 1592,
       "name": "Stretching - Cone Drill",
-      "filename": "Stretching_-_Cone_Drill.webp",
+      "filename": "Stretching_-_Cone_Drill.gif",
       "file_type": ".gif",
       "file_size_kb": 1189.64,
       "equipment": "Bodyweight",
@@ -24851,7 +24851,7 @@
     {
       "id": 1593,
       "name": "Stretching - Cross Over Shoulder Stretch",
-      "filename": "Stretching_-_Cross_Over_Shoulder_Stretch.webp",
+      "filename": "Stretching_-_Cross_Over_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 96.49,
       "equipment": "Bodyweight",
@@ -24867,7 +24867,7 @@
     {
       "id": 1594,
       "name": "Stretching - Cycle Cross Trainer",
-      "filename": "Stretching_-_Cycle_Cross_Trainer.webp",
+      "filename": "Stretching_-_Cycle_Cross_Trainer.gif",
       "file_type": ".gif",
       "file_size_kb": 286.14,
       "equipment": "Bodyweight",
@@ -24883,7 +24883,7 @@
     {
       "id": 1595,
       "name": "Stretching - Double Kneeling Shin Stretch",
-      "filename": "Stretching_-_Double_Kneeling_Shin_Stretch.webp",
+      "filename": "Stretching_-_Double_Kneeling_Shin_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 89.51,
       "equipment": "Bodyweight",
@@ -24899,7 +24899,7 @@
     {
       "id": 1596,
       "name": "Stretching - Double Leg Butt Kick",
-      "filename": "Stretching_-_Double_Leg_Butt_Kick.webp",
+      "filename": "Stretching_-_Double_Leg_Butt_Kick.gif",
       "file_type": ".gif",
       "file_size_kb": 365.64,
       "equipment": "Bodyweight",
@@ -24915,7 +24915,7 @@
     {
       "id": 1597,
       "name": "Stretching - Dumbbell Split Jump",
-      "filename": "Stretching_-_Dumbbell_Split_Jump.webp",
+      "filename": "Stretching_-_Dumbbell_Split_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 255.51,
       "equipment": "Dumbbell",
@@ -24931,7 +24931,7 @@
     {
       "id": 1598,
       "name": "Stretching - Dumbbell Standing Lateral Raise",
-      "filename": "Stretching_-_Dumbbell_Standing_Lateral_Raise.webp",
+      "filename": "Stretching_-_Dumbbell_Standing_Lateral_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 226.54,
       "equipment": "Dumbbell",
@@ -24947,7 +24947,7 @@
     {
       "id": 1599,
       "name": "Stretching - Dumbbell Walking Lunges",
-      "filename": "Stretching_-_Dumbbell_Walking_Lunges.webp",
+      "filename": "Stretching_-_Dumbbell_Walking_Lunges.gif",
       "file_type": ".gif",
       "file_size_kb": 413.73,
       "equipment": "Dumbbell",
@@ -24963,7 +24963,7 @@
     {
       "id": 1600,
       "name": "Stretching - External Shoulder Rotation Stretch",
-      "filename": "Stretching_-_External_Shoulder_Rotation_Stretch.webp",
+      "filename": "Stretching_-_External_Shoulder_Rotation_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 63.19,
       "equipment": "Bodyweight",
@@ -24979,7 +24979,7 @@
     {
       "id": 1601,
       "name": "Stretching - Farmers Walk",
-      "filename": "Stretching_-_Farmers_Walk.webp",
+      "filename": "Stretching_-_Farmers_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 378.66,
       "equipment": "Bodyweight",
@@ -24995,7 +24995,7 @@
     {
       "id": 1602,
       "name": "Stretching - Forward Jump",
-      "filename": "Stretching_-_Forward_Jump.webp",
+      "filename": "Stretching_-_Forward_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 246.43,
       "equipment": "Bodyweight",
@@ -25011,7 +25011,7 @@
     {
       "id": 1603,
       "name": "Stretching - Frog Pose Mandukasana",
-      "filename": "Stretching_-_Frog_Pose_Mandukasana.webp",
+      "filename": "Stretching_-_Frog_Pose_Mandukasana.gif",
       "file_type": ".gif",
       "file_size_kb": 349.33,
       "equipment": "Bodyweight",
@@ -25027,7 +25027,7 @@
     {
       "id": 1604,
       "name": "Stretching - Hands Bike",
-      "filename": "Stretching_-_Hands_Bike.webp",
+      "filename": "Stretching_-_Hands_Bike.gif",
       "file_type": ".gif",
       "file_size_kb": 275.23,
       "equipment": "Bodyweight",
@@ -25043,7 +25043,7 @@
     {
       "id": 1605,
       "name": "Stretching - Hip External Rotator Stretch",
-      "filename": "Stretching_-_Hip_External_Rotator_Stretch.webp",
+      "filename": "Stretching_-_Hip_External_Rotator_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 69.76,
       "equipment": "Bodyweight",
@@ -25059,7 +25059,7 @@
     {
       "id": 1606,
       "name": "Stretching - Knee Tuck Jump",
-      "filename": "Stretching_-_Knee_Tuck_Jump.webp",
+      "filename": "Stretching_-_Knee_Tuck_Jump.gif",
       "file_type": ".gif",
       "file_size_kb": 372.08,
       "equipment": "Bodyweight",
@@ -25075,7 +25075,7 @@
     {
       "id": 1607,
       "name": "Stretching - Kneeling Jump Squat",
-      "filename": "Stretching_-_Kneeling_Jump_Squat.webp",
+      "filename": "Stretching_-_Kneeling_Jump_Squat.gif",
       "file_type": ".gif",
       "file_size_kb": 346.76,
       "equipment": "Bodyweight",
@@ -25091,7 +25091,7 @@
     {
       "id": 1608,
       "name": "Stretching - Leg Up Hamstring Stretch",
-      "filename": "Stretching_-_Leg_Up_Hamstring_Stretch.webp",
+      "filename": "Stretching_-_Leg_Up_Hamstring_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 181.43,
       "equipment": "Bodyweight",
@@ -25107,7 +25107,7 @@
     {
       "id": 1609,
       "name": "Stretching - Lying Knee Roll Over Stretch",
-      "filename": "Stretching_-_Lying_Knee_Roll_Over_Stretch.webp",
+      "filename": "Stretching_-_Lying_Knee_Roll_Over_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 62.96,
       "equipment": "Bodyweight",
@@ -25123,7 +25123,7 @@
     {
       "id": 1610,
       "name": "Stretching - Neck Extensor Stretch",
-      "filename": "Stretching_-_Neck_Extensor_Stretch.webp",
+      "filename": "Stretching_-_Neck_Extensor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 61.97,
       "equipment": "Bodyweight",
@@ -25139,7 +25139,7 @@
     {
       "id": 1611,
       "name": "Stretching - Pavanamuktasana Yoga Pose",
-      "filename": "Stretching_-_Pavanamuktasana_Yoga_Pose.webp",
+      "filename": "Stretching_-_Pavanamuktasana_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 654.32,
       "equipment": "Bodyweight",
@@ -25155,7 +25155,7 @@
     {
       "id": 1612,
       "name": "Stretching - Pelvic Tilt Into Bridge",
-      "filename": "Stretching_-_Pelvic_Tilt_Into_Bridge.webp",
+      "filename": "Stretching_-_Pelvic_Tilt_Into_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 209.24,
       "equipment": "Bodyweight",
@@ -25171,7 +25171,7 @@
     {
       "id": 1613,
       "name": "Stretching - Resistance Band Glute Bridge",
-      "filename": "Stretching_-_Resistance_Band_Glute_Bridge.webp",
+      "filename": "Stretching_-_Resistance_Band_Glute_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 245.13,
       "equipment": "Band",
@@ -25187,7 +25187,7 @@
     {
       "id": 1614,
       "name": "Stretching - Rocker With Open Legs",
-      "filename": "Stretching_-_Rocker_With_Open_Legs.webp",
+      "filename": "Stretching_-_Rocker_With_Open_Legs.gif",
       "file_type": ".gif",
       "file_size_kb": 313.02,
       "equipment": "Bodyweight",
@@ -25203,7 +25203,7 @@
     {
       "id": 1615,
       "name": "Stretching - Rocking Ankle Stretch",
-      "filename": "Stretching_-_Rocking_Ankle_Stretch.webp",
+      "filename": "Stretching_-_Rocking_Ankle_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 174.66,
       "equipment": "Bodyweight",
@@ -25219,7 +25219,7 @@
     {
       "id": 1616,
       "name": "Stretching - Roll Back Stretch",
-      "filename": "Stretching_-_Roll_Back_Stretch.webp",
+      "filename": "Stretching_-_Roll_Back_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 197.31,
       "equipment": "Bodyweight",
@@ -25235,7 +25235,7 @@
     {
       "id": 1617,
       "name": "Stretching - Seal Push Up",
-      "filename": "Stretching_-_Seal_Push_Up.webp",
+      "filename": "Stretching_-_Seal_Push_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 185.1,
       "equipment": "Bodyweight",
@@ -25251,7 +25251,7 @@
     {
       "id": 1618,
       "name": "Stretching - Shoulder Bridge",
-      "filename": "Stretching_-_Shoulder_Bridge.webp",
+      "filename": "Stretching_-_Shoulder_Bridge.gif",
       "file_type": ".gif",
       "file_size_kb": 228.0,
       "equipment": "Bodyweight",
@@ -25267,7 +25267,7 @@
     {
       "id": 1619,
       "name": "Stretching - Side Lat Stretch",
-      "filename": "Stretching_-_Side_Lat_Stretch.webp",
+      "filename": "Stretching_-_Side_Lat_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 45.99,
       "equipment": "Bodyweight",
@@ -25283,7 +25283,7 @@
     {
       "id": 1620,
       "name": "Stretching - Standing High Leg Bent Knee Hamstring Stretch",
-      "filename": "Stretching_-_Standing_High_Leg_Bent_Knee_Hamstring_Stretch.webp",
+      "filename": "Stretching_-_Standing_High_Leg_Bent_Knee_Hamstring_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 66.28,
       "equipment": "Bodyweight",
@@ -25299,7 +25299,7 @@
     {
       "id": 1621,
       "name": "Stretching - Standing Hip Adduction Stretch",
-      "filename": "Stretching_-_Standing_Hip_Adduction_Stretch.webp",
+      "filename": "Stretching_-_Standing_Hip_Adduction_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 64.64,
       "equipment": "Bodyweight",
@@ -25315,7 +25315,7 @@
     {
       "id": 1622,
       "name": "Stretching - Standing Lateral Side Stretch",
-      "filename": "Stretching_-_Standing_Lateral_Side_Stretch.webp",
+      "filename": "Stretching_-_Standing_Lateral_Side_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 73.48,
       "equipment": "Bodyweight",
@@ -25331,7 +25331,7 @@
     {
       "id": 1623,
       "name": "Stretching - Standing Reverse Shoulder Stretch",
-      "filename": "Stretching_-_Standing_Reverse_Shoulder_Stretch.webp",
+      "filename": "Stretching_-_Standing_Reverse_Shoulder_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 60.05,
       "equipment": "Bodyweight",
@@ -25347,7 +25347,7 @@
     {
       "id": 1624,
       "name": "Stretching - Thumb Stretch",
-      "filename": "Stretching_-_Thumb_Stretch.webp",
+      "filename": "Stretching_-_Thumb_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 82.13,
       "equipment": "Bodyweight",
@@ -25363,7 +25363,7 @@
     {
       "id": 1625,
       "name": "Stretching - Tire Flip",
-      "filename": "Stretching_-_Tire_Flip.webp",
+      "filename": "Stretching_-_Tire_Flip.gif",
       "file_type": ".gif",
       "file_size_kb": 381.85,
       "equipment": "Bodyweight",
@@ -25379,7 +25379,7 @@
     {
       "id": 1626,
       "name": "Stretching - Walking",
-      "filename": "Stretching_-_Walking.webp",
+      "filename": "Stretching_-_Walking.gif",
       "file_type": ".gif",
       "file_size_kb": 359.78,
       "equipment": "Bodyweight",
@@ -25395,7 +25395,7 @@
     {
       "id": 1627,
       "name": "Stretching - Wrist Extensor Stretch",
-      "filename": "Stretching_-_Wrist_Extensor_Stretch.webp",
+      "filename": "Stretching_-_Wrist_Extensor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 60.89,
       "equipment": "Bodyweight",
@@ -25411,7 +25411,7 @@
     {
       "id": 1628,
       "name": "Strongman Atlas Stones",
-      "filename": "Strongman_Atlas_Stones.webp",
+      "filename": "Strongman_Atlas_Stones.gif",
       "file_type": ".gif",
       "file_size_kb": 429.34,
       "equipment": "Bodyweight",
@@ -25443,7 +25443,7 @@
     {
       "id": 1630,
       "name": "Strongman Crucifix Hold",
-      "filename": "Strongman_Crucifix_Hold.webp",
+      "filename": "Strongman_Crucifix_Hold.gif",
       "file_type": ".gif",
       "file_size_kb": 271.12,
       "equipment": "Bodyweight",
@@ -25459,7 +25459,7 @@
     {
       "id": 1631,
       "name": "Strongman Deadlift",
-      "filename": "Strongman_Deadlift.webp",
+      "filename": "Strongman_Deadlift.gif",
       "file_type": ".gif",
       "file_size_kb": 270.96,
       "equipment": "Bodyweight",
@@ -25475,7 +25475,7 @@
     {
       "id": 1633,
       "name": "Strongman Duck Walk",
-      "filename": "Strongman_Duck_Walk.webp",
+      "filename": "Strongman_Duck_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 270.33,
       "equipment": "Bodyweight",
@@ -25491,7 +25491,7 @@
     {
       "id": 1634,
       "name": "Strongman Front Hold",
-      "filename": "Strongman_Front_Hold.webp",
+      "filename": "Strongman_Front_Hold.gif",
       "file_type": ".gif",
       "file_size_kb": 243.18,
       "equipment": "Bodyweight",
@@ -25507,7 +25507,7 @@
     {
       "id": 1635,
       "name": "Strongman Hercules Hold",
-      "filename": "Strongman_Hercules_Hold.webp",
+      "filename": "Strongman_Hercules_Hold.gif",
       "file_type": ".gif",
       "file_size_kb": 67.69,
       "equipment": "Bodyweight",
@@ -25539,7 +25539,7 @@
     {
       "id": 1637,
       "name": "Strongman Log Lift",
-      "filename": "Strongman_Log_Lift.webp",
+      "filename": "Strongman_Log_Lift.gif",
       "file_type": ".gif",
       "file_size_kb": 203.09,
       "equipment": "Bodyweight",
@@ -25555,7 +25555,7 @@
     {
       "id": 1638,
       "name": "Strongman Mas Wrestling",
-      "filename": "Strongman_Mas_Wrestling.webp",
+      "filename": "Strongman_Mas_Wrestling.gif",
       "file_type": ".gif",
       "file_size_kb": 143.33,
       "equipment": "Bodyweight",
@@ -25571,7 +25571,7 @@
     {
       "id": 1639,
       "name": "Strongman Power Stairs",
-      "filename": "Strongman_Power_Stairs.webp",
+      "filename": "Strongman_Power_Stairs.gif",
       "file_type": ".gif",
       "file_size_kb": 252.49,
       "equipment": "Bodyweight",
@@ -25587,7 +25587,7 @@
     {
       "id": 1640,
       "name": "Strongman Shield Carry",
-      "filename": "Strongman_Shield_Carry.webp",
+      "filename": "Strongman_Shield_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 240.85,
       "equipment": "Bodyweight",
@@ -25603,7 +25603,7 @@
     {
       "id": 1642,
       "name": "Strongman Timber Carry",
-      "filename": "Strongman_Timber_Carry.webp",
+      "filename": "Strongman_Timber_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 290.08,
       "equipment": "Bodyweight",
@@ -25619,7 +25619,7 @@
     {
       "id": 1643,
       "name": "Strongman Tire Flip",
-      "filename": "Strongman_Tire_Flip.webp",
+      "filename": "Strongman_Tire_Flip.gif",
       "file_type": ".gif",
       "file_size_kb": 388.64,
       "equipment": "Bodyweight",
@@ -25635,7 +25635,7 @@
     {
       "id": 1644,
       "name": "Strongman Truck Pull",
-      "filename": "Strongman_Truck_Pull.webp",
+      "filename": "Strongman_Truck_Pull.gif",
       "file_type": ".gif",
       "file_size_kb": 196.1,
       "equipment": "Bodyweight",
@@ -25651,7 +25651,7 @@
     {
       "id": 1645,
       "name": "Strongman Viking Press",
-      "filename": "Strongman_Viking_Press.webp",
+      "filename": "Strongman_Viking_Press.gif",
       "file_type": ".gif",
       "file_size_kb": 237.53,
       "equipment": "Bodyweight",
@@ -25667,7 +25667,7 @@
     {
       "id": 1646,
       "name": "Strongman Wheelbarrow",
-      "filename": "Strongman_Wheelbarrow.webp",
+      "filename": "Strongman_Wheelbarrow.gif",
       "file_type": ".gif",
       "file_size_kb": 326.53,
       "equipment": "Bodyweight",
@@ -25683,7 +25683,7 @@
     {
       "id": 1647,
       "name": "Strongman Yoke Walk",
-      "filename": "Strongman_Yoke_Walk.webp",
+      "filename": "Strongman_Yoke_Walk.gif",
       "file_type": ".gif",
       "file_size_kb": 298.88,
       "equipment": "Bodyweight",
@@ -25763,7 +25763,7 @@
     {
       "id": 1652,
       "name": "Sun Salutation",
-      "filename": "Sun_Salutation.webp",
+      "filename": "Sun_Salutation.gif",
       "file_type": ".gif",
       "file_size_kb": 785.74,
       "equipment": "Bodyweight",
@@ -25859,7 +25859,7 @@
     {
       "id": 1658,
       "name": "Supine Spinal Twist Yoga Pose",
-      "filename": "Supine_Spinal_Twist_Yoga_Pose.webp",
+      "filename": "Supine_Spinal_Twist_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 210.04,
       "equipment": "Bodyweight",
@@ -26035,7 +26035,7 @@
     {
       "id": 1669,
       "name": "Swimmer",
-      "filename": "Swimmer.webp",
+      "filename": "Swimmer.gif",
       "file_type": ".gif",
       "file_size_kb": 120.73,
       "equipment": "Bodyweight",
@@ -26147,7 +26147,7 @@
     {
       "id": 1676,
       "name": "Three Bench Dip",
-      "filename": "Three_Bench_Dip.webp",
+      "filename": "Three_Bench_Dip.gif",
       "file_type": ".gif",
       "file_size_kb": 198.02,
       "equipment": "Bodyweight",
@@ -26163,7 +26163,7 @@
     {
       "id": 1677,
       "name": "Thumb Stretch",
-      "filename": "Thumb_Stretch.webp",
+      "filename": "Thumb_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 82.13,
       "equipment": "Bodyweight",
@@ -26259,7 +26259,7 @@
     {
       "id": 1683,
       "name": "Tire Flip",
-      "filename": "Tire_Flip.webp",
+      "filename": "Tire_Flip.gif",
       "file_type": ".gif",
       "file_size_kb": 381.85,
       "equipment": "Bodyweight",
@@ -26323,7 +26323,7 @@
     {
       "id": 1687,
       "name": "Transverse Step Up",
-      "filename": "Transverse_Step_Up.webp",
+      "filename": "Transverse_Step_Up.gif",
       "file_type": ".gif",
       "file_size_kb": 309.66,
       "equipment": "Bodyweight",
@@ -26371,7 +26371,7 @@
     {
       "id": 1690,
       "name": "Trap Bar Farmers Carry",
-      "filename": "Trap_Bar_Farmers_Carry.webp",
+      "filename": "Trap_Bar_Farmers_Carry.gif",
       "file_type": ".gif",
       "file_size_kb": 260.99,
       "equipment": "Trap Bar",
@@ -26595,7 +26595,7 @@
     {
       "id": 1705,
       "name": "Twisted Leg Raise",
-      "filename": "Twisted_Leg_Raise.webp",
+      "filename": "Twisted_Leg_Raise.gif",
       "file_type": ".gif",
       "file_size_kb": 355.6,
       "equipment": "Bodyweight",
@@ -26723,7 +26723,7 @@
     {
       "id": 1714,
       "name": "Vinyasa",
-      "filename": "Vinyasa.webp",
+      "filename": "Vinyasa.gif",
       "file_type": ".gif",
       "file_size_kb": 304.45,
       "equipment": "Bodyweight",
@@ -26739,7 +26739,7 @@
     {
       "id": 1715,
       "name": "Walking",
-      "filename": "Walking.webp",
+      "filename": "Walking.gif",
       "file_type": ".gif",
       "file_size_kb": 359.78,
       "equipment": "Bodyweight",
@@ -26787,7 +26787,7 @@
     {
       "id": 1718,
       "name": "Walking On Treadmill",
-      "filename": "Walking_on_Treadmill.webp",
+      "filename": "Walking_on_Treadmill.gif",
       "file_type": ".gif",
       "file_size_kb": 451.53,
       "equipment": "Bodyweight",
@@ -26803,7 +26803,7 @@
     {
       "id": 1719,
       "name": "Wall Ball",
-      "filename": "Wall_Ball.webp",
+      "filename": "Wall_Ball.gif",
       "file_type": ".gif",
       "file_size_kb": 135.0,
       "equipment": "Bodyweight",
@@ -27011,7 +27011,7 @@
     {
       "id": 1732,
       "name": "Weighted Front Plank",
-      "filename": "Weighted_Front_Plank.webp",
+      "filename": "Weighted_Front_Plank.gif",
       "file_type": ".gif",
       "file_size_kb": 70.29,
       "equipment": "Bodyweight",
@@ -27059,7 +27059,7 @@
     {
       "id": 1735,
       "name": "Weighted Hip Thrusts",
-      "filename": "Weighted_Hip_Thrusts.webp",
+      "filename": "Weighted_Hip_Thrusts.gif",
       "file_type": ".gif",
       "file_size_kb": 220.82,
       "equipment": "Bodyweight",
@@ -27299,7 +27299,7 @@
     {
       "id": 1750,
       "name": "Weighted Tricep Dips",
-      "filename": "Weighted_Tricep_Dips.webp",
+      "filename": "Weighted_Tricep_Dips.gif",
       "file_type": ".gif",
       "file_size_kb": 236.49,
       "equipment": "Bodyweight",
@@ -27315,7 +27315,7 @@
     {
       "id": 1751,
       "name": "Wheel Pose Yoga Pose",
-      "filename": "Wheel_Pose_Yoga_Pose.webp",
+      "filename": "Wheel_Pose_Yoga_Pose.gif",
       "file_type": ".gif",
       "file_size_kb": 152.62,
       "equipment": "Bodyweight",
@@ -27507,7 +27507,7 @@
     {
       "id": 1763,
       "name": "Wrist Extensor Stretch",
-      "filename": "Wrist_Extensor_Stretch.webp",
+      "filename": "Wrist_Extensor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 60.89,
       "equipment": "Bodyweight",
@@ -27523,7 +27523,7 @@
     {
       "id": 1764,
       "name": "Wrist Flexor Stretch",
-      "filename": "Wrist_Flexor_Stretch.webp",
+      "filename": "Wrist_Flexor_Stretch.gif",
       "file_type": ".gif",
       "file_size_kb": 62.34,
       "equipment": "Bodyweight",
