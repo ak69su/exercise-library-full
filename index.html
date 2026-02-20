@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Library</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fafafa;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #000;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: #000;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #333;
+            transform: translateY(-1px);
+        }
+
+        .controls {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background: white;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #000;
+        }
+
+        .filters {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+            padding-bottom: 0.5rem;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            white-space: nowrap;
+        }
+
+        .filter-label {
+            font-size: 0.85rem;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid #e0e0e0;
+            background: white;
+            color: #666;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+
+        .filter-btn:hover {
+            border-color: #000;
+            color: #000;
+        }
+
+        .filter-btn.active {
+            background: #000;
+            border-color: #000;
+            color: white;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .exercise-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .exercise-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid #e0e0e0;
+        }
+
+        .exercise-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .exercise-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            background: #ffffff;
+            display: block;
+        }
+
+        .exercise-info {
+            padding: 1rem;
+        }
+
+        .exercise-name {
+            font-size: 0.95rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1a1a1a;
+        }
+
+        .exercise-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            border: 1px solid;
+        }
+
+        .tag.muscle {
+            background: #f0f0f0;
+            border-color: #e0e0e0;
+            color: #666;
+        }
+
+        .tag.difficulty-1 { background: #e8f5e9; border-color: #4caf50; color: #2e7d32; }
+        .tag.difficulty-2 { background: #fff3e0; border-color: #ff9800; color: #e65100; }
+        .tag.difficulty-3 { background: #fce4ec; border-color: #e91e63; color: #c2185b; }
+        .tag.difficulty-4 { background: #f3e5f5; border-color: #9c27b0; color: #6a1b9a; }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            max-width: 600px;
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            position: relative;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: #f5f5f5;
+            border: none;
+            color: #666;
+            font-size: 1.5rem;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-close:hover {
+            background: #e0e0e0;
+        }
+
+        .modal-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            background: white;
+        }
+
+        .modal-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .workout-builder {
+            max-width: 800px;
+        }
+
+        .workout-options {
+            display: grid;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .workout-option {
+            padding: 1.5rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .workout-option:hover {
+            border-color: #000;
+            background: #fafafa;
+        }
+
+        .workout-option h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .workout-option p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .workout-plan {
+            margin-top: 1.5rem;
+        }
+
+        .workout-day {
+            background: #fafafa;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .workout-day h4 {
+            margin-bottom: 0.75rem;
+            font-size: 1rem;
+        }
+
+        .workout-exercise {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 0.75rem;
+            background: white;
+            border-radius: 6px;
+            margin-bottom: 0.5rem;
+        }
+
+        .workout-exercise img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 4px;
+            background: white;
+        }
+
+        .workout-exercise-info {
+            flex: 1;
+        }
+
+        .workout-exercise-name {
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        .workout-exercise-sets {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 4rem;
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .exercise-grid {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+                gap: 1rem;
+                padding: 0 1rem 2rem;
+            }
+
+            .controls {
+                padding: 0 1rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: stretch;
+            }
+
+            .btn {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">Exercise Library</div>
+            <div class="header-actions">
+                <button class="btn btn-primary" onclick="openWorkoutBuilder()">Create Workout</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="controls">
+        <input type="text" class="search-box" id="search" placeholder="Search exercises...">
+        
+        <div class="stats">
+            <span><strong id="shown-exercises">0</strong> of <strong id="total-exercises">0</strong> exercises</span>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <span class="filter-label">Muscle:</span>
+                <div id="muscle-filters">
+                    <button class="filter-btn active" data-type="muscle" data-value="all">All</button>
+                </div>
+            </div>
+            
+            <div class="filter-group">
+                <span class="filter-label">Difficulty:</span>
+                <div id="difficulty-filters">
+                    <button class="filter-btn active" data-type="difficulty" data-value="all">All</button>
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <span class="filter-label">Equipment:</span>
+                <div id="equipment-filters">
+                    <button class="filter-btn active" data-type="equipment" data-value="all">All</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="loading" id="loading">Loading exercises...</div>
+    <div class="exercise-grid" id="exercise-grid"></div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <img class="modal-image" id="modal-image" src="" alt="">
+            <h2 class="modal-title" id="modal-title"></h2>
+            <div class="exercise-tags">
+                <span class="tag muscle" id="modal-muscle"></span>
+                <span class="tag" id="modal-difficulty"></span>
+                <span class="tag muscle" id="modal-equipment"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="workout-modal">
+        <div class="modal-content workout-builder">
+            <button class="modal-close" onclick="closeWorkoutBuilder()">&times;</button>
+            <h2 class="modal-title">Create Your Workout</h2>
+            <p style="color: #666; margin-bottom: 1rem;">Choose a workout plan that matches your goals</p>
+            
+            <div class="workout-options">
+                <div class="workout-option" onclick="generateWorkout('strength')">
+                    <h3>💪 General Strength</h3>
+                    <p>Build overall strength with compound movements and progressive overload</p>
+                </div>
+                
+                <div class="workout-option" onclick="generateWorkout('gym-routine')">
+                    <h3>🏋️ Stable Gym Programme</h3>
+                    <p>Balanced 4-day split covering all major muscle groups</p>
+                </div>
+                
+                <div class="workout-option" onclick="generateWorkout('6-week')">
+                    <h3>⚡ 6-Week Turnaround</h3>
+                    <p>Intensive plan to transform your fitness in 6 weeks</p>
+                </div>
+                
+                <div class="workout-option" onclick="generateWorkout('beginner')">
+                    <h3>🌱 Beginner Fundamentals</h3>
+                    <p>Learn proper form with bodyweight and basic movements</p>
+                </div>
+                
+                <div class="workout-option" onclick="generateWorkout('athletic')">
+                    <h3>⚡ Athletic Performance</h3>
+                    <p>Explosive power, agility, and functional strength</p>
+                </div>
+            </div>
+
+            <div id="workout-plan"></div>
+        </div>
+    </div>
+
+    <script>
+        let allExercises = [];
+        let currentFilters = {
+            muscle: 'all',
+            equipment: 'all',
+            difficulty: 'all',
+            search: ''
+        };
+
+        // Helper to get image URL (handles both local and external URLs)
+        function getImageUrl(exercise) {
+            if (exercise.external_url && exercise.filename.startsWith('http')) {
+                return exercise.filename;
+            }
+            return 'exercises/' + exercise.filename;
+        }
+
+        async function loadExercises() {
+            try {
+                const response = await fetch('exercises_categorized.json');
+                const data = await response.json();
+                allExercises = data.exercises || data;
+                
+                document.getElementById('total-exercises').textContent = allExercises.length;
+                
+                populateFilters();
+                renderExercises();
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                console.error('Error loading exercises:', error);
+                document.getElementById('loading').textContent = 'Error loading exercises';
+            }
+        }
+
+        function populateFilters() {
+            const muscles = new Set();
+            const equipment = new Set();
+            const difficulties = new Set();
+
+            allExercises.forEach(ex => {
+                muscles.add(ex.muscle_group);
+                equipment.add(ex.equipment);
+                if (ex.difficulty_label) difficulties.add(ex.difficulty_label);
+            });
+
+            const muscleContainer = document.getElementById('muscle-filters');
+            Array.from(muscles).sort().forEach(muscle => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn';
+                btn.dataset.type = 'muscle';
+                btn.dataset.value = muscle;
+                const displayName = muscle.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                btn.textContent = displayName;
+                btn.onclick = () => setFilter('muscle', muscle);
+                muscleContainer.appendChild(btn);
+            });
+
+            const difficultyContainer = document.getElementById('difficulty-filters');
+            ['Beginner', 'Intermediate', 'Advanced', 'Expert'].forEach(diff => {
+                if (difficulties.has(diff)) {
+                    const btn = document.createElement('button');
+                    btn.className = 'filter-btn';
+                    btn.dataset.type = 'difficulty';
+                    btn.dataset.value = diff;
+                    btn.textContent = diff;
+                    btn.onclick = () => setFilter('difficulty', diff);
+                    difficultyContainer.appendChild(btn);
+                }
+            });
+
+            const equipmentContainer = document.getElementById('equipment-filters');
+            Array.from(equipment).sort().forEach(equip => {
+                const btn = document.createElement('button');
+                btn.className = 'filter-btn';
+                btn.dataset.type = 'equipment';
+                btn.dataset.value = equip;
+                btn.textContent = equip;
+                btn.onclick = () => setFilter('equipment', equip);
+                equipmentContainer.appendChild(btn);
+            });
+        }
+
+        function setFilter(type, value) {
+            currentFilters[type] = value;
+            
+            document.querySelectorAll(`.filter-btn[data-type="${type}"]`).forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.value === value);
+            });
+            
+            renderExercises();
+        }
+
+        document.getElementById('search').addEventListener('input', (e) => {
+            currentFilters.search = e.target.value.toLowerCase();
+            renderExercises();
+        });
+
+        function renderExercises() {
+            const filtered = allExercises.filter(ex => {
+                const matchesMuscle = currentFilters.muscle === 'all' || ex.muscle_group === currentFilters.muscle;
+                const matchesEquipment = currentFilters.equipment === 'all' || ex.equipment === currentFilters.equipment;
+                const matchesDifficulty = currentFilters.difficulty === 'all' || ex.difficulty_label === currentFilters.difficulty;
+                const matchesSearch = !currentFilters.search || ex.name.toLowerCase().includes(currentFilters.search);
+                
+                return matchesMuscle && matchesEquipment && matchesDifficulty && matchesSearch;
+            });
+
+            const grid = document.getElementById('exercise-grid');
+            document.getElementById('shown-exercises').textContent = filtered.length;
+            
+            grid.innerHTML = filtered.map(ex => {
+                const muscleDisplay = ex.muscle_group.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                const difficultyClass = `difficulty-${ex.difficulty || 2}`;
+                const imageUrl = getImageUrl(ex);
+                return `
+                <div class="exercise-card" onclick='openModal(${JSON.stringify(imageUrl)}, ${JSON.stringify(ex.name)}, "${muscleDisplay}", "${ex.equipment}", "${ex.difficulty_label || 'Intermediate'}", ${ex.difficulty || 2})'>
+                    <img class="exercise-image" src="${imageUrl}" alt="${ex.name}" loading="lazy">
+                    <div class="exercise-info">
+                        <div class="exercise-name">${ex.name}</div>
+                        <div class="exercise-tags">
+                            <span class="tag ${difficultyClass}">${ex.difficulty_label || 'Intermediate'}</span>
+                        </div>
+                    </div>
+                </div>
+            `;}).join('');
+        }
+
+        function openModal(imageUrl, name, muscle, equipment, difficulty, difficultyNum) {
+            document.getElementById('modal-image').src = imageUrl;
+            document.getElementById('modal-title').textContent = name;
+            document.getElementById('modal-muscle').textContent = muscle;
+            document.getElementById('modal-equipment').textContent = equipment;
+            
+            const diffTag = document.getElementById('modal-difficulty');
+            diffTag.textContent = difficulty;
+            diffTag.className = `tag difficulty-${difficultyNum}`;
+            
+            document.getElementById('modal').classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        document.getElementById('modal-close').onclick = closeModal;
+        document.getElementById('modal').onclick = (e) => {
+            if (e.target.id === 'modal') closeModal();
+        };
+
+        function openWorkoutBuilder() {
+            document.getElementById('workout-modal').classList.add('active');
+            document.getElementById('workout-plan').innerHTML = '';
+        }
+
+        function closeWorkoutBuilder() {
+            document.getElementById('workout-modal').classList.remove('active');
+        }
+
+        function generateWorkout(type) {
+            const plan = document.getElementById('workout-plan');
+            plan.innerHTML = '<div class="loading">Generating your workout...</div>';
+            
+            setTimeout(() => {
+                const workout = createWorkoutPlan(type);
+                plan.innerHTML = renderWorkoutPlan(workout);
+            }, 500);
+        }
+
+        function createWorkoutPlan(type) {
+            const plans = {
+                'strength': {
+                    name: 'General Strength Programme',
+                    days: [
+                        { name: 'Day 1: Upper Body Push', exercises: ['chest', 'shoulders'], difficulty: [2,3], count: 6 },
+                        { name: 'Day 2: Lower Body', exercises: ['legs'], difficulty: [2,3], count: 6 },
+                        { name: 'Day 3: Upper Body Pull', exercises: ['back', 'arms'], difficulty: [2,3], count: 6 },
+                    ]
+                },
+                'gym-routine': {
+                    name: '4-Day Gym Split',
+                    days: [
+                        { name: 'Day 1: Chest & Triceps', exercises: ['chest', 'arms'], difficulty: [2,3], count: 6 },
+                        { name: 'Day 2: Back & Biceps', exercises: ['back', 'arms'], difficulty: [2,3], count: 6 },
+                        { name: 'Day 3: Legs', exercises: ['legs'], difficulty: [2,3], count: 6 },
+                        { name: 'Day 4: Shoulders & Core', exercises: ['shoulders', 'core'], difficulty: [2,3], count: 6 },
+                    ]
+                },
+                '6-week': {
+                    name: '6-Week Turnaround Plan',
+                    days: [
+                        { name: 'Day 1: Full Body Strength', exercises: ['chest', 'back', 'legs'], difficulty: [2,3,4], count: 8 },
+                        { name: 'Day 2: Upper Body Hypertrophy', exercises: ['chest', 'back', 'shoulders', 'arms'], difficulty: [2,3], count: 8 },
+                        { name: 'Day 3: Lower Body Power', exercises: ['legs'], difficulty: [3,4], count: 6 },
+                        { name: 'Day 4: Athletic Conditioning', exercises: ['full_body', 'core'], difficulty: [2,3], count: 6 },
+                    ]
+                },
+                'beginner': {
+                    name: 'Beginner Fundamentals',
+                    days: [
+                        { name: 'Day 1: Upper Body Basics', exercises: ['chest', 'back', 'arms'], difficulty: [1,2], count: 5 },
+                        { name: 'Day 2: Lower Body Basics', exercises: ['legs'], difficulty: [1,2], count: 5 },
+                        { name: 'Day 3: Full Body', exercises: ['chest', 'legs', 'core'], difficulty: [1], count: 6 },
+                    ]
+                },
+                'athletic': {
+                    name: 'Athletic Performance',
+                    days: [
+                        { name: 'Day 1: Power & Explosiveness', exercises: ['legs', 'full_body'], difficulty: [3,4], count: 6 },
+                        { name: 'Day 2: Upper Body Strength', exercises: ['chest', 'back'], difficulty: [2,3], count: 6 },
+                        { name: 'Day 3: Lower Body Strength', exercises: ['legs'], difficulty: [3,4], count: 6 },
+                        { name: 'Day 4: Conditioning & Core', exercises: ['full_body', 'core'], difficulty: [2,3], count: 6 },
+                    ]
+                }
+            };
+
+            const selectedPlan = plans[type];
+            selectedPlan.days = selectedPlan.days.map(day => ({
+                ...day,
+                exercises: selectExercises(day.exercises, day.difficulty, day.count)
+            }));
+
+            return selectedPlan;
+        }
+
+        function selectExercises(muscleGroups, difficulties, count) {
+            const available = allExercises.filter(ex => 
+                muscleGroups.includes(ex.muscle_group) && 
+                difficulties.includes(ex.difficulty || 2)
+            );
+
+            const shuffled = available.sort(() => Math.random() - 0.5);
+            return shuffled.slice(0, count);
+        }
+
+        function renderWorkoutPlan(plan) {
+            const sets = {
+                1: '3 sets × 12-15 reps',
+                2: '4 sets × 8-12 reps',
+                3: '4 sets × 6-10 reps',
+                4: '5 sets × 3-6 reps'
+            };
+
+            return `
+                <h3 style="margin: 2rem 0 1rem;">${plan.name}</h3>
+                ${plan.days.map(day => `
+                    <div class="workout-day">
+                        <h4>${day.name}</h4>
+                        ${day.exercises.map(ex => `
+                            <div class="workout-exercise">
+                                <img src="${getImageUrl(ex)}" alt="${ex.name}">
+                                <div class="workout-exercise-info">
+                                    <div class="workout-exercise-name">${ex.name}</div>
+                                    <div class="workout-exercise-sets">${sets[ex.difficulty || 2]}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `).join('')}
+                <button class="btn btn-primary" style="width: 100%; margin-top: 1rem;" onclick="closeWorkoutBuilder()">Done</button>
+            `;
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+                closeWorkoutBuilder();
+            }
+        });
+
+        loadExercises();
+    </script>
+</body>
+</html>
